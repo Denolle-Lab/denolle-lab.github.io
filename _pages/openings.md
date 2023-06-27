@@ -8,11 +8,7 @@ permalink: /openings
 
 # Open positions
 ---
-**I have 2 open postdoctoral positions! One through the SCOPED project, one through my Packard Fellowships. See details below**
-
-**Postdoctoral** support through the SCOPED project description [here](./downloads/SCOPED_announcement.pdf)
-
-**Postdoctoral** support through the Packard Foundation Fellowship description [here](./downloads/Packard_2021-2022_postdoc.pdf)
+**For the time being, I no longer have postdoctoral positions open in my group because of limited funds and time.**
 
 I am always interested in hiring **graduate students**! In particular, the SCOPED project funds a PhD researcher. Marine guarantees a 5 year funding. To support that, Marine will start with internal funds, will mentor the student to apply to federal graduate student fellowships, and NSF project grants.
 
@@ -24,7 +20,7 @@ If you are interested in working with us as a PhD student or postdoc, please rea
 For PhD applications, look over the ESS webpage [here](https://www.ess.washington.edu/content/education/grad/research/admissions.php). We do not take GREs anymore, but TOEFL scores are still necessary.
 
 ### Master projects 
-I do not host Master Students.
+I do not take Master Students.
 
 ### Visiting Students
 If you are interested in visiting us for a few months, whether you have financial support or not, please email Marine for opportunities.
