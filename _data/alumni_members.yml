@@ -1,3 +1,15 @@
+
+- name: Stephanie Olinger
+  photo: olinger_pic.png
+  date: 2019-2023
+  number_info: 4
+  info: PhD, Harvard
+  info2: Cryoseismology, data mining, icesheet dynamics.
+  info3: https://stepholinger@github.io, https://github.com/stepholinger 
+  info4: Soon Thompson Postdoc Fellow at Stanford Universiy
+  number_educ: 0
+
+
 - name: Laura Ermert
   photo:  ermert_pic.jpeg
   date: 2020-022
@@ -29,7 +41,6 @@
   info: Observation and modeling of earthquake dynamics, in particular subduction zones.
   info2: https://yinjiuxun.github.io/,  https://github.com/yinjiuxun
   info3: now Postdoc at Caltech - SCEDC
-
   number_educ: 1
   education1: PhD from Harvard
 

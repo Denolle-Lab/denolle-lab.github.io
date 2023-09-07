@@ -31,3 +31,15 @@
   education: 2022, Caltech
   info3: ethanfwilliams.github.io
   info4: github.com/ethanfwilliams
+
+
+- name: Stephanie Olinger
+  photo: olinger_pic.png
+  email: stepholinger@fas.harvard.edu
+  number_info: 4
+  info: Postdoc, July-November 2023
+  info2: Distributed Acoustic Sensing, Julia computing, ambient noise monitoring
+  info3: https://stepholinger@github.io
+  info4: https://github.com/stepholinger 
+  number_educ: 1
+  education: 2023, Harvard University
