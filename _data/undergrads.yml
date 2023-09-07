@@ -1,15 +1,18 @@
+- name: Nick Smoczyk
+  photo:  
+  date: 2022-2023
+  info: Undergraduate 
+  info2: Data mining of volcano-glacio seismic data
+  number_educ: 1
+  education1: BS in University of Minnesota - Duluth
+
+
 - name: Julian Schmitt
   photo:  
-  date: summer 2020-
+  date: summer 2020-2021
   info: Undergraduate 
   info2: Ambient noise seismology, cloud computing, 
   email: jschmitt@college.harvard.edu
   number_educ: 1
-  education1: Bachelor (applied math) at Harvard
+  education1: Bachelor (applied math) at Harvard., now graduate student at Caltech
 
-  name: Nicholas Wolf
-  phote:
-  date: Fall 2022-
-  info: Undergraduate
-  email: nichow3@uw.edu
-  
