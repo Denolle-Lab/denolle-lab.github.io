@@ -1,6 +1,6 @@
 
 - name: Kuan-Fu Feng
-  photo: pic_KFF.JPG
+  photo: pic_KFF.png
   date: June 2023-
   info: Postdoc, started June 2023
   info2: Ambient noise seismology, Environmental seismology
@@ -26,11 +26,11 @@
   date: Jan 2023-
   info: Postdoc, started Jan 2023
   info2: Seismology, fiber-optic sensing, oceanography
-  email: 
+  email: efwillia@uw.edu
   number_educ: 1
   education: 2022, Caltech
-  info3: ethanfwilliams.github.io
-  info4: github.com/ethanfwilliams
+  info3: https://ethanfwilliams.github.io
+  info4: https://github.com/ethanfwilliams
 
 
 - name: Stephanie Olinger

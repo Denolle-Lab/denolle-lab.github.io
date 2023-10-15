@@ -5,19 +5,17 @@
   number_info: 4 
   info: PhD, Harvard
   info2: Cryoseismology, data mining, icesheet dynamics.
-  info3: https://stepholinger@github.io, https://github.com/stepholinger 
-  info4: Soon Thompson Postdoc Fellow at Stanford Universiy
+  info3: Soon Thompson Postdoc Fellow at Stanford Universiy
   number_educ: 0
 
 
 - name: Laura Ermert
   photo:  ermert_pic.jpeg
-  date: 2020-022
+  date: 2020-2022
   number_info: 4
   info: Postdoc, started Jan 2020
   info2: Ambient noise seismology, environmental seismology, basin subsidence in Mexico City
-  info3: https://lermert.github.io, https://github.com/lermert
-  info4: now Postdoc at ETH-Zurich
+  info3: now Postdoc at ETH-Zurich
   number_educ: 1
   education: PhD at ETH Zurich
 
@@ -29,8 +27,7 @@
   number_info: 3
   info: Ph.D. Harvard University
   info2: Ambient noise seismology, computational seismology, Julia computing, seismo-hydrology
-  info3: https://tclements.github.io/, https://github.com/tclements
-  info4: now at USGS as a Mendenhall Postdoc
+  info3: now at USGS as a Mendenhall Postdoc
   number_educ: 1
   education1: Ph.D. from Harvard
 
@@ -40,14 +37,13 @@
   number_info: 3
   info: Ph.D. at Harvard University
   info2: Observation and modeling of earthquake dynamics, in particular subduction zones.
-  info3: https://yinjiuxun.github.io/,  https://github.com/yinjiuxun
-  info4: now at Schlumberger
+  info3: now at Schlumberger
   number_educ: 1
   education1: Ph.D. from Harvard
 
 
 - name: Dr. Kurama Okubo
-  photo: 
+  photo: littlequake.png
   date: 2019-2020 (18 months)
   number_info: 3
   info: Postdoc
@@ -58,7 +54,7 @@
   education1: Doctorat from ENS-IPGP, Paris
 
 - name: Dr. Loic Viens
-  photo: 
+  photo: littlequake.png
   date: 2016-2018 ( 18 months)
   number_info: 3
   info: Postdoc
@@ -69,7 +65,7 @@
   education1: Doctorat from ENS-IPGP, Paris
 
 - name: Dr. Xiaotao Yang
-  photo: 
+  photo: littlequake.png
   date: 2019-2020 (1 year)
   number_info: 2
   info: Postdoc
@@ -80,7 +76,7 @@
   education1: Ph.D. at Indiana University
 
 - name: Dr. Zhitu Ma
-  photo: 
+  photo: littlequake.png
   date: 2019 (5 months)
   number_info: 3
   info: Postdoc
@@ -91,7 +87,7 @@
 
 
 - name: Dr. Chengxin Jiang
-  photo: 
+  photo: littlequake.png
   date: 2018-2019 (2 years)
   number_info: 3
   info: Postdoc
@@ -103,6 +99,7 @@
 
 
 - name: Dr. Chris Van Houtte
+  photo: littlequake.png  
   date: 2016-2017 (1 year)
   number_info: 3
   info: Postdoc
@@ -114,6 +111,7 @@
 
 
 - name: Leore Lavin
+  photo: littlequake.png
   date: 2016-2017 (18 months)
   number_info: 3
   info: Senior undergraduate research
@@ -122,7 +120,7 @@
 
 
 - name: Julian Schmitt
-  photo:  
+  photo: littlequake.png
   date: summer 2020-2021
   info: Undergraduate 
   info2: Ambient noise seismology, cloud computing
@@ -131,6 +129,7 @@
 
 
 - name: Jared Bryan
+  photo: littlequake.png
   date: 2019 (2+ months)
   number_info: 3
   info: Summer undergraduate research
@@ -139,6 +138,7 @@
 
 
 - name: Albert Aguilar
+  photo: littlequake.png
   date: 2018 (2 months)
   number_info: 3
   info: Summer undergraduate research
