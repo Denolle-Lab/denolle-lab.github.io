@@ -8,12 +8,9 @@ permalink: /group/
 
 # Group Members
 ---
- **We are  looking for new PhD students and undergraduate students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/openings) **!**
- For new applicants and incoming group members, please see our [group guidelines](https://github.com/Denolle-Lab/working_as_a_group/blob/main/onboarding.md).
+ **We are  looking for new PhD students and undergraduate students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/openings) **!** For new applicants and incoming group members, please see our [group guidelines](https://github.com/Denolle-Lab/working_as_a_group/blob/main/onboarding.md). Our group also defined a [working contract](https://github.com/Denolle-Lab/working_as_a_group/blob/main/Work_contract.md).
 
-Our group defined a [working contract](https://github.com/Denolle-Lab/working_as_a_group/blob/main/Work_contract.md).
-
-Jump to [staff](#staff), [postdoc](#postdoc), [graduate students](#graduate),[undergraduate students](#undergraduate),  [alumni](#alumni).
+Jump to [postdocs](#postdocs), [graduate students](#graduate-students), [undergraduate researchers](#undergraduate-researchers), [affiliated graduate students](#affiliated-graduate-students), and [alumni](#alumni).
 
 <!-- ## Staff ------------------------------->
 {% assign number_printed = 0 %}
@@ -171,7 +168,7 @@ Jump to [staff](#staff), [postdoc](#postdoc), [graduate students](#graduate),[un
 <div class="col-sm-6 clearfix">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /> 
   <h4>{{ member.name }}</h4>
-  {{ member.info }}  <br><b>email</b>: <{{ member.email }}>  <br><b> PhD and Institution </b>: {{ member.info }} <br> <b> PhD Research </b>: {{ member.info2 }} <br> <b> Webpage </b>: {{ member.info3 }} <br> <b>Github </b>: {{ member.info4 }}  
+  {{ member.info }}  <br><b>email</b>: <{{ member.email }}>  <br><b> PhD Research </b>: {{ member.info2 }} <br> <b> Webpage </b>: {{ member.info3 }} <br> <b>Github </b>: {{ member.info4 }}  
   <ul style="overflow: hidden">
 
   <!-- {% if member.number_educ == 1 %}
@@ -214,7 +211,7 @@ Jump to [staff](#staff), [postdoc](#postdoc), [graduate students](#graduate),[un
 
 <!-- -------------- UNDERGRADS  ------------------->
 
-## Undergraduate researchers
+## Undergraduate Researchers
 
 {% assign number_printed = 0 %}
 {% for member in site.data.undergrads %}
@@ -296,7 +293,7 @@ Jump to [staff](#staff), [postdoc](#postdoc), [graduate students](#graduate),[un
 
 <!-- -------------- AFFILIATED GRADUATE STUDENTS  ------------------->
 
-## Affiliated Graduate students
+## Affiliated Graduate Students
 
 {% assign number_printed = 0 %}
 {% for member in site.data.othergrads %}
@@ -310,7 +307,7 @@ Jump to [staff](#staff), [postdoc](#postdoc), [graduate students](#graduate),[un
 <div class="col-sm-6 clearfix">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /> 
   <h4>{{ member.name }}</h4>
-  {{ member.info }}  <br><b>email </b>: <{{ member.email }}>  <br><b> Degree Institution </b>: {{ member.info }} <br> <b> Research </b>: {{ member.info2 }}  <br> <b>Github </b>: {{ member.info4 }}  
+  {{ member.info }}  <br><b>email </b>: <{{ member.email }}>  <br><b> Research </b>: {{ member.info2 }}  <br> <b>Github </b>: {{ member.info4 }}  
   <ul style="overflow: hidden">
 <!-- 
   {% if member.number_educ == 1 %}
@@ -375,7 +372,7 @@ Jump to [staff](#staff), [postdoc](#postdoc), [graduate students](#graduate),[un
 {% endif %}
 
 
-<!-- ------------------   ALUMN  ------------------>
+<!-- ------------------   ALUMNI  ------------------>
 ## Alumni
 
 {% assign number_printed = 0 %}
@@ -408,8 +405,3 @@ Jump to [staff](#staff), [postdoc](#postdoc), [graduate students](#graduate),[un
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
-
-
-<!-- ## Administrative Support -->
-<!-- <a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration. -->
