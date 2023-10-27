@@ -10,9 +10,10 @@ permalink: /teaching
 - **ESS 412/512: Seismology**
 
 - **ESS 469/569: Machine Learning in Geosciences**
-    - GitHub: [https://github.com/UW-ESS-DS/ESS490-590-Spr21](https://github.com/UW-ESS-DS/ESS490-590-Spr21)
+    - [GitHub](https://github.com/UW-ESS-DS/MLGeo-2023)
     - Fall or Spring quarter
+    - [Book](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html)
 
 - **ESS 314: Geophysics**
-    - GitHub: [https://github.com/UW-geophysics-edu/ESS314-fall21](https://github.com/UW-geophysics-edu/ESS314-fall21)
+    - [GitHub](https://github.com/UW-geophysics-edu/ESS314-fall23)
     - Fall quarter
