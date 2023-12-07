@@ -44,7 +44,6 @@ We explore Earth structure and quakes dynamics using large-scale computing of se
 </div>
 
 
-
 We develop high-performance computing tools to process 100+TB data sets of continuous data (see [Research](research)) and explore what seismic waves can tell us about **geohazards** and about the **near-surface structure and its evolution**.
 
 Our codes are available on our group **[Github](https://github.com/Denolle-Lab)**.
@@ -52,6 +51,10 @@ Our codes are available on our group **[Github](https://github.com/Denolle-Lab)*
 We are writing a JupyterBook about [Machine Learning in the Geosciences](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html).
 
 Check out our webinars on the **[UW Geophysics YouTube Channel](https://www.youtube.com/@uwgeophysics6888)** and the **[SCOPED YouTube Channel](https://www.youtube.com/@scoped6259)**.
+
+***AGU UPDATES***
+Find out out SCOPED poster **[here](https://docs.google.com/presentation/d/1FMR0QH62oBuadAWXQ7ENPMEj7cuv9mORD41QSpwOlDs/edit?usp=sharing)**.
+
 
 We are located in Seattle, WA, at the University of Washington, in the heart of the Pacific Northwest (PNW). The PNW is a wonderful natural laboratory to monitor earthquakes, landslides, volcanoes, glaciers, and more broadly speaking the subduction-zone environment.
 
