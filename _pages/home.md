@@ -53,7 +53,15 @@ We are writing a JupyterBook about [Machine Learning in the Geosciences](https:/
 Check out our webinars on the **[UW Geophysics YouTube Channel](https://www.youtube.com/@uwgeophysics6888)** and the **[SCOPED YouTube Channel](https://www.youtube.com/@scoped6259)**.
 
 ***AGU UPDATES***
-Find out our SCOPED poster **[Denolle et al., 2023](https://docs.google.com/presentation/d/1FMR0QH62oBuadAWXQ7ENPMEj7cuv9mORD41QSpwOlDs/edit?usp=sharing)**.
+Group Presentations to conferences 
+* AGU 2023 **[Smoczyk et al., 2023, FingerPrinting the Cascades Volcanoes](https://docs.google.com/presentation/d/1UWQBOy0hZhkFYCCskUeb0OuJrS-wzp4K/edit?usp=sharing&ouid=114363206559877755268&rtpof=true&sd=true)**.
+
+* AGU 2023 **[Denolle et al., 2023, SCOPED Update](https://docs.google.com/presentation/d/1FMR0QH62oBuadAWXQ7ENPMEj7cuv9mORD41QSpwOlDs/edit?usp=sharing)**.
+
+* AGU 2023 **[Denolle et al., 2023, Cloud Seismology](https://docs.google.com/presentation/d/1FMR0QH62oBuadAWXQ7ENPMEj7cuv9mORD41QSpwOlDs/edit?uhttps://docs.google.com/presentation/d/1ekEv4T8Oanuv0EpwWBotoCTsu_N4cXc3iR9pp1TcBL0/edit?usp=sharing)**.
+
+* SCEC 2023 **[Denolle et al., 2023, HPS CyberTraining](https://docs.google.com/presentation/d/1VXIdf3ocESIfkYW4MZHCzZ9mOdw-_eGYMFfE27CINJ0/edit?usp=sharing)**.
+
 
 
 We are located in Seattle, WA, at the University of Washington, in the heart of the Pacific Northwest (PNW). The PNW is a wonderful natural laboratory to monitor earthquakes, landslides, volcanoes, glaciers, and more broadly speaking the subduction-zone environment.
