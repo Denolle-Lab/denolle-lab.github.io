@@ -6,6 +6,8 @@ sitemap: false
 permalink: /
 ---
 
+**"Discover, Transform, Empower: Uniting Seismology and Society"**
+
 Our vision is to pioneer transformative advancements in geohazard research by harnessing the power of big data analytics and cutting-edge seismological techniques (see [Research](research)) . Through a multidisciplinary approach, we aim to not only discover and characterize **geohazards**, also to elucidate their impact on **society and the environment**, and to characterize the evolution of our environment with **climate change**.
 
 
@@ -51,8 +53,14 @@ Central to our mission is the development of cloud-optimized, open-source workfl
 Through our collective efforts, we envision a future where the fusion of data-driven insights and interdisciplinary collaboration leads to more resilient communities and a sustainable planet. Join us as we embark on this journey to shape the future of geohazard research and its societal relevance.
 
 
+Our mantra encapsulates our commitment to:
 
-***AGU UPDATES*** na
+* Discovering and characterizing geohazards through big data analysis.
+* Transforming seismology to address pressing societal challenges.
+* Empowering our members through modern AI-aided practices and open-source workflows.
+
+
+***AGU UPDATES*** 
 Group Presentations to conferences 
 * AGU 2023 **[Smoczyk et al., 2023, FingerPrinting the Cascades Volcanoes](https://docs.google.com/presentation/d/1UWQBOy0hZhkFYCCskUeb0OuJrS-wzp4K/edit?usp=sharing&ouid=114363206559877755268&rtpof=true&sd=true)**.
 
