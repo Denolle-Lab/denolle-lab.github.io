@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-We explore Earth structure and quakes dynamics using large-scale computing of seismic data. We particularly focus on observing earthquake dynamics, predicting strong ground motion, monitoring shallow Earth structure.
+Our vision is to pioneer transformative advancements in geohazard research by harnessing the power of big data analytics and cutting-edge seismological techniques (see [Research](research)) . Through a multidisciplinary approach, we aim to not only discover and characterize **geohazards**, also to elucidate their impact on **society and the environment**, and to characterize the evolution of our environment with **climate change**.
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -44,15 +44,15 @@ We explore Earth structure and quakes dynamics using large-scale computing of se
 </div>
 
 
-We develop high-performance computing tools to process 100+TB data sets of continuous data (see [Research](research)) and explore what seismic waves can tell us about **geohazards** and about the **near-surface structure and its evolution**.
+Our primary goal is to push the frontier of seismology beyond traditional boundaries, addressing critical societal challenges in climate change, wildlife conservation, energy sustainability, and environmental resilience. By leveraging big data analytics, we strive to unlock novel insights that can inform proactive mitigation strategies and policy interventions.
 
-Our codes are available on our group **[Github](https://github.com/Denolle-Lab)**.
+Central to our mission is the development of cloud-optimized, open-source workflows that facilitate seamless collaboration and reproducibility across scientific communities (see our **[Github](https://github.com/Denolle-Lab)**). We are committed to fostering a culture of continuous learning and innovation, empowering our members to embrace modern technologies and AI-aided software practices. We  contribute to open curriculum (e.g., [Machine Learning in the Geosciences](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html)) and **[UW Geophysics YouTube Channel](https://www.youtube.com/@uwgeophysics6888)** and the **[SCOPED YouTube Channel](https://www.youtube.com/@scoped6259)**. 
 
-We are writing a JupyterBook about [Machine Learning in the Geosciences](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html).
+Through our collective efforts, we envision a future where the fusion of data-driven insights and interdisciplinary collaboration leads to more resilient communities and a sustainable planet. Join us as we embark on this journey to shape the future of geohazard research and its societal relevance.
 
-Check out our webinars on the **[UW Geophysics YouTube Channel](https://www.youtube.com/@uwgeophysics6888)** and the **[SCOPED YouTube Channel](https://www.youtube.com/@scoped6259)**.
 
-***AGU UPDATES***
+
+***AGU UPDATES*** na
 Group Presentations to conferences 
 * AGU 2023 **[Smoczyk et al., 2023, FingerPrinting the Cascades Volcanoes](https://docs.google.com/presentation/d/1UWQBOy0hZhkFYCCskUeb0OuJrS-wzp4K/edit?usp=sharing&ouid=114363206559877755268&rtpof=true&sd=true)**.
 
