@@ -60,6 +60,9 @@ Our mantra encapsulates our commitment to:
 * Empowering our members through modern AI-aided practices and open-source workflows.
 
 
+***SSA UPDATES***
+* SSA 2024 **[Denolle et al, 2024: SCOPED Update](https://docs.google.com/presentation/d/1QL_yfaMfcH_zC1mIyAlHTM2ms2FX8yAN22WpA-l_suY/edit?usp=drive_link)**
+
 ***AGU UPDATES*** 
 Group Presentations to conferences 
 * AGU 2023 **[Smoczyk et al., 2023, FingerPrinting the Cascades Volcanoes](https://docs.google.com/presentation/d/1UWQBOy0hZhkFYCCskUeb0OuJrS-wzp4K/edit?usp=sharing&ouid=114363206559877755268&rtpof=true&sd=true)**.
