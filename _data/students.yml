@@ -42,6 +42,7 @@
 
 
 - name: Akash Kharita
+<<<<<<< Updated upstream
   photo: pic_AK.jpg
   email: ak287@uw.edu
   number_info: 4
@@ -51,3 +52,13 @@
   info4: https://github.com/Akashkharita
   number_educ: 0
 
+=======
+  photo: kharita_pic.jpg
+  email: ak287@uw.edu
+  number_info: 4
+  info: PhD student at the University of Washington
+  info2: Data mining, volcano seismology
+  info3: https://setholinger@github.io
+  info4: https://github.com/setholinger
+  number_educ: 0
+>>>>>>> Stashed changes
