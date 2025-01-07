@@ -9,6 +9,17 @@
   number_educ: 0
 
 
+- name: Congcong Yuan
+  photo: CongcongYuan.jpeg
+  date: 2020-2025
+  email: cyuan@fas.harvard.edu
+  number_info: 4
+  info: PhD, Harvard
+  info2: Wavefield simulation, machine learning, laboratory experiments
+  info3: https://congcy.github.io/
+  info4: https://github.com/congcy
+  number_educ: 0
+
 - name: Laura Ermert
   photo:  ermert_pic.jpeg
   date: 2020-2022

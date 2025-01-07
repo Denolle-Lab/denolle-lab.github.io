@@ -9,15 +9,6 @@
 #  education4:
 
 
-- name: Congcong Yuan
-  photo: CongcongYuan.jpeg
-  email: cyuan@fas.harvard.edu
-  number_info: 4
-  info: PhD candidate at Harvard
-  info2: Wavefield simulation, machine learning, laboratory experiments
-  info3: https://congcy.github.io/
-  info4: https://github.com/congcy
-  number_educ: 0
 
 - name: Yiyu Ni
   photo: niyiyu.jpeg
@@ -42,7 +33,6 @@
 
 
 - name: Akash Kharita
-<<<<<<< Updated upstream
   photo: pic_AK.jpg
   email: ak287@uw.edu
   number_info: 4
@@ -52,13 +42,3 @@
   info4: https://github.com/Akashkharita
   number_educ: 0
 
-=======
-  photo: kharita_pic.jpg
-  email: ak287@uw.edu
-  number_info: 4
-  info: PhD student at the University of Washington
-  info2: Data mining, volcano seismology
-  info3: https://setholinger@github.io
-  info4: https://github.com/setholinger
-  number_educ: 0
->>>>>>> Stashed changes
