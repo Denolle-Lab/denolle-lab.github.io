@@ -6,7 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-We explore Earth structure and quakes dynamics using large-scale computing of seismic data. We particularly focus on observing earthquake dynamics, predicting strong ground motion, monitoring shallow Earth structure.
+**"Discover, Transform, Empower: Uniting Seismology and Society"**
+
+Our vision is to pioneer transformative advancements in geohazard research by harnessing the power of big data analytics and cutting-edge seismological techniques (see [Research](research)) . Through a multidisciplinary approach, we aim to not only discover and characterize **geohazards**, also to elucidate their impact on **society and the environment**, and to characterize the evolution of our environment with **climate change**.
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -44,14 +46,34 @@ We explore Earth structure and quakes dynamics using large-scale computing of se
 </div>
 
 
+Our primary goal is to push the frontier of seismology beyond traditional boundaries, addressing critical societal challenges in climate change, wildlife conservation, energy sustainability, and environmental resilience. By leveraging big data analytics, we strive to unlock novel insights that can inform proactive mitigation strategies and policy interventions.
 
-We develop high-performance computing tools to process 100+TB data sets of continuous data (see [Research](research)) and explore what seismic waves can tell us about **geohazards** and about the **near-surface structure and its evolution**.
+Central to our mission is the development of cloud-optimized, open-source workflows that facilitate seamless collaboration and reproducibility across scientific communities (see our **[Github](https://github.com/Denolle-Lab)**). We are committed to fostering a culture of continuous learning and innovation, empowering our members to embrace modern technologies and AI-aided software practices. We  contribute to open curriculum (e.g., [Machine Learning in the Geosciences](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html)) and **[UW Geophysics YouTube Channel](https://www.youtube.com/@uwgeophysics6888)** and the **[SCOPED YouTube Channel](https://www.youtube.com/@scoped6259)**. 
 
-Our codes are available on our group **[Github](https://github.com/Denolle-Lab)**.
+Through our collective efforts, we envision a future where the fusion of data-driven insights and interdisciplinary collaboration leads to more resilient communities and a sustainable planet. Join us as we embark on this journey to shape the future of geohazard research and its societal relevance.
 
-We are writing a JupyterBook about [Machine Learning in the Geosciences](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html).
 
-Check out our webinars on the **[UW Geophysics YouTube Channel](https://www.youtube.com/@uwgeophysics6888)** and the **[SCOPED YouTube Channel](https://www.youtube.com/@scoped6259)**.
+Our mantra encapsulates our commitment to:
+
+* Discovering and characterizing geohazards through big data analysis.
+* Transforming seismology to address pressing societal challenges.
+* Empowering our members through modern AI-aided practices and open-source workflows.
+
+
+***SSA UPDATES***
+* SSA 2024 **[Denolle et al, 2024: SCOPED Update](https://docs.google.com/presentation/d/1QL_yfaMfcH_zC1mIyAlHTM2ms2FX8yAN22WpA-l_suY/edit?usp=drive_link)**
+
+***AGU UPDATES*** 
+Group Presentations to conferences 
+* AGU 2023 **[Smoczyk et al., 2023, FingerPrinting the Cascades Volcanoes](https://docs.google.com/presentation/d/1UWQBOy0hZhkFYCCskUeb0OuJrS-wzp4K/edit?usp=sharing&ouid=114363206559877755268&rtpof=true&sd=true)**.
+
+* AGU 2023 **[Denolle et al., 2023, SCOPED Update](https://docs.google.com/presentation/d/1FMR0QH62oBuadAWXQ7ENPMEj7cuv9mORD41QSpwOlDs/edit?usp=sharing)**.
+
+* AGU 2023 **[Denolle et al., 2023, Cloud Seismology](https://docs.google.com/presentation/d/1FMR0QH62oBuadAWXQ7ENPMEj7cuv9mORD41QSpwOlDs/edit?uhttps://docs.google.com/presentation/d/1ekEv4T8Oanuv0EpwWBotoCTsu_N4cXc3iR9pp1TcBL0/edit?usp=sharing)**.
+
+* SCEC 2023 **[Denolle et al., 2023, HPS CyberTraining](https://docs.google.com/presentation/d/1VXIdf3ocESIfkYW4MZHCzZ9mOdw-_eGYMFfE27CINJ0/edit?usp=sharing)**.
+
+
 
 We are located in Seattle, WA, at the University of Washington, in the heart of the Pacific Northwest (PNW). The PNW is a wonderful natural laboratory to monitor earthquakes, landslides, volcanoes, glaciers, and more broadly speaking the subduction-zone environment.
 
