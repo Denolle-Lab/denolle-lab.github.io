@@ -28,9 +28,15 @@ The following rubric outlines the evaluation criteria and weighting system for s
 
 ---
 
+### Rubric for Graduate Student Admission with Marine  
+
+The following rubric outlines the evaluation criteria and weighting system for selecting top candidates (top 2%) for the graduate program. Each criterion is scored on a scale of **1–5**, with 5 being the highest. Candidates must demonstrate excellence across all categories to align with the program's rigorous expectations.  
+
+---
+
 ### **Evaluation Categories and Criteria**  
 
-#### **1. Academic Excellence (25%)**  
+#### **1. Academic Excellence (20%)**  
 - **Coursework Performance**: Strong GPA (ideally ≥3.9 on a 4.0 scale or equivalent) in relevant fields, including geophysics, physics, math, computer science, or engineering.  
   - **5**: Exceptional GPA with honors, dean’s list, or equivalent.  
   - **4**: Strong GPA, top 10% of cohort.  
@@ -47,14 +53,14 @@ The following rubric outlines the evaluation criteria and weighting system for s
   - **1**: Minimal evidence of quantitative skills.  
 
 #### **3. Potential for Advanced Software Engineering (20%)**  
-- **Evidence**: Familiarity or proficiency with programming languages (e.g., Python, R, MATLAB, C++), software development, data management, or computational frameworks. Experience in version control, large-scale simulations, or open-source contributions is a plus.  
-  - **5**: Demonstrated expertise in advanced coding, independent software projects, or impactful computational work.  
-  - **4**: Proficient programming skills with evidence from prior research or internships.  
-  - **3**: Basic coding knowledge with limited application.  
+- **Evidence**: Familiarity or proficiency with programming languages (e.g., Python, R, MATLAB, C++), software development, data management, or computational frameworks. Demonstration of coding ability through publicly available work, such as a GitHub repository, is highly valued.  
+  - **5**: Demonstrated expertise with a strong GitHub presence showcasing advanced coding, independent software projects, or impactful computational work.  
+  - **4**: Proficient programming skills with evidence from prior research or internships and some publicly shared code.  
+  - **3**: Basic coding knowledge with limited or no publicly available work.  
   - **2**: Minimal exposure to software engineering principles.  
-  - **1**: No evidence of computational skills.  
+  - **1**: No evidence of computational skills or public code contributions.  
 
-#### **4. Research Potential and Big Science Readiness (20%)**  
+#### **4. Research Potential and Big Science Readiness (15%)**  
 - **Focus on Big Science**: Motivation and ability to tackle interdisciplinary, large-scale scientific challenges. Demonstrated through research experience, publications, presentations, or problem statements in essays.  
   - **5**: Strongly articulated vision and evidence of readiness to contribute to cutting-edge geophysics and data science.  
   - **4**: Good alignment with big science goals but with room for growth.  
@@ -70,7 +76,7 @@ The following rubric outlines the evaluation criteria and weighting system for s
   - **2**: Minimal evidence of long-term focus.  
   - **1**: Lacks sustained engagement in long-term efforts.  
 
-#### **6. Letters of Recommendation (15%)**  
+#### **6. Letters of Recommendation (10%)**  
 - **Strength and Specificity**: Letters must provide unequivocal endorsement of the applicant’s potential for advanced study and research. Strong letters should highlight:  
   1. The student’s intellectual potential, focus, and quantitative and computational skills.  
   2. The student’s ability to excel in long-term projects.  
@@ -81,13 +87,14 @@ The following rubric outlines the evaluation criteria and weighting system for s
   - **2**: Neutral letters that fail to provide clear evidence of suitability.  
   - **1**: Weak or hesitant recommendations.  
 
-#### **7. Personal Statement (10%)**  
+#### **7. Personal Statement and Communication (10%)**  
 - **Clarity and Vision**: Well-articulated career goals, alignment with program, and demonstration of intellectual curiosity and motivation.  
-  - **5**: Exceptional statement with clear alignment to program goals and strong narrative.  
-  - **4**: Strong statement with minor weaknesses.  
-  - **3**: Adequate statement with room for improvement.  
-  - **2**: Unfocused or unclear statement.  
-  - **1**: Poorly written or irrelevant statement.  
+- **Contact Efforts**: Applicants who have taken the initiative to contact the faculty member directly to discuss their interests and goals are highly valued.  
+  - **5**: Exceptional statement with clear alignment to program goals, strong narrative, and demonstrated initiative in contacting faculty.  
+  - **4**: Strong statement with minor weaknesses and evidence of initiative.  
+  - **3**: Adequate statement with no contact efforts but reasonable alignment.  
+  - **2**: Unfocused or unclear statement and no contact efforts.  
+  - **1**: Poorly written or irrelevant statement, no contact.  
 
 ---
 
