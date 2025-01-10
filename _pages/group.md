@@ -8,7 +8,7 @@ permalink: /group/
 
 # Group Members
 ---
- **We are  looking for new PhD students and undergraduate students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/openings) **!** For new applicants and incoming group members, please see our [group guidelines](https://github.com/Denolle-Lab/working_as_a_group/blob/main/onboarding.md). Our group also defined a [working contract](https://github.com/Denolle-Lab/working_as_a_group/blob/main/Work_contract.md).
+ **At this moment, and for the first time of my career, I cannot guarantee funding to incoming students and no longer have funding for postdocs.** If graduate student come with  For new applicants and incoming group members, please see our [group guidelines](https://github.com/Denolle-Lab/working_as_a_group/blob/main/onboarding.md). Our group also defined a [working contract](https://github.com/Denolle-Lab/working_as_a_group/blob/main/Work_contract.md).
 
 Jump to [postdocs](#postdocs), [graduate students](#graduate-students), [undergraduate researchers](#undergraduate-researchers), [affiliated graduate students](#affiliated-graduate-students), and [alumni](#alumni).
 

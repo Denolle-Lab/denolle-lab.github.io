@@ -13,9 +13,10 @@ permalink: /publications/
 
 The group **Ph.D dissertations** are available:
 
-* Tim Clements, 2021, Harvard University, [dissertation](../downloads/Dissertation_Clements_2021.pdf)
-* Jiuxun Yin, 2022, Harvard University, [dissertation](../downloads/Dissertation_Yin_2022.pdf)
+* Congcong Yuan, 2024, Harvard University, [dissertation](../downloads/Dissertation_Yuan_2024.pdf)
 * Stephanie Olinger, 2023, Harvard University, [dissertation](../downloads/Dissertation_Olinger_2023.pdf)
+* Jiuxun Yin, 2022, Harvard University, [dissertation](../downloads/Dissertation_Yin_2022.pdf)
+* Tim Clements, 2021, Harvard University, [dissertation](../downloads/Dissertation_Clements_2021.pdf)
 
 
 
@@ -75,6 +76,8 @@ Recent group Presentations to conferences
 ## Full List of publications
 
 For a full list of publications and links see [below](#full-list-of-publications) or go to [Google Scholar](https://scholar.google.com/citations?user=GR8BOxsAAAAJ&hl=en) for the most up-to-date list.
+
+When iterating on a manucsript, group members have to self evaluate and improve with our [publication rubric](pub_rubric.md) and using chatGPT 4o+.
 
 Students and postdoc in the lab are highlighted with (*)
 
