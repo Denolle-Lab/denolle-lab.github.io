@@ -77,7 +77,7 @@ Recent group Presentations to conferences
 
 For a full list of publications and links see [below](#full-list-of-publications) or go to [Google Scholar](https://scholar.google.com/citations?user=GR8BOxsAAAAJ&hl=en) for the most up-to-date list.
 
-When iterating on a manucsript, group members have to self evaluate and improve with our [publication rubric](pub_rubric.md) and using chatGPT 4o+.
+**When iterating on a manucsript, group members have to self evaluate and improve with our [publication rubric](pub_rubric.md) and using chatGPT 4o+.**
 
 Students and postdoc in the lab are highlighted with (*)
 
