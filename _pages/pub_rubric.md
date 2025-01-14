@@ -79,10 +79,10 @@ After a first iteration on the paper, our group members have to use chatGPT 4o+ 
 
 ## 6. Ethical Considerations
 - **Data Ethics and Permissions**
-    - Excellent: All ethical considerations are thoroughly addressed, with necessary permissions obtained and documented. Data use complies with legal and ethical standards.
-    - Good: Ethical considerations are addressed but may lack detailed documentation.
-    - Fair: Ethical considerations are minimally addressed.
-    - Poor: Ethical issues are ignored or improperly handled.
+    - Excellent: All ethical considerations are thoroughly addressed, with necessary permissions obtained and documented. Data use complies with legal and ethical standards. The manuscript also describes the limitation of the approaches used and the possible limitations in the conclusions with respect to assumptions in the methods an data processing, and discuss possible avenues to improve on it.
+    - Good: Ethical considerations are addressed but may lack detailed documentation. Discussion about limitation of the conclusion with respect to limited data or method is acknowledged.
+    - Fair: Ethical considerations are minimally addressed. No discussion about limitation from the approach and data is considered.
+    - Poor: Ethical issues are ignored or improperly handled. No discussion about limitation from the data/method is acknowledge.
 - **Conflict of Interest**
     - Excellent: All potential conflicts of interest are transparently disclosed.
     - Good: Disclosures are made but may lack full transparency.
