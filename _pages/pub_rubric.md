@@ -1,6 +1,16 @@
-# Rubric for Outstanding Scientific Publications in Observational Seismological Research
-
+# Rubric for Best Practice in Scientific Writing in our group
 After a first iteration on the paper, our group members have to use chatGPT 4o+ to self evaluate and improve on the publication with a group-edited set of rubric criteria. 
+
+## 0. To complete before sending to Marine for the first iteration 
+- **Type setting in Latex**
+    - Check that the journal template is well implemented, including the intro page
+    - Make sure that all references are in the Latex style and that they appear correctly in the text: use ``\citet{}`` when the reference is used as a subject, and ``\citep{}`` when it is referred in ().
+    - Make sure all figures have the correct caption (choose consistent type setting with bold for title), and refer to (a), (b), .. for each subplots.
+    - Do not forget to write the summary and plain language summary when relevant.
+    - Make sure all supplementary figures are listed in chronological order.
+    - Make sure to check the rendered PDF to see issues.
+    - Make sure to use section headers (section, subsection, paragraph) appropriately.
+    - Make sure you paper/project github repository is listed in the code or data availability statement.
 
 ## 1. Scientific Inquiry and Research Question
 - **Clarity and Significance**
