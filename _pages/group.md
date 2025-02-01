@@ -1,21 +1,21 @@
 ---
-title: "Denolle Quake Lab - Group"
+title: "Denolle Quake Lab - People"
 layout: gridlay
-excerpt: "Denolle Quake Lab: Group members"
+excerpt: "Denolle Quake Lab: People"
 sitemap: false
-permalink: /group/
+permalink: /people/
 ---
 
 # Group Members
 ---
- **At this moment, and for the first time of my career, I cannot guarantee funding to incoming students and no longer have funding for postdocs.** If graduate student come with  For new applicants and incoming group members, please see our [group guidelines](https://github.com/Denolle-Lab/working_as_a_group/blob/main/onboarding.md). Our group also defined a [working contract](https://github.com/Denolle-Lab/working_as_a_group/blob/main/Work_contract.md).
+
+If graduate student come with  For new applicants and incoming group members, please see our [group guidelines](https://github.com/Denolle-Lab/working_as_a_group/blob/main/onboarding.md). Our group also defined a [working contract](https://github.com/Denolle-Lab/working_as_a_group/blob/main/Work_contract.md).
 
 Jump to [postdocs](#postdocs), [graduate students](#graduate-students), [undergraduate researchers](#undergraduate-researchers), [affiliated graduate students](#affiliated-graduate-students), and [alumni](#alumni).
 
 <!-- ## Staff ------------------------------->
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
-
 {% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
@@ -28,6 +28,10 @@ Jump to [postdocs](#postdocs), [graduate students](#graduate-students), [undergr
   <br> {{ member.info }}  <br><b>email </b>: <{{ member.email }}>  <br><b> PhD </b>: {{ member.education1 }}  
  
   <ul style="overflow: hidden">
+  {% if member.cv %}
+      <li><a href="{{ member.cv }}" target="_blank">CV</a></li>
+    {% endif %}
+
 
  {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>

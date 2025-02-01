@@ -1,4 +1,7 @@
 # Rubric for Best Practice in Scientific Writing in our group
+
+We aim to write rigorous and impactful papers. Our in-house thorough crafting of these papers is aimed to submit manuscripts that only returns with minor revisions.
+
 After a first iteration on the paper, our group members have to use chatGPT 4o+ to self evaluate and improve on the publication with a group-edited set of rubric criteria. 
 
 ## 0. To complete before sending to Marine for the first iteration 
