@@ -1,8 +1,12 @@
 - id: marine-denolle
   name: Marine Denolle
-  photo: marine.jpg
   role: Associate Professor
-- id: jane-doe
-  name: Jane Doe
-  photo: jane.jpg
-  role: "Postdoc — Glaciologist"
+  photo: marine-denolle.jpg
+- id: michael-hemmett
+  name: Michael Hemmett
+  role: Graduate Student
+  photo: michael-hemmett.jpg
+- id: yiyu-ni
+  name: Yiyu Ni
+  role: Graduate Student
+  photo: yiyu-ni.jpg
