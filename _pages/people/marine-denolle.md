@@ -39,7 +39,7 @@ links: https://ess.uw.edu/people/marine-denolle/
 ## About Me
 I am an Earth scientist and associate professor at the University of Washington, dedicated to advancing our understanding of geohazards and climate-driven Earth changes. My research brings together seismology, hydrology, and climate science with cutting-edge AI and cyberinfrastructure to better monitor, characterize, understand, and forecast the natural hazards.
 
-At the core of sy work is a belief that science must serve people. I leads collaborative projects that fuse massive sensor networks, satellite observations, and AI-driven models into open, trustworthy science push the frontiers of discovery but also train the next generation of interdisciplinary researchers.
+At the core of my work is a belief that science must serve people. I lead collaborative projects that fuse massive sensor networks, satellite observations, and AI-driven models into open, trustworthy science but push the frontiers of discovery and train the next generation of interdisciplinary researchers.
 
 
 ## Research - Disciplinary Interests
