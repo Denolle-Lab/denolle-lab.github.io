@@ -1,20 +1,20 @@
 ---
 layout: page
-title: Earthquakes
-permalink: /research/earthquakes/
+title: Earthquake Seismology
+permalink: /research/earthquake-seismology/
 ---
 
-![Earthquakes](/images/researchpic/earthquake-seismology-banner.jpg)
+![Earthquake Seismology](/images/researchpic/earthquake-seismology-banner.jpg)
 
 ## Overview
 
-Earthquake research is at the core of our work in the Denolle Lab. We are dedicated to advancing our understanding of earthquakes through innovative observational techniques, large-scale data analysis, and physics-based modeling of earthquake dynamics and wave propagation.
+Earthquake seismology is at the core of our research in the Denolle Lab. We are dedicated to advancing our understanding of earthquakes through innovative observational techniques, large-scale data analysis, and physics-based modeling of earthquake dynamics and wave propagation.
 
 Earthquakes represent one of Earth's most dynamic and impactful natural processes. By studying them, we not only gain insights into fundamental Earth processes but also develop better tools for hazard assessment and risk mitigation that can save lives and protect infrastructure.
 
 ## Research Focus
 
-Our earthquake research encompasses several complementary directions:
+Our earthquake seismology research encompasses several complementary directions:
 
 ### Novel Detection and Characterization Methods
 

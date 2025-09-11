@@ -65,7 +65,7 @@ Climate change alters precipitation patterns and soil moisture regimes. Our rese
 {% for member in members %}
 {% if member.research_areas contains "environment" %}
 <div class="team-portrait">
-<a href="/people/{{ member.id }}">
+<a href="/people/{{ member.id }}/">
 <img src="/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
 <span class="member-name">{{ member.name }}</span>
 </a>

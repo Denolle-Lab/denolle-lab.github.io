@@ -58,7 +58,7 @@ permalink: /research/
 {% if team_members.size > 0 %}
 <div class="team-chips">
   {% for member in team_members limit:4 %}
-  <a href="/people/{{ member.id }}" class="team-chip" title="{{ member.name }}, {{ member.role }}">
+  <a href="/people/{{ member.id }}/" class="team-chip" title="{{ member.name }}, {{ member.role }}">
     <img src="/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
   </a>
   {% endfor %}
