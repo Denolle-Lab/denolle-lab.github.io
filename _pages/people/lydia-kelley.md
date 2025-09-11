@@ -3,7 +3,7 @@ layout: member
 id: lydia-kelley
 title: "Lydia Kelley"
 permalink: /people/lydia-kelley/
-photo: lydia.jpg
+photo: lydia-kelley.jpg
 short_description: "Undergraduate Researcher - Investigating Tectonic Signals in Offshore Cascadia"
 email: lydiagk@uw.edu
 resume: /downloads/lydia_kelley_resume.pdf
