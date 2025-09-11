@@ -61,7 +61,7 @@ Our research in environmental seismology spans several key areas:
 {% for member in members %}
 {% if member.research_areas contains "environment" %}
 <div class="team-portrait">
-<a href="/people/{{ member.id }}">
+<a href="/people/{{ member.id }}/">
 <img src="/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
 <span class="member-name">{{ member.name }}</span>
 </a>
