@@ -260,3 +260,36 @@ h1, h2, h3, h4, h5, h6 { letter-spacing: -0.015em; }
   text-decoration: none;
   display: block;
 }
+
+/* Role text styling */
+.role-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #555;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+  padding: 0 15px;
+}
+
+.brand-content {
+  display: flex;
+  align-items: center;
+}
+
+.brand-content img {
+  height: 30px;
+  margin-right: 8px;
+  display: block;
+}
+
+.brand-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #333;
+  display: block;
+  line-height: 1;
+}

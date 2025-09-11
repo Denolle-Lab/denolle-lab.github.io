@@ -4,7 +4,7 @@ title: Earthquake Seismology
 permalink: /research/earthquake-seismology/
 ---
 
-![Earthquake Seismology](/images/researchpic/earthquake-seismology-banner.jpg)
+![Earthquake Seismology](/images/researchpic/denolle-lab-env-header.png)
 
 ## Overview
 

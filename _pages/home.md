@@ -6,10 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-**"Discover, Transform, Empower: Uniting Seismology and Society"**
+# Geophysics - Geohazards - AI
 
-Our vision is to pioneer transformative advancements in geohazard research by harnessing the power of big data analytics and cutting-edge seismological techniques (see [Research](research)) . Through a multidisciplinary approach, we aim to not only discover and characterize **geohazards**, also to elucidate their impact on **society and the environment**, and to characterize the evolution of our environment with **climate change**.
-
+We aim to transform our understanding of geohazards by combining big data, advanced seismological tools, and insights from climate and hydrological sciences. Our research not only uncovers the processes that drive earthquakes, landslides, and other hazards, but also reveals how a changing climate reshapes Earth’s subsurface and impacts society and the environment.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -46,12 +45,11 @@ Our vision is to pioneer transformative advancements in geohazard research by ha
 </div>
 
 
-Our primary goal is to push the frontier of seismology beyond traditional boundaries, addressing critical societal challenges in climate change, wildlife conservation, energy sustainability, and environmental resilience. By leveraging big data analytics, we strive to unlock novel insights that can inform proactive mitigation strategies and policy interventions.
 
-Central to our mission is the development of cloud-optimized, open-source workflows that facilitate seamless collaboration and reproducibility across scientific communities (see our **[Github](https://github.com/Denolle-Lab)**). We are committed to fostering a culture of continuous learning and innovation, empowering our members to embrace modern technologies and AI-aided software practices. We  contribute to open curriculum (e.g., [Machine Learning in the Geosciences](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html)) and **[UW Geophysics YouTube Channel](https://www.youtube.com/@uwgeophysics6888)** and the **[SCOPED YouTube Channel](https://www.youtube.com/@scoped6259)**. 
+Central to our mission is the development of low-compute, massive scalability, fully reproducible research workflows that facilitate seamless collaboration and reproducibility across scientific domains (see our **[Github](https://github.com/Denolle-Lab)**). We are committed to fostering a culture of continuous learning and innovation, empowering our members to embrace modern technologies and AI-aided software practices. 
+<!-- We  contribute to open curriculum (e.g., [Machine Learning in the Geosciences](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html)) and **[UW Geophysics YouTube Channel](https://www.youtube.com/@uwgeophysics6888)** and the **[SCOPED YouTube Channel](https://www.youtube.com/@scoped6259)**.  -->
 
-Through our collective efforts, we envision a future where the fusion of data-driven insights and interdisciplinary collaboration leads to more resilient communities and a sustainable planet. Join us as we embark on this journey to shape the future of geohazard research and its societal relevance.
-
+<!-- Through our collective efforts, we envision a future where the fusion of data-driven insights and interdisciplinary collaboration leads to more resilient communities and a sustainable planet. Join us as we embark on this journey to shape the future of geohazard research and its societal relevance. -->
 
 Our mantra encapsulates our commitment to:
 
@@ -63,7 +61,7 @@ Our mantra encapsulates our commitment to:
 # Research Preview
 {% include research_preview_section.html title=false %}
 
-***SSA UPDATES***
+<!-- ***SSA UPDATES***
 * SSA 2024 **[Denolle et al, 2024: SCOPED Update](https://docs.google.com/presentation/d/1QL_yfaMfcH_zC1mIyAlHTM2ms2FX8yAN22WpA-l_suY/edit?usp=drive_link)**
 
 ***AGU UPDATES*** 
@@ -74,7 +72,7 @@ Group Presentations to conferences
 
 * AGU 2023 **[Denolle et al., 2023, Cloud Seismology](https://docs.google.com/presentation/d/1FMR0QH62oBuadAWXQ7ENPMEj7cuv9mORD41QSpwOlDs/edit?uhttps://docs.google.com/presentation/d/1ekEv4T8Oanuv0EpwWBotoCTsu_N4cXc3iR9pp1TcBL0/edit?usp=sharing)**.
 
-* SCEC 2023 **[Denolle et al., 2023, HPS CyberTraining](https://docs.google.com/presentation/d/1VXIdf3ocESIfkYW4MZHCzZ9mOdw-_eGYMFfE27CINJ0/edit?usp=sharing)**.
+* SCEC 2023 **[Denolle et al., 2023, HPS CyberTraining](https://docs.google.com/presentation/d/1VXIdf3ocESIfkYW4MZHCzZ9mOdw-_eGYMFfE27CINJ0/edit?usp=sharing)**. -->
 
 
 

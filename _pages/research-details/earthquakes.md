@@ -4,7 +4,7 @@ title: Earthquakes
 permalink: /research/earthquakes/
 ---
 
-![Earthquakes](/images/researchpic/earthquake-seismology-banner.jpg)
+![Earthquakes](/images/researchpic/denolle-lab-quake-header.png)
 
 ## Overview
 

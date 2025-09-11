@@ -6,8 +6,7 @@ sitemap: false
 permalink: /people/
 ---
 
-
-## Team Members
+# People
 
 <div class="container">
 <div class="row">
@@ -19,7 +18,8 @@ permalink: /people/
 </a>
 <div class="card-body">
 <h5 class="card-title">{{ member.name }}</h5>
-<p class="card-text">{{ member.role }}</p>
+<p class="role-text fs-5 fw-semibold text-secondary mb-3">{{ member.role }}</p>
+<p class="card-text">{{ member.short_description }}</p>
 {% if member.cv %}
 <a href="{{ member.cv }}" class="btn btn-outline-primary btn-sm" target="_blank">CV</a>
 {% endif %}
@@ -61,12 +61,12 @@ We are always looking for talented and enthusiastic individuals to join our team
 We welcome applications from prospective graduate students interested in geophysics and data science research. Before applying, please:
 - Read our [group guidelines](https://github.com/Denolle-Lab/working_as_a_group/blob/main/onboarding.md)
 - Review the [ESS graduate program application process](https://ess.uw.edu/education/graduate-program/how-to-apply/)
-- Note that GRE scores are no longer required, but TOEFL scores are necessary for international applicants
+- I recommend still to take GRE (even if not required), TOEFL etc. 
 - Email Marine directly to discuss your research interests before applying
 
 ### Undergraduate Researchers
 We actively support undergraduate research experiences! Several specific projects are available, and we offer:
-- Hourly-rate compensation throughout the year
+- Hourly-rate compensation throughout the year depending on projects
 - Opportunities for fellowship applications
 - Mentorship and guidance on research projects
 - Check our [undergraduate research projects](https://docs.google.com/document/d/1z9Qbx1dYNyfoMFFRE5Gmry2erZa7y5h8zgLSRjc-v_M/edit?usp=sharing)

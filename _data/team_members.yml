@@ -28,4 +28,8 @@
   role: Undergraduate Student
   photo: lydia-kelley.jpg
   research_areas: earthquakes
-
+- id: hiroto-bito
+  name: Hiroto Bito
+  role: Undergraduate Student
+  photo: hiroto_bito.jpg
+  research_areas: earthquakes, geoscience-ai
