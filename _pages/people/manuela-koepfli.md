@@ -1,21 +1,16 @@
 ---
 layout: member
-id: hiroto-bito
-title: "Hiroto Bito"
-permalink: /people/hiroto-bito/
-photo: hiroto_bito.jpg
-short_description: "Undergraduate Student"
-email: hbito@uw.edu
-cv: https://drive.google.com/file/d/14MjDnCIBqBXhTtv-osXc699xaRa1JK48/view?usp=drive_link
-website: https://hbito26.github.io/
-scholar: 
-orcid: https://orcid.org/0009-0001-4138-0287
-github: https://github.com/hbito26
-linkedin: https://www.linkedin.com/in/hiroto-bito/
-links: 
+id: manuela-koepfli
+title: "Manuela Köpfli"
+permalink: /people/manuela-koepfli/
+photo: manuela.jpg
+short_description: "Ph.D. Candidate in Seismology"
+email: koepflma@uw.edu
+orcid: https://orcid.org/0000-0002-4678-730X
+github: https://github.com/koepflma
 ---
 
-# Hiroto Bito 
+# Manuela Köpfli
 
 <div style="display: flex; align-items: center; gap: 2rem;flex-wrap: wrap;">
 <img src="{{ site.baseurl }}/images/teampic/{{ page.photo }}" class="rounded-circle" style="width:160px;height:160px;object-fit:cover;border:3px solid #eee;" alt="{{ page.title }}">
@@ -38,18 +33,13 @@ links:
 ---
 
 ## About Me
-I am an undergraduate student at the Department of Earth and Space Sciences at the University of Washington. My research has focused on the application of machine learning to seismic data. My projects include the prediction of earthquake duration, earthquake cataloging, and the reconstruction and forecast of various geophyiscal data using sparse sensor measurements, all with machine learning.
-
-My current long-term goal as a student and scientist is to enchance scientific discovery with machine learning methods to aim towards reliable forecasting of natural hazards.  
+My passion is to use seismology as a tool to study our environment. I focus on the Cascade Volcanoes, a complex setting where glaciated peaks, steep rocky slopes, forests, rivers, and volcanic activity interact. Seismic methods provide a unique window into these dynamic landscapes, allowing us to track changes in subsurface properties across both time (from decades of seismic records) and space (down to meter-scale resolution with distributed acoustic sensing). I use passive seismicity to track movements of ice, water, and magma to gain insights into environmental conditions driving geohazards such as eruptions and mass movements.
 
 ## Research - Disciplinary Interests
-- Machine Learning Applications to Seismology
-- Multiscale Modeling
-- Data-driven Methods
+- Environmental seismology at Cascade Volcanoes
+- Geohazard (eruption, mass movements)
 
 ## Education
-- B.S. in Earth and Space Sciences (Physics) - University of Washington, Seattle, WA, 2026 (Expected)
-
-## About Fun
-Hiroto enjoys hiking, fossil hunting and paper folding. 
+- Master in Geophysics - ETH, Zurich, 2019
+- Bachelor in Earth Science - ETH, Zurich, 2021
 ---

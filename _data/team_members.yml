@@ -23,3 +23,8 @@
   role: Undergraduate Student
   photo: hiroto_bito.jpg
   research_areas: earthquakes, geoscience-ai
+- id: manuela-koepfli
+  name: Manuela Koepfli
+  role: Graduate Student
+  photo: manuela.jpg
+  research_areas: environment
