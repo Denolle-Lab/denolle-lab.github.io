@@ -4,7 +4,7 @@ title: Environment
 permalink: /research/environment/
 ---
 
-![Environment](/images/researchpic/environmental-seismology-banner.jpg)
+<img src="/images/researchpic/denolle-lab-env-header.png" style="width:100%;height:200px;object-fit:cover;" alt="Environment">
 
 ## Overview
 

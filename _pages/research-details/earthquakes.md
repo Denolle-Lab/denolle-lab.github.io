@@ -3,8 +3,9 @@ layout: page
 title: Earthquakes
 permalink: /research/earthquakes/
 ---
+<img src="/images/researchpic/denolle-lab-quake-header.png" style="width:100%;height:200px;object-fit:cover;" alt="Environment">
 
-![Earthquakes](/images/researchpic/denolle-lab-quake-header.png)
+<!-- ![Earthquakes](/images/researchpic/denolle-lab-quake-header.png) -->
 
 ## Overview
 

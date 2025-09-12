@@ -4,8 +4,11 @@ title: Geoscience and AI
 permalink: /research/geoscience-and-ai/
 ---
 
+<img src="/images/researchpic/denolle-lab-geoscience-ai-header.png" style="width:100%;height:200px;object-fit:cover;" alt="Environment">
 
-![Geoscience and AI](/images/researchpic/geoscience-ai-banner.jpg)
+
+
+<!-- ![Geoscience and AI](/images/researchpic/denolle-lab-geoscience-ai-header.png) -->
 
 ## Overview
 
