@@ -69,7 +69,7 @@ Recent group presentations to conferences
 
 <p> &nbsp; </p>
 
-For a more up-to-date list of publications [Google Scholar](https://scholar.google.com/citations?user=GR8BOxsAAAAJ&hl=en)
+For a more up-to-date list of publications: [Google Scholar](https://scholar.google.com/citations?user=GR8BOxsAAAAJ&hl=en)
 
 ---
 

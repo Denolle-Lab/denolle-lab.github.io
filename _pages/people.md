@@ -31,7 +31,7 @@ permalink: /people/
 <div class="col-md-3 col-sm-4 mb-3" style="padding-left:8px;padding-right:8px;">
 <div class="card text-center" style="margin-bottom:16px;">
 <a href="{{ site.baseurl }}/people/{{ member.id }}/">
-<img src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="rounded-circle mx-auto d-block" style="width:180px;height:180px;object-fit:cover;" alt="{{ member.name }}">
+<img src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="rounded-circle mx-auto d-block" style="width:150px;height:150px;object-fit:cover;" alt="{{ member.name }}">
 </a>
 <div class="card-body">
 <h4 class="card-title">{{ member.name }}</h4>
