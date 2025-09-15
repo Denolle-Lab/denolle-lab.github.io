@@ -10,8 +10,6 @@ resume: /downloads/lydia_kelley_resume.pdf
 linkedin: www.linkedin.com/in/lydia-g-kelley
 ---
 
-# Lydia Kelley
-
 <div style="display: flex; align-items: center; gap: 2rem;flex-wrap: wrap;">
 <img src="{{ site.baseurl }}/images/teampic/{{ page.photo }}" class="rounded-circle" style="width:160px;height:160px;object-fit:cover;border:3px solid #eee;" alt="{{ page.title }}">
 <div>

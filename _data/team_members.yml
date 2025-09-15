@@ -13,16 +13,16 @@
   role: Graduate Student
   photo: yiyu-ni.jpg
   research_areas: geoscience-ai, earthquakes
-- id: manuela-koepfli
-  name: Manuela Köpfli
-  role: Graduate Student
-  photo: manuela-koepfli.jpg
-  research_areas:
 - id: akash-kharita
   name: Akash Kharita
   role: Graduate Student
   photo: akash-kharita.jpg
   research_areas:
+- id: manuela-kopfli
+  name: Manuela Köpfli
+  role: Graduate Student
+  photo: manuela-kopfli.jpg
+  research_areas: environment
 - id: lydia-kelley
   name: Lydia Kelley
   role: Undergraduate Student
@@ -31,10 +31,10 @@
 - id: hiroto-bito
   name: Hiroto Bito
   role: Undergraduate Student
-  photo: hiroto_bito.jpg
+  photo: hiroto-bito.jpg
   research_areas: earthquakes, geoscience-ai
-- id: manuela-koepfli
-  name: Manuela Koepfli
-  role: Graduate Student
-  photo: manuela.jpg
-  research_areas: environment
+- id: maleen-kidiwela
+  name: Maleen Kidiwela
+  role: Affiliated Graduate Student
+  photo: maleen-kidiwela.jpg
+  research_areas: 

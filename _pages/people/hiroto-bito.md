@@ -3,7 +3,7 @@ layout: member
 id: hiroto-bito
 title: "Hiroto Bito"
 permalink: /people/hiroto-bito/
-photo: hiroto_bito.jpg
+photo: hiroto-bito.jpg
 short_description: "Undergraduate Student"
 email: hbito@uw.edu
 cv: https://drive.google.com/file/d/14MjDnCIBqBXhTtv-osXc699xaRa1JK48/view?usp=drive_link
@@ -15,8 +15,6 @@ linkedin: https://www.linkedin.com/in/hiroto-bito/
 links: 
 ---
 
-# Hiroto Bito 
-
 <div style="display: flex; align-items: center; gap: 2rem;flex-wrap: wrap;">
 <img src="{{ site.baseurl }}/images/teampic/{{ page.photo }}" class="rounded-circle" style="width:160px;height:160px;object-fit:cover;border:3px solid #eee;" alt="{{ page.title }}">
 <div>
@@ -25,7 +23,6 @@ links:
 <span style="font-size:1rem; color:#888;">{{ member.role }}</span>
 <div style="margin-top:1rem;">
 {% if page.website %}<a href="{{ page.website }}" target="_blank" title="Website">🌐</a>{% endif %}
-{% if page.scholar %}<a href="{{ page.scholar }}" target="_blank" title="Google Scholar">{{ site.scholar_icon | raw }}</a>{% endif %}
 {% if page.orcid %}<a href="{{ page.orcid }}" target="_blank" title="ORCID">{{ site.orcid_icon | raw }}</a>{% endif %}
 {% if page.github %}<a href="{{ page.github }}" target="_blank" title="GitHub">{{ site.github_icon | raw }}</a>{% endif %}
 {% if page.linkedin %}<a href="{{ page.linkedin }}" target="_blank" title="LinkedIn">{{ site.linkedin_icon | raw }}</a>{% endif %}
