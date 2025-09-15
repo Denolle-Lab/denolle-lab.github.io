@@ -7,12 +7,11 @@ permalink: /people/
 ---
 
 # People
----
 
 <div class="container">
 <div class="row">
 {% for member in site.data.team_members %}
-<div class="col-md-2 col-sm-2 mb-2" style="padding-left:8px;padding-right:8px;">
+<div class="col-md-3 col-sm-3 mb-3" style="padding-left:8px;padding-right:8px;">
 <div class="card text-center" style="margin-bottom:16px;">
 <a href="{{ site.baseurl }}/people/{{ member.id }}/">
 <img src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="rounded-circle mx-auto d-block" style="width:150px;height:150px;object-fit:cover;" alt="{{ member.name }}">
