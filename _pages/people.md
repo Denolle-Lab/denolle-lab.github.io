@@ -9,33 +9,18 @@ permalink: /people/
 # People
 ---
 
-{% assign all_roles = "" | split: "" %}
-{% for member in site.data.team_members %}
-{% assign role = member.role %}
-{% unless all_roles contains role %}
-{% assign all_roles = all_roles | push: role %}
-{% endunless %}
-{% endfor %}
-
-{% for role in all_roles %}
-<div class="col-12">
-<h3 class="my-4">{{ role }}</h3>
-</div>
-
 <div class="container">
 <div class="row">
-
 {% for member in site.data.team_members %}
-{% if member.role == role %}
-
-<div class="col-md-3 col-sm-4 mb-3" style="padding-left:8px;padding-right:8px;">
+<div class="col-md-2 col-sm-2 mb-2" style="padding-left:8px;padding-right:8px;">
 <div class="card text-center" style="margin-bottom:16px;">
 <a href="{{ site.baseurl }}/people/{{ member.id }}/">
 <img src="{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="rounded-circle mx-auto d-block" style="width:150px;height:150px;object-fit:cover;" alt="{{ member.name }}">
 </a>
 <div class="card-body">
-<h4 class="card-title">{{ member.name }}</h4>
-
+<h5 class="card-title">{{ member.name }}</h5>
+<p class="role-text fs-5 fw-semibold text-secondary mb-3">{{ member.role }}</p>
+<p class="card-text">{{ member.short_description }}</p>
 {% if member.cv %}
 <a href="{{ member.cv }}" class="btn btn-outline-primary btn-sm" target="_blank">CV</a>
 {% endif %}
@@ -52,23 +37,20 @@ permalink: /people/
 <a href="{{ member.orcid }}" target="_blank">🟢</a>
 {% endif %}
 {% if member.github %}
-<a href="{{ member.github }}" target="_blank">
-<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" width="20" alt="GitHub">
-</a>
+<a href="{{ member.github }}" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" width="20" alt="GitHub"></a>
 {% endif %}
 {% if member.linkedin %}
-<a href="{{ member.linkedin }}" target="_blank">
-<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="20" alt="LinkedIn">
-</a>
+<a href="{{ member.linkedin }}" target="_blank"></a>
+{% endif %}
+{% if member.email %}
+<a href="mailto:{{ member.email }}">✉️</a>
 {% endif %}
 </div>
 </div>
 </div>
-{% endif %}
 {% endfor %}
 </div>
 </div>
-{% endfor %}
 
 ---
 
