@@ -49,4 +49,3 @@ My current long-term goal as a student and scientist is to enchance scientific d
 
 ## About Fun
 Hiroto enjoys hiking, fossil hunting and paper folding. 
----

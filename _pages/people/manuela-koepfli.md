@@ -39,4 +39,4 @@ My passion is to use seismology as a tool to study our environment. I focus on t
 ## Education
 - Master in Geophysics - ETH, Zurich, 2019
 - Bachelor in Earth Science - ETH, Zurich, 2021
----
+

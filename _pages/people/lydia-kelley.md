@@ -44,4 +44,3 @@ I’m a senior in oceanography and an undergraduate researcher at the University
 
 ## About Fun
 I like to sail, swim, and do anything where I can be outside and close to water. 
----
