@@ -9,7 +9,6 @@
     @article{ni2025global,
       title = {A Global-scale Database of Seismic Phases from Cloud-based Picking at Petabyte Scale},
       volume = {4},
-      url = {https://seismica.library.mcgill.ca/article/view/1738},
       number = {2},
       journal = {Seismica},
       author = {Ni, Yiyu and Denolle, Marine and Thomas, Amanda and Hamilton, Alex and Münchmeyer, Jannes and Wang, Yinzhi and Bachelot, Loïc and Trabant, Chad and Mencin, David},
@@ -34,7 +33,7 @@
       year = {2025},
       month = {08},
       issn = {1365-246X},
-      doi = {https://doi.org/10.1093/gji/ggaf322},
+      doi = {https://doi.org/10.1093/gji/ggaf322}
     }
   tags: []
 - title: 'Training the Next Generation of Seismologists: Delivering Research‐Grade Software Education for Cloud and HPC Computing Through Diverse Training Modalities'
@@ -60,11 +59,11 @@
       year = {2025},
       month = {06},
       issn = {0895-0695},
-      doi = {https://doi.org/10.1785/0220240413},
+      doi = {https://doi.org/10.1785/0220240413}
     }
   tags: []
 - title: Ambient Field Seismology in Critical Zone Hydrological Sciences
-  authors: Denolle,  M, Shi,  Q., Clements, T., Viens, L., Rodriguez-Tribaldos,  V., Feng,  K. F., Cotton, F.
+  authors: Denolle,  M., Shi,  Q., Clements, T., Viens, L., Rodriguez-Tribaldos,  V., Feng,  K. F., Cotton, F.
   year: '2025'
   key: denolle2025
   journal: in review in Comptes Rendus de Geosciences
@@ -133,7 +132,7 @@
   authors: Denolle,  M., Shi,  Q., Clements,  T., Viens,  L., Rodriguez-Tribaldos,  V., Cotton,  F.
   year: '2025'
   key: Denolle2025b
-  journal: Comptes Rendu  Geosciences - Sciences de la Terre, X, pp X
+  journal: Comptes Rendu Geosciences - Sciences de la Terre, X, pp X
   doi: in press
   bibtex: |
     @article{Denolle2025b,
@@ -153,6 +152,7 @@
   key: MakusEtAl2024
   journal: Seismological Research Letters, 95(5), pp 2674--2688
   doi: 10.1785/0220240088
+  url: https://doi.org/10.1785/0220240088
   bibtex: |
     @article{MakusEtAl2024,
       author = {Makus, P. and Denolle, M. A. and Sens-Sch{\"o}nfelder, C. and K{\"o}pfli, M. and Tilmann, F.},
@@ -162,7 +162,7 @@
       number = {5},
       pages = {2674--2688},
       year = {2024},
-      doi = {10.1785/0220240088}
+      doi = {https://doi.org/10.1785/0220240088}
     }
   tags: []
 - title: Examining 22 Years of Ambient Seismic Wavefield at Mount St. Helens
@@ -171,6 +171,7 @@
   key: KoepliEtAl2024
   journal: Seismological Research Letters, 95(5), pp 2622--2636
   doi: 10.1785/0220240079
+  url: https://doi.org/10.1785/0220240079
   bibtex: |
     @article{KoepliEtAl2024,
       author = {K{\"o}pli, M. and Denolle, M. A. and Thelen, W. and Makus, P. and Malone, S.},
@@ -180,18 +181,18 @@
       number = {5},
       pages = {2622--2636},
       year = {2024},
-      doi = {10.1785/0220240079}
+      doi = {https://doi.org/10.1785/0220240079}
     }
   tags: []
 - title: 'Wavefield reconstruction of distributed acoustic sensing: Lossy compression,
     wavefield separation, and edge computing'
-  authors: Ni,  Y., Denolle,  M. A., Shi,  Q., Lipovsky,  B. P., Pan,  S., Kutz,  J.
-    N.
+  authors: Ni,  Y., Denolle,  M. A., Shi,  Q., Lipovsky,  B. P., Pan,  S., Kutz,  J. N.
   year: '2024'
   key: ni2024wavefield
   journal: 'Journal of Geophysical Research: Machine Learning and Computation, 1,
     pp e2024JH000247'
   doi: 10.1029/2024JH000247
+  url: https://doi.org/10.1029/2024JH000247
   bibtex: |
     @article{ni2024wavefield,
       author = {Ni, Y. and Denolle, M. A. and Shi, Q. and Lipovsky, B. P. and Pan, S. and Kutz, J. N.},
@@ -209,6 +210,7 @@
   key: DiewaldEtAl2024
   journal: Scientific Reports, 14, pp 18861
   doi: 10.1038/s41598-024-69564-4
+  url: https://doi.org/10.1038/s41598-024-69564-4
   bibtex: |
     @article{DiewaldEtAl2024,
       author = {Diewald, F. and Denolle, M. and Timothy, J. J. and Gehlen, C.},
@@ -217,7 +219,7 @@
       volume = {14},
       pages = {18861},
       year = {2024},
-      doi = {10.1038/s41598-024-69564-4}
+      doi = {https://doi.org/10.1038/s41598-024-69564-4}
     }
   tags: []
 - title: Monitoring velocity change over 20 years at Parkfield
@@ -226,6 +228,7 @@
   key: OkuboEtAl2023
   journal: 'Journal of Geophysical Research: Solid Earth, 129, pp e2023JB028084'
   doi: 10.1029/2023JB028084
+  url: https://doi.org/10.1029/2023JB028084
   bibtex: |
     @article{OkuboEtAl2023,
       author = {Okubo, K. and Delbridge, B. and Denolle, M.},
@@ -234,7 +237,7 @@
       volume = {129},
       pages = {e2023JB028084},
       year = {2024},
-      doi = {10.1029/2023JB028084}
+      doi = {https://doi.org/10.1029/2023JB028084}
     }
   tags: []
 - title: Extended crack propagation by local nucleation and rapid transverse expansion
@@ -245,13 +248,14 @@
   key: CochardEtAl2024
   journal: Nature Physics
   doi: 10.1038/s41567-023-02365-0
+  url: https://doi.org/10.1038/s41567-023-02365-0
   bibtex: |
     @article{CochardEtAl2024,
       author = {Cochard, T. and Svetlizky, I. and Albertini, G. and Viesca, R. C. and Rubinstein, S. M. and Spaepen, F. and Yuan, C. and Denolle, M. and Song, Y.-Q. and Xiao, L. and Weitz, D. A.},
       title = {Extended crack propagation by local nucleation and rapid transverse expansion},
       journal = {Nature Physics},
       year = {2024},
-      doi = {10.1038/s41567-023-02365-0}
+      doi = {https://doi.org/10.1038/s41567-023-02365-0}
     }
   tags: []
 - title: An Object Storage for Distributed Acoustic Sensing
@@ -274,8 +278,7 @@
       year = {2023},
       month = {10},
       issn = {0895-0695},
-      doi = {10.1785/0220230172},
-      url = {https://doi.org/10.1785/0220230172},
+      doi = {https://doi.org/10.1785/0220230172}
     }
   tags: []
 - title: Ocean Coupling Limits Rupture Velocity of Fastest Observed Ice Shelf Rift
@@ -285,6 +288,7 @@
   key: OlingerEtAl2023
   journal: AGU Advances, 5, pp e2023AV001023
   doi: 10.1029/2023AV001023
+  url: https://doi.org/10.1029/2023AV001023
   bibtex: |
     @article{OlingerEtAl2023,
       author = {Olinger, S. and Lipovsky, B. and Denolle, M.},
@@ -293,7 +297,7 @@
       volume = {5},
       pages = {e2023AV001023},
       year = {2023},
-      doi = {10.1029/2023AV001023}
+      doi = {https://doi.org/10.1029/2023AV001023}
     }
   tags: []
 - title: 'Discrimination between icequakes and earthquakes in southern Alaska: an
@@ -303,13 +307,14 @@
   key: KharitaEtAl2023
   journal: Geophysical Journal International
   doi: 10.1093/gji/ggae106
+  url: https://doi.org/10.1093/gji/ggae106
   bibtex: |
     @article{KharitaEtAl2023,
       author = {Kharita, A. and Denolle, M. and West, M.},
       title = {Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm},
       journal = {Geophysical Journal International},
       year = {2023},
-      doi = {10.1093/gji/ggae106}
+      doi = {https://doi.org/10.1093/gji/ggae106}
     }
   tags: []
 - title: Laboratory hydrofracture as analogs to tectonic tremors
@@ -319,6 +324,7 @@
   key: YuanEtAl2023a
   journal: AGU Advances, 5, pp e2023AV001002
   doi: 10.1029/2023AV001002
+  url: https://doi.org/10.1029/2023AV001002
   bibtex: |
     @article{YuanEtAl2023a,
       author = {Yuan, C. and Cochard, T. and Denolle, M. and Gomberg, J. and Wech, A. and Xiao, L. and Weitz, D.},
@@ -327,7 +333,7 @@
       volume = {5},
       pages = {e2023AV001002},
       year = {2023},
-      doi = {10.1029/2023AV001002}
+      doi = {https://doi.org/10.1029/2023AV001002}
     }
   tags: []
 - title: Improved observations of deep earthquake ruptures using machine learning
@@ -336,6 +342,7 @@
   key: ShiEtAl2023
   journal: 'Journal of Geophysical Research: Solid Earth, 128, pp e2023JB027334'
   doi: 10.1029/2023JB027334
+  url: https://doi.org/10.1029/2023JB027334
   bibtex: |
     @article{ShiEtAl2023,
       author = {Shi, Q. and Denolle, M.},
@@ -344,7 +351,7 @@
       volume = {128},
       pages = {e2023JB027334},
       year = {2023},
-      doi = {10.1029/2023JB027334}
+      doi = {https://doi.org/10.1029/2023JB027334}
     }
   tags: []
 - title: 'Better Together: Ensemble Learning for Earthquake Detection and Phase Picking'
@@ -353,13 +360,14 @@
   key: YuangEtAl2023
   journal: IEEE Transactions on Geoscience and Remote Sensing
   doi: 10.1109/TGRS.2023.3320148
+  url: https://doi.org/10.1109/TGRS.2023.3320148
   bibtex: |
     @article{YuangEtAl2023,
       author = {Yuang, C. and Ni, Y. and Lin, Y. and Denolle, M.},
       title = {Better Together: Ensemble Learning for Earthquake Detection and Phase Picking},
       journal = {IEEE Transactions on Geoscience and Remote Sensing},
       year = {2023},
-      doi = {10.1109/TGRS.2023.3320148}
+      doi = {https://doi.org/10.1109/TGRS.2023.3320148}
     }
   tags: []
 - title: 'Seismology in the cloud: guidance for the individual researcher'
@@ -368,6 +376,7 @@
   key: KraussEtAl2023
   journal: Seismica, 2(2)
   doi: 10.26443/seismica.v2i2.979
+  url: https://doi.org/10.26443/seismica.v2i2.979
   bibtex: |
     @article{KraussEtAl2023,
       author = {Krauss, Z. and Ni, Y. and Henderson, S. and Denolle, M.},
@@ -376,7 +385,7 @@
       volume = {2},
       number = {2},
       year = {2023},
-      doi = {10.26443/seismica.v2i2.979}
+      doi = {https://doi.org/10.26443/seismica.v2i2.979}
     }
   tags: []
 - title: Curated Pacific Northwest AI-ready Seismic Dataset
@@ -386,6 +395,7 @@
   key: NiEtAl2023a
   journal: Seismica, 2(1)
   doi: 10.26443/seismica.v2i1.368
+  url: https://doi.org/10.26443/seismica.v2i1.368
   bibtex: |
     @article{NiEtAl2023a,
       author = {Ni, Y. and Hutko, A. and Skene, F. and Denolle, M. and Malone, S. and Bodin, P. and Hartog, R. and Wright, A.},
@@ -394,7 +404,7 @@
       volume = {2},
       number = {1},
       year = {2023},
-      doi = {10.26443/seismica.v2i1.368}
+      doi = {https://doi.org/10.26443/seismica.v2i1.368}
     }
   tags: []
 - title: Probing environmental and tectonic changes underneath Ciudad de M\'exico
@@ -405,13 +415,14 @@
   key: ErmertEtAl2023
   journal: Solid Earth (EGU)
   doi: 10.5194/egusphere-2022-1361
+  url: https://doi.org/10.5194/egusphere-2022-1361
   bibtex: |
     @article{ErmertEtAl2023,
       author = {Ermert, L. and Cabral-Cano, E. and Chaussard, E. and Solano-Rojas, D. and Quintanar, L. and Morales Padilla, D. and Fernandez-Torres, E. A. and Denolle, M. A.},
       title = {Probing environmental and tectonic changes underneath Ciudad de M\'exico with the urban seismic field},
       journal = {Solid Earth (EGU)},
       year = {2023},
-      doi = {10.5194/egusphere-2022-1361}
+      doi = {https://doi.org/10.5194/egusphere-2022-1361}
     }
   tags: []
 - title: The Seismic Signature of California's Earthquakes, Droughts, and Floods
@@ -420,6 +431,7 @@
   key: ClementsEtAl2023
   journal: 'Journal of Geophysical Research: Solid Earth, 128(1), pp e2022JB025553'
   doi: 10.1029/2022JB025553
+  url: https://doi.org/10.1029/2022JB025553
   bibtex: |
     @article{ClementsEtAl2023,
       author = {Clements, T. and Denolle, M. A.},
@@ -429,7 +441,7 @@
       number = {1},
       pages = {e2022JB025553},
       year = {2023},
-      doi = {10.1029/2022JB025553}
+      doi = {https://doi.org/10.1029/2022JB025553}
     }
   tags: []
 - title: A multitask encoder--decoder to separate earthquake and ambient noise signal
@@ -439,6 +451,7 @@
   key: YinEtAl2022
   journal: Geophysical Journal International, 231(3), pp 1806--1822
   doi: 10.1093/gji/ggac290
+  url: https://doi.org/10.1093/gji/ggac290
   bibtex: |
     @article{YinEtAl2022,
       author = {Yin, J. and Denolle, M. A. and He, B.},
@@ -448,7 +461,7 @@
       number = {3},
       pages = {1806--1822},
       year = {2022},
-      doi = {10.1093/gji/ggac290}
+      doi = {https://doi.org/10.1093/gji/ggac290}
     }
   tags: []
 - title: 'Pronounced Seismic Anisotropy in Kanto Sedimentary Basin: A Case Study of
@@ -458,6 +471,7 @@
   key: JiangEtAl2022
   journal: 'Journal of Geophysical Research: Solid Earth, 127(8), pp e2022JB024613'
   doi: 10.1029/2022JB024613
+  url: https://doi.org/10.1029/2022JB024613
   bibtex: |
     @article{JiangEtAl2022,
       author = {Jiang, C. and Denolle, M. A.},
@@ -467,7 +481,7 @@
       number = {8},
       pages = {e2022JB024613},
       year = {2022},
-      doi = {10.1029/2022JB024613}
+      doi = {https://doi.org/10.1029/2022JB024613}
     }
   tags: []
 - title: Imaging the Kanto Basin seismic basement with earthquake and noise autocorrelation
@@ -477,6 +491,7 @@
   key: ViensEtAl2022
   journal: Geophysical Journal International, 230(2), pp 1080--1091
   doi: 10.1093/gji/ggac101
+  url: https://doi.org/10.1093/gji/ggac101
   bibtex: |
     @article{ViensEtAl2022,
       author = {Viens, L. and Jiang, C. and Denolle, M. A.},
@@ -486,7 +501,7 @@
       number = {2},
       pages = {1080--1091},
       year = {2022},
-      doi = {10.1093/gji/ggac101}
+      doi = {https://doi.org/10.1093/gji/ggac101}
     }
   tags: []
 - title: 'Tracking the Cracking: a Holistic Analysis of Rapid Ice Shelf Fracture Using
@@ -497,6 +512,7 @@
   key: OlingerEtAl2022b
   journal: Geophysical Research Letters, pp e2021GL097604
   doi: 10.1029/2021GL097604
+  url: https://doi.org/10.1029/2021GL097604
   bibtex: |
     @article{OlingerEtAl2022b,
       author = {Olinger, S. D. and Lipovsky, B. P. and Denolle, M. A. and Crowell, B. W.},
@@ -504,7 +520,7 @@
       journal = {Geophysical Research Letters},
       pages = {e2021GL097604},
       year = {2022},
-      doi = {10.1029/2021GL097604}
+      doi = {https://doi.org/10.1029/2021GL097604}
     }
   tags: []
 - title: Detecting Elevated Pore Pressure due to Wastewater Injection Using Ambient
@@ -514,6 +530,7 @@
   key: YangEtAl2022
   journal: The Seismic Record, 2(1), pp 38--49
   doi: 10.1785/0320210036
+  url: https://doi.org/10.1785/0320210036
   bibtex: |
     @article{YangEtAl2022,
       author = {Yang, Z. and Yuan, C. and Denolle, M. A.},
@@ -523,7 +540,7 @@
       number = {1},
       pages = {38--49},
       year = {2022},
-      doi = {10.1785/0320210036}
+      doi = {https://doi.org/10.1785/0320210036}
     }
   tags: []
 - title: Comparing approaches to measuring seismic phase variations in the time, frequency,
@@ -533,6 +550,7 @@
   key: YuanEtAl2021
   journal: Geophysical Journal International, 226(2), pp 828--846
   doi: 10.1093/gji/ggab140
+  url: https://doi.org/10.1093/gji/ggab140
   bibtex: |
     @article{YuanEtAl2021,
       author = {Yuan, C. and Bryan, J. and Denolle, M. A.},
@@ -542,7 +560,7 @@
       number = {2},
       pages = {828--846},
       year = {2021},
-      doi = {10.1093/gji/ggab140}
+      doi = {https://doi.org/10.1093/gji/ggab140}
     }
   tags: []
 - title: The Earth's Surface Controls the Depth-Dependent Seismic Radiation of Megathrust
@@ -552,6 +570,7 @@
   key: YinEtAl2021
   journal: AGU Advances, 2(3), pp e2021AV000413
   doi: 10.1029/2021AV000413
+  url: https://doi.org/10.1029/2021AV000413
   bibtex: |
     @article{YinEtAl2021,
       author = {Yin, J. and Denolle, M. A.},
@@ -561,7 +580,7 @@
       number = {3},
       pages = {e2021AV000413},
       year = {2021},
-      doi = {10.1029/2021AV000413}
+      doi = {https://doi.org/10.1029/2021AV000413}
     }
   tags: []
 - title: Source time function clustering reveals patterns in earthquake dynamics
@@ -570,6 +589,7 @@
   key: YinEtAl2021b
   journal: Seismological Research Letters, 92(4), pp 2343--2353
   doi: 10.1785/0220200403
+  url: https://doi.org/10.1785/0220200403
   bibtex: |
     @article{YinEtAl2021b,
       author = {Yin, J. and Li, Z. and Denolle, M. A.},
@@ -579,7 +599,7 @@
       number = {4},
       pages = {2343--2353},
       year = {2021},
-      doi = {10.1785/0220200403}
+      doi = {https://doi.org/10.1785/0220200403}
     }
   tags: []
 - title: 'SeisNoise.jl: Ambient Seismic Noise Cross Correlation on the CPU and GPU
@@ -589,6 +609,7 @@
   key: ClementsEtAl2021
   journal: Seismological Research Letters, 92(1), pp 517--527
   doi: 10.1785/0220200192
+  url: https://doi.org/10.1785/0220200192
   bibtex: |
     @article{ClementsEtAl2021,
       author = {Clements, T. and Denolle, M. A.},
@@ -598,7 +619,7 @@
       number = {1},
       pages = {517--527},
       year = {2021},
-      doi = {10.1785/0220200192}
+      doi = {https://doi.org/10.1785/0220200192}
     }
   tags: []
 - title: 'NoisePy: A new high-performance python tool for ambient-noise seismology'
@@ -607,6 +628,7 @@
   key: JiangEtAl2020
   journal: Seismological Research Letters, 91(3), pp 1853--1866
   doi: 10.1785/0220190364
+  url: https://doi.org/10.1785/0220190364
   bibtex: |
     @article{JiangEtAl2020,
       author = {Jiang, C. and Denolle, M. A.},
@@ -616,7 +638,7 @@
       number = {3},
       pages = {1853--1866},
       year = {2020},
-      doi = {10.1785/0220190364}
+      doi = {https://doi.org/10.1785/0220190364}
     }
   tags: []
 - title: Quiet Anthropocene, quiet Earth
@@ -625,6 +647,7 @@
   key: DenolleNissenMeyer2020
   journal: Science, 369(6509), pp 1299--1300
   doi: 10.1126/science.abd8358
+  url: https://doi.org/10.1126/science.abd8358
   bibtex: |
     @article{DenolleNissenMeyer2020,
       author = {Denolle, M. A. and Nissen-Meyer, T.},
@@ -634,7 +657,7 @@
       number = {6509},
       pages = {1299--1300},
       year = {2020},
-      doi = {10.1126/science.abd8358}
+      doi = {https://doi.org/10.1126/science.abd8358}
     }
   tags: []
 - title: 'SeisIO: A Fast, Efficient Geophysical Data Architecture for the Julia Language'
@@ -643,6 +666,7 @@
   key: JonesEtAl2020
   journal: Seismological Research Letters, 91, pp 2368--2377
   doi: 10.1785/0220190295
+  url: https://doi.org/10.1785/0220190295
   bibtex: |
     @article{JonesEtAl2020,
       author = {Jones, J. P. and Okubo, K. and Clements, T. and Denolle, M. A.},
@@ -651,7 +675,7 @@
       volume = {91},
       pages = {2368--2377},
       year = {2020},
-      doi = {10.1785/0220190295}
+      doi = {https://doi.org/10.1785/0220190295}
     }
   tags: []
 - title: Energetic Onset of Earthquakes
@@ -660,6 +684,7 @@
   key: Denolle2019
   journal: Geophysical Research Letters, 46(5), pp 2458--2466
   doi: 10.1029/2018GL080687
+  url: https://doi.org/10.1029/2018GL080687
   bibtex: |
     @article{Denolle2019,
       author = {Denolle, M.},
@@ -669,7 +694,7 @@
       number = {5},
       pages = {2458--2466},
       year = {2019},
-      doi = {10.1029/2018GL080687}
+      doi = {https://doi.org/10.1029/2018GL080687}
     }
   tags: []
 - title: Relating teleseismic backprojection images to earthquake kinematics
@@ -678,6 +703,7 @@
   key: YinDenolle2019
   journal: Geophysical Journal International, 217(2), pp 729--747
   doi: 10.1093/gji/ggz048
+  url: https://doi.org/10.1093/gji/ggz048
   bibtex: |
     @article{YinDenolle2019,
       author = {Yin, J. and Denolle, M.},
@@ -687,7 +713,7 @@
       number = {2},
       pages = {729--747},
       year = {2019},
-      doi = {10.1093/gji/ggz048}
+      doi = {https://doi.org/10.1093/gji/ggz048}
     }
   tags: []
 - title: Geometric Controls on Pulse-like Rupture in a Dynamic Model of the 2015 Gorkha
@@ -697,6 +723,7 @@
   key: WangEtAl2019
   journal: Journal of Geophysical Research, 124(2), pp 1544--1568
   doi: 10.1029/2018JB016602
+  url: https://doi.org/10.1029/2018JB016602
   bibtex: |
     @article{WangEtAl2019,
       author = {Wang, Y. and Denolle, M. and Day, S. M.},
@@ -706,7 +733,7 @@
       number = {2},
       pages = {1544--1568},
       year = {2019},
-      doi = {10.1029/2018JB016602}
+      doi = {https://doi.org/10.1029/2018JB016602}
     }
   tags: []
 - title: 'Earthquakes Within Earthquakes: Patterns in Rupture Complexity'
@@ -715,6 +742,7 @@
   key: DanreEtAl2019
   journal: Geophysical Research Letters, 43(13), pp 7352--7360
   doi: 10.1029/2019GL083093
+  url: https://doi.org/10.1029/2019GL083093
   bibtex: |
     @article{DanreEtAl2019,
       author = {Danr{\'e}, P. and Yin, J. and Lipovsky, B. and Denolle, M.},
@@ -724,7 +752,7 @@
       number = {13},
       pages = {7352--7360},
       year = {2019},
-      doi = {10.1029/2019GL083093}
+      doi = {https://doi.org/10.1029/2019GL083093}
     }
   tags: []
 - title: Long-period ground motions from past and virtual megathrust earthquakes along
@@ -734,6 +762,7 @@
   key: ViensDenolle2019
   journal: Bulletin of the Seismological Society of America, 109(4), pp 1312--1330
   doi: 10.1785/0120180320
+  url: https://doi.org/10.1785/0120180320
   bibtex: |
     @article{ViensDenolle2019,
       author = {Viens, L. and Denolle, M.},
@@ -743,7 +772,7 @@
       number = {4},
       pages = {1312--1330},
       year = {2019},
-      doi = {10.1785/0120180320}
+      doi = {https://doi.org/10.1785/0120180320}
     }
   tags: []
 - title: 'Spatial and Temporal Evolution of Earthquake Dynamics: Case Study of the
@@ -753,6 +782,7 @@
   key: YinEtAl2018
   journal: 'Journal of Geophysical Research: Solid Earth, 123(1), pp 344--367'
   doi: 10.1002/2017JB014265
+  url: https://doi.org/10.1002/2017JB014265
   bibtex: |
     @article{YinEtAl2018,
       author = {Yin, J. and Denolle, M. A. and Yao, H.},
@@ -760,28 +790,28 @@
       journal = {Journal of Geophysical Research: Solid Earth},
       volume = {123},
       number = {1},
-      doi = {10.1002/2017JB014265},
       pages = {344--367},
-      year = {2018}
+      year = {2018},
+      doi = {https://doi.org/10.1002/2017JB014265}
     }
   tags: []
 - title: Tracking ground water using the ambient seismic field
   authors: Clements,  T., Denolle,  M.
   year: '2018'
   key: ClementsDenolle2018a
-  journal: "(User text suggests possible mismatch of volume/issue) Geophysical Research
-    Letters, 123(4), pp 2923--294"
+  journal: "Geophysical Research Letters, 45(13), pp 6459--6465"
   doi: 10.1029/2018GL077706
+  url: https://doi.org/10.1029/2018GL077706
   bibtex: |
     @article{ClementsDenolle2018a,
       author = {Clements, T. and Denolle, M.},
       title = {Tracking ground water using the ambient seismic field},
-      journal = {(User text suggests possible mismatch of volume/issue) Geophysical Research Letters},
-      volume = {123},
-      number = {4},
-      pages = {2923--294},
+      journal = {Geophysical Research Letters},
+      volume = {45},
+      number = {13},
+      pages = {6459--6465},
       year = {2018},
-      doi = {10.1029/2018GL077706}
+      doi = {https://doi.org/10.1029/2018GL077706}
     }
   tags: []
 - title: Complex near-surface rheology inferred from the response of greater Tokyo
@@ -790,6 +820,8 @@
   year: '2018'
   key: ViensEtAl2018
   journal: 'Journal of Geophysical Research: Solid Earth, 123(7), pp 5710--5729'
+  doi: 10.1029/2018JB015697
+  url: https://doi.org/10.1029/2018JB015697
   bibtex: |
     @article{ViensEtAl2018,
       author = {Viens, L. and Denolle, M. and Hirata, N. and Nakagawa, S.},
@@ -798,15 +830,17 @@
       volume = {123},
       number = {7},
       pages = {5710--5729},
-      year = {2018}
+      year = {2018},
+      doi = {https://doi.org/10.1029/2018JB015697}
     }
   tags: []
-- title: Strong Shaking Predicted in Tokyo From an Expected M7+ Itoigawa-Shizuoka
-    Earthquake
+- title: Strong Shaking Predicted in Tokyo From an Expected M7+ Itoigawa-Shizuoka Earthquake
   authors: Denolle,  M. A., Bou\'e,  P., Hirata,  N., Beroza,  G. C.
   year: '2018'
   key: DenolleEtAl2018a
   journal: 'Journal of Geophysical Research: Solid Earth, 123(5), pp 3968--3992'
+  doi: 10.1029/2017JB015184
+  url: https://doi.org/10.1029/2017JB015184
   bibtex: |
     @article{DenolleEtAl2018a,
       author = {Denolle, M. A. and Bou{\'e}, P. and Hirata, N. and Beroza, G. C.},
@@ -815,7 +849,8 @@
       volume = {123},
       number = {5},
       pages = {3968--3992},
-      year = {2018}
+      year = {2018},
+      doi = {https://doi.org/10.1029/2017JB015184}
     }
   tags: []
 - title: Improved model fitting for the empirical Green's function approach using
@@ -824,6 +859,8 @@
   year: '2018'
   key: VanHoutteDenolle2018
   journal: 'Journal of Geophysical Research: Solid Earth, 123(4), pp 2923--2942'
+  doi: 10.1002/2017JB014943
+  url: https://doi.org/10.1002/2017JB014943
   bibtex: |
     @article{VanHoutteDenolle2018,
       author = {Van Houtte, C. and Denolle, M.},
@@ -832,7 +869,8 @@
       volume = {123},
       number = {4},
       pages = {2923--2942},
-      year = {2018}
+      year = {2018},
+      doi = {https://doi.org/10.1002/2017JB014943}
     }
   tags: []
 - title: Tracking groundwater levels using the ambient seismic field
@@ -841,6 +879,7 @@
   key: ClementsDenolle2018b
   journal: Geophysical Research Letters, 45, pp 6459--6465
   doi: 10.1029/2018GL077706
+  url: https://doi.org/10.1029/2018GL077706
   bibtex: |
     @article{ClementsDenolle2018b,
       author = {Clements, T. and Denolle, M. A.},
@@ -849,7 +888,7 @@
       volume = {45},
       pages = {6459--6465},
       year = {2018},
-      doi = {10.1029/2018GL077706}
+      doi = {https://doi.org/10.1029/2018GL077706}
     }
   tags: []
 - title: Convolutional neural network for earthquake detection and location
@@ -857,6 +896,8 @@
   year: '2018'
   key: PerolEtAl2018
   journal: Science Advances, 4(2), pp e1700578
+  doi: 10.1126/sciadv.1700578
+  url: https://doi.org/10.1126/sciadv.1700578
   bibtex: |
     @article{PerolEtAl2018,
       author = {Perol, T. and Gharbi, M. and Denolle, M.},
@@ -866,15 +907,16 @@
       number = {2},
       pages = {e1700578},
       year = {2018}
+      doi = {https://doi.org/10.1126/sciadv.1700578}
     }
   tags: []
-- title: Retrieving impulse response function amplitudes from the ambient seismic
-    field
+- title: Retrieving impulse response function amplitudes from the ambient seismic field
   authors: Viens,  L., Denolle,  M., Miyake,  H., Sakai,  S., Nakagawa,  S.
   year: '2017'
   key: ViensEtAl2017
   journal: Geophysical Journal International, 210(1), pp 210--222
   doi: 10.1093/gji/ggx155
+  url: https://doi.org/10.1093/gji/ggx155
   bibtex: |
     @article{ViensEtAl2017,
       author = {Viens, L. and Denolle, M. and Miyake, H. and Sakai, S. and Nakagawa, S.},
@@ -884,16 +926,16 @@
       number = {1},
       pages = {210--222},
       year = {2017},
-      doi = {10.1093/gji/ggx155}
+      doi = {https://doi.org/10.1093/gji/ggx155}
     }
   tags: []
-- title: Multicomponent C3 Green's Functions for Improved Long-Period Ground-Motion
-    Prediction
+- title: Multicomponent C3 Green's Functions for Improved Long-Period Ground-Motion Prediction
   authors: Sheng,  Y., Denolle,  M. A., Beroza,  G. C.
   year: '2017'
   key: ShengEtAl2017
   journal: Bulletin of the Seismological Society of America, 107(6), pp 2836--2845
   doi: 10.1785/0120170053
+  url: https://doi.org/10.1785/0120170053
   bibtex: |
     @article{ShengEtAl2017,
       author = {Sheng, Y. and Denolle, M. A. and Beroza, G. C.},
@@ -901,9 +943,9 @@
       journal = {Bulletin of the Seismological Society of America},
       volume = {107},
       number = {6},
-      doi = {10.1785/0120170053},
       pages = {2836--2845},
-      year = {2017}
+      year = {2017},
+      doi = {https://doi.org/10.1785/0120170053}
     }
   tags: []
 - title: 'Beyond Basin Resonance: Characterizing Wave Propagation Using a Dense Array
@@ -913,6 +955,7 @@
   key: BoueEtAl2016
   journal: Geophysical Journal International, 206(2), pp 1261--1272
   doi: 10.1093/gji/ggw205
+  url: https://doi.org/10.1093/gji/ggw205
   bibtex: |
     @article{BoueEtAl2016,
       author = {Boue, P. and Denolle, M. and Hirata, N. and Nakagawa, S. and Beroza, G. C.},
@@ -922,7 +965,7 @@
       number = {2},
       pages = {1261--1272},
       year = {2016},
-      doi = {10.1093/gji/ggw205}
+      doi = {https://doi.org/10.1093/gji/ggw205}
     }
   tags: []
 - title: New perspective on self-similarity of shallow thrust earthquakes
@@ -931,6 +974,7 @@
   key: DenolleShearer2016
   journal: 'Journal of Geophysical Research: Solid Earth, 121(9), pp 6533--6565'
   doi: 10.1002/2016JB013105
+  url: https://doi.org/10.1002/2016JB013105
   bibtex: |
     @article{DenolleShearer2016,
       author = {Denolle, M. and Shearer, P. M.},
@@ -940,7 +984,7 @@
       number = {9},
       pages = {6533--6565},
       year = {2016},
-      doi = {10.1002/2016JB013105}
+      doi = {https://doi.org/10.1002/2016JB013105}
     }
   tags: []
 - title: Dynamics of the M7.8 2015 Nepal Earthquake
@@ -949,6 +993,7 @@
   key: DenolleFanShearer2015
   journal: Geophysical Research Letters, 42(18), pp 7467--7475
   doi: 10.1002/2015GL065336
+  url: https://doi.org/10.1002/2015GL065336
   bibtex: |
     @article{DenolleFanShearer2015,
       author = {Denolle, M. and Fan, W. and Shearer, P. M.},
@@ -958,16 +1003,16 @@
       number = {18},
       pages = {7467--7475},
       year = {2015},
-      doi = {10.1002/2015GL065336}
+      doi = {https://doi.org/10.1002/2015GL065336}
     }
   tags: []
-- title: Long-period seismic amplification in the Kanto Basin from the ambient seismic
-    field
+- title: Long-period seismic amplification in the Kanto Basin from the ambient seismic field
   authors: Denolle,  M., Miyake,  H., Nakagawa,  S., Hirata,  N., Beroza,  G. C.
   year: '2014'
   key: DenolleEtAl2014a
   journal: Geophysical Research Letters, 41(18), pp 7467--7475
   doi: 10.1002/2014GL059425
+  url: https://doi.org/10.1002/2014GL059425
   bibtex: |
     @article{DenolleEtAl2014a,
       author = {Denolle, M. and Miyake, H. and Nakagawa, S. and Hirata, N. and Beroza, G. C.},
@@ -977,7 +1022,7 @@
       number = {18},
       pages = {7467--7475},
       year = {2014},
-      doi = {10.1002/2014GL059425}
+      doi = {https://doi.org/10.1002/2014GL059425}
     }
   tags: []
 - title: Full 3D Tomography (F3DT) for Crustal Structure in Southern California Based
@@ -988,6 +1033,7 @@
   key: LeeEtAl2014
   journal: Journal of Geophysical Research, 119(8), pp 6421--6451
   doi: 10.1002/2014JB011236
+  url: https://doi.org/10.1002/2014JB011236
   bibtex: |
     @article{LeeEtAl2014,
       author = {Lee, E.-J. and Chen, P. and Jordan, T. H. and Maechling, P. B. and Denolle, M. and Beroza, G. C.},
@@ -997,7 +1043,7 @@
       number = {8},
       pages = {6421--6451},
       year = {2014},
-      doi = {10.1002/2014JB011236}
+      doi = {https://doi.org/10.1002/2014JB011236}
     }
   tags: []
 - title: Strong Ground Motion Prediction using Virtual Earthquakes
@@ -1006,6 +1052,7 @@
   key: DenolleEtAl2014b
   journal: Science, 343(6169), pp 399--403
   doi: 10.1126/science.1245678
+  url: https://doi.org/10.1126/science.1245678
   bibtex: |
     @article{DenolleEtAl2014b,
       author = {Denolle, M. and Dunham, E. M. and Prieto, G. A. and Beroza, G. C.},
@@ -1015,7 +1062,7 @@
       number = {6169},
       pages = {399--403},
       year = {2014},
-      doi = {10.1126/science.1245678}
+      doi = {https://doi.org/10.1126/science.1245678}
     }
   tags: []
 - title: Ground Motion Prediction of Realistic Earthquake Sources Using the Ambient
@@ -1025,6 +1072,7 @@
   key: DenolleEtAl2013a
   journal: Journal of Geophysical Research, 118(5), pp 2102--2118
   doi: 10.1029/2012JB009603
+  url: https://doi.org/10.1029/2012JB009603
   bibtex: |
     @article{DenolleEtAl2013a,
       author = {Denolle, M. and Dunham, E. M. and Prieto, G. A. and Beroza, G. C.},
@@ -1034,7 +1082,7 @@
       number = {5},
       pages = {2102--2118},
       year = {2013},
-      doi = {10.1029/2012JB009603}
+      doi = {https://doi.org/10.1029/2012JB009603}
     }
   tags: []
 - title: A numeric evaluation of attenuation from ambient noise correlation functions
@@ -1043,6 +1091,7 @@
   key: LawrenceEtAl2013
   journal: Journal of Geophysical Research, 118(12), pp 6134--6145
   doi: 10.1002/2012JB009513
+  url: https://doi.org/10.1002/2012JB009513
   bibtex: |
     @article{LawrenceEtAl2013,
       author = {Lawrence, J. F. and Denolle, M. and Seats, K. J. and Prieto, G.},
@@ -1052,7 +1101,7 @@
       number = {12},
       pages = {6134--6145},
       year = {2013},
-      doi = {10.1002/2012JB009513}
+      doi = {https://doi.org/10.1002/2012JB009513}
     }
   tags: []
 - title: Solving the Surface-Wave Eigenproblem with Chebyshev Spectral Collocation
@@ -1061,6 +1110,7 @@
   key: DenolleEtAl2012
   journal: Bulletin of the Seismological Society of America, 102(3), pp 1214--1223
   doi: 10.1785/0120110183
+  url: https://doi.org/10.1785/0120110183
   bibtex: |
     @article{DenolleEtAl2012,
       author = {Denolle, M. and Dunham, E. M. and Beroza, G. C.},
@@ -1070,7 +1120,7 @@
       number = {3},
       pages = {1214--1223},
       year = {2012},
-      doi = {10.1785/0120110183}
+      doi = {https://doi.org/10.1785/0120110183}
     }
   tags: []
 - title: On amplitude carried by the ambient seismic field
@@ -1079,16 +1129,17 @@
   key: PrietoEtAl2011
   journal: 'Comptes Rendus Geoscience (Thematic Issue: Imaging and Monitoring with
     Seismic Noise), 343, pp 600--614'
-  doi: https://doi.org/10.1016/j.crte.2011.03.006
+  doi: 10.1016/j.crte.2011.03.006
+  url: https://doi.org/10.1016/j.crte.2011.03.006
   bibtex: |
     @article{PrietoEtAl2011,
       author = {Prieto, G. A. and Denolle, M. and Lawrence, J. F. and Beroza, G. C.},
       title = {On amplitude carried by the ambient seismic field},
       journal = {Comptes Rendus Geoscience (Thematic Issue: Imaging and Monitoring with Seismic Noise)},
       volume = {343},
-      doi = {https://doi.org/10.1016/j.crte.2011.03.006},
       pages = {600--614},
-      year = {2011}
+      year = {2011},
+      doi = {https://doi.org/10.1016/j.crte.2011.03.006}
     }
   tags: []
 - title: Evidence of active backthrusting at the NE Margin of Mentawai Islands, SW,
@@ -1099,6 +1150,7 @@
   key: SinghEtAl2010
   journal: Geophysical Journal International, 180(2), pp 703--714
   doi: 10.1111/j.1365-246X.2009.04458.x
+  url: https://doi.org/10.1111/j.1365-246X.2009.04458.x
   bibtex: |
     @article{SinghEtAl2010,
       author = {Singh, S. and Hananto, N. and Chauhan, A. and Permana, H. and Denolle, M. and Hendriyana, A. and Natawidjaja, D.},
@@ -1108,6 +1160,6 @@
       number = {2},
       pages = {703--714},
       year = {2010},
-      doi = {10.1111/j.1365-246X.2009.04458.x}
+      doi = {https://doi.org/10.1111/j.1365-246X.2009.04458.x}
     }
   tags: []

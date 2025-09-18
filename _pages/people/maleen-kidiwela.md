@@ -1,15 +1,15 @@
 ---
 layout: member
-id: yiyu-ni
-title: "Yiyu Ni"
-permalink: /people/yiyu-ni/
-photo: yiyu-ni.jpg
-short_description: "Ph.D. Candidate in Seismology"
-email: niyiyu@uw.edu
-website: https://niyiyu.github.io
-scholar: https://scholar.google.com/citations?user=FLu0PP4AAAAJ&hl=en
-github: https://github.com/niyiyu
-linkedin: https://www.linkedin.com/in/yiyu-ni-501441182/
+id: maleen-kidiwela
+title: "Maleen Kidiwela"
+permalink: /people/maleen-kidiwela/
+photo: maleen-kidiwela.jpg
+short_description: "Ph.D. in Oceanography"
+email: seismic@uw.edu
+website: X
+scholar: X
+github: X
+linkedin: X
 ---
 
 <div style="display: flex; align-items: center; gap: 2rem;flex-wrap: wrap;">
@@ -32,15 +32,8 @@ linkedin: https://www.linkedin.com/in/yiyu-ni-501441182/
 
 ---
 
-## About 
-I am currently a Ph.D. candidate in the Department of [Earth and Space Sciences (ESS)](https://ess.washington.edu), and also a duty seismologist at [Pacific Northwest Seismic Network (PNSN)](https://pnsn.org). 
-
-The overall goal of my research is to advance data-driven earthquakes and structure monitoring in the Pacific Northwest of the United States by leveraging heterogeneous datasets from traditional seismic stations and fiber-optic sensing. Another focus of my research is to utilize advance tools like cloud computing and machine learning for seismic big data processing.
-
 ## Research Interests
-- Earthquake monitoring in the Pacific Northwest
-- Computational seismology
-- Machine Learning
+<!-- - Machine Learning -->
+<!-- - Earthquake Catalog Building -->
 
 ## Education
-- B.S. in Geophysics - Jilin University, China, 2020

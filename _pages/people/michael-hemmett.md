@@ -62,4 +62,3 @@ My work as a student and scientist aims to deepen our understanding of the natur
 
 ## About Fun
 Michael loves running, hiking with friends, and enjoying a good cup of coffee at a local bookstore.
----
