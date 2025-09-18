@@ -4,7 +4,7 @@ id: maleen-kidiwela
 title: "Maleen Kidiwela"
 permalink: /people/maleen-kidiwela/
 photo: maleen-kidiwela.jpg
-short_description: "Ph.D. in Seismology"
+short_description: "Ph.D. in Oceanography"
 email: seismic@uw.edu
 website: X
 scholar: X
