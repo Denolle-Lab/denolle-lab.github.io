@@ -91,6 +91,16 @@ For a more up-to-date list of publications [Google Scholar](https://scholar.goog
   {% if publi.bibtex %}<button class="pub-link-btn bibtex-btn" onclick="toggleBibtex('{{ publi.key }}')"><i class="fas fa-quote-right"></i> BibTeX</button>{% endif %}
   {% if publi.highlight %}<a href="{{ publi.highlight }}" target="_blank" class="pub-link-btn highlight-btn"><i class="fas fa-star"></i> Highlights</a>{% endif %}
   {% if publi.media %}<a href="{{ publi.media }}" target="_blank" class="pub-link-btn media-btn"><i class="fas fa-video"></i> Media</a>{% endif %}
+  {% if publi.video %}<a href="{{ publi.video }}" target="_blank" class="pub-link-btn media-btn"><i class="fas fa-video"></i> Video</a>{% endif %}
+  {% if publi.press_release %}
+    {% if publi.press_release[0] %} <!-- If it's a list -->
+      {% for pr in publi.press_release %}
+        <a href="{{ pr.url }}" target="_blank" class="pub-link-btn press-btn"><i class="fas fa-newspaper"></i> {{ pr.text }}</a>
+      {% endfor %}
+    {% else %} <!-- If it's a single string -->
+      <a href="{{ publi.press_release }}" target="_blank" class="pub-link-btn press-btn"><i class="fas fa-newspaper"></i> Press Release</a>
+    {% endif %}
+  {% endif %}
   </div>
   </div>
   {% if publi.bibtex %}
