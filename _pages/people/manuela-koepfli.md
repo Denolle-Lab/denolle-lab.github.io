@@ -2,15 +2,13 @@
 layout: member
 id: manuela-koepfli
 title: "Manuela Köpfli"
-permalink: /people/manuela-koepfli/
-photo: manuela.jpg
+permalink: /people/manuela-kopfli/
+photo: manuela-kopfli.jpg
 short_description: "Ph.D. Candidate in Seismology"
 email: koepflma@uw.edu
 orcid: https://orcid.org/0000-0002-4678-730X
 github: https://github.com/koepflma
 ---
-
-# Manuela Köpfli
 
 <div style="display: flex; align-items: center; gap: 2rem;flex-wrap: wrap;">
 <img src="{{ site.baseurl }}/images/teampic/{{ page.photo }}" class="rounded-circle" style="width:160px;height:160px;object-fit:cover;border:3px solid #eee;" alt="{{ page.title }}">
@@ -23,7 +21,6 @@ github: https://github.com/koepflma
 {% if page.scholar %}<a href="{{ page.scholar }}" target="_blank" title="Google Scholar">{{ site.scholar_icon | raw }}</a>{% endif %}
 {% if page.orcid %}<a href="{{ page.orcid }}" target="_blank" title="ORCID">{{ site.orcid_icon | raw }}</a>{% endif %}
 {% if page.github %}<a href="{{ page.github }}" target="_blank" title="GitHub">{{ site.github_icon | raw }}</a>{% endif %}
-{% if page.linkedin %}<a href="{{ page.linkedin }}" target="_blank" title="LinkedIn">{{ site.linkedin_icon | raw }}</a>{% endif %}
 {% if page.email %}<a href="mailto:{{ page.email }}" title="Email">✉️</a>{% endif %}
 {% if page.cv %}<a href="{{ page.cv }}" target="_blank" title="CV">📄</a>{% endif %}
 </div>
@@ -42,4 +39,4 @@ My passion is to use seismology as a tool to study our environment. I focus on t
 ## Education
 - Master in Geophysics - ETH, Zurich, 2019
 - Bachelor in Earth Science - ETH, Zurich, 2021
----
+

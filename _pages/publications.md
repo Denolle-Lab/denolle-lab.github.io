@@ -9,18 +9,15 @@ permalink: /publications/
 
 # Publications
 ---
-<!-- ## Group highlights -->
 
-The group **Ph.D dissertations** are available:
+The group **Ph.D. dissertations** are available:
 
 * Congcong Yuan, 2024, Harvard University, [dissertation](../downloads/Dissertation_Yuan_2024.pdf)
 * Stephanie Olinger, 2023, Harvard University, [dissertation](../downloads/Dissertation_Olinger_2023.pdf)
 * Jiuxun Yin, 2022, Harvard University, [dissertation](../downloads/Dissertation_Yin_2022.pdf)
 * Tim Clements, 2021, Harvard University, [dissertation](../downloads/Dissertation_Clements_2021.pdf)
 
-
-
-Recent group Presentations to conferences 
+Recent group presentations to conferences 
 
 * SSA 2024 **[Denolle et al, 2024: SCOPED Update](https://docs.google.com/presentation/d/1QL_yfaMfcH_zC1mIyAlHTM2ms2FX8yAN22WpA-l_suY/edit?usp=drive_link)**
 
@@ -72,10 +69,9 @@ Recent group Presentations to conferences
 
 <p> &nbsp; </p>
 
+For a more up-to-date list of publications: [Google Scholar](https://scholar.google.com/citations?user=GR8BOxsAAAAJ&hl=en)
 
-## Publications
-
-For a more up-to-date list of publications [Google Scholar](https://scholar.google.com/citations?user=GR8BOxsAAAAJ&hl=en)
+---
 
 <div class="publications">
 {% for publi in site.data.publist %}

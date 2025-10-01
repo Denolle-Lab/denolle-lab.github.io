@@ -44,15 +44,12 @@ permalink: /people/
 {% if member.email %}
 <a href="mailto:{{ member.email }}">✉️</a>
 {% endif %}
-<!-- <div> -->
-<!-- </div> -->
 </div>
 </div>
 </div>
 {% endfor %}
 </div>
 </div>
-
 
 ---
 
