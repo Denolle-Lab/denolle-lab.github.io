@@ -7,6 +7,11 @@ permalink: /teaching
 ---
 
 # Active Courses Taught
+
+- **ESS 4199: Undergraduate Research Experience**
+    - Year-round
+    - [Literature Review Guidelines](/teaching/ess499/)
+
 - **ESS 412/512: Seismology**
 
 - **ESS 469/569: Machine Learning in Geosciences**
