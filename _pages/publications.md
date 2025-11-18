@@ -10,24 +10,50 @@ permalink: /publications/
 # Publications
 ---
 
-The group **Ph.D. dissertations** are available:
+## Standards & Rubrics
 
-* Congcong Yuan, 2024, Harvard University, [dissertation](../downloads/Dissertation_Yuan_2024.pdf)
-* Stephanie Olinger, 2023, Harvard University, [dissertation](../downloads/Dissertation_Olinger_2023.pdf)
-* Jiuxun Yin, 2022, Harvard University, [dissertation](../downloads/Dissertation_Yin_2022.pdf)
-* Tim Clements, 2021, Harvard University, [dissertation](../downloads/Dissertation_Clements_2021.pdf)
+As members of the scientific community, we strive to meet best practices in research communication and reproducibility. The following resources provide guidelines and standards that we apply to our work:
 
-Recent group presentations to conferences 
+### **Publication Standards**
+* **[Best Practices for ML in Geophysics](/pub_ml_rubric/)** – A comprehensive checklist for machine learning papers in geophysics, developed from editorial experience at GJI. Covers imaging, data processing, and Earth-system discovery studies.
 
-* SSA 2024 **[Denolle et al, 2024: SCOPED Update](https://docs.google.com/presentation/d/1QL_yfaMfcH_zC1mIyAlHTM2ms2FX8yAN22WpA-l_suY/edit?usp=drive_link)**
+### **Research & Writing Guidelines**
+* **[Undergraduate Literature Review Guide](/teaching/ess499/)** – Guidelines for conducting structured literature reviews, including how to find sources, read strategically, and synthesize findings across traditional and ML approaches.
 
-* AGU 2023 **[Smoczyk et al., 2023, FingerPrinting the Cascades Volcanoes](https://docs.google.com/presentation/d/1UWQBOy0hZhkFYCCskUeb0OuJrS-wzp4K/edit?usp=sharing&ouid=114363206559877755268&rtpof=true&sd=true)**.
+*Additional rubrics and standards for presentations and dissertation writing are under development and will be linked here.*
 
-* AGU 2023 **[Denolle et al., 2023, SCOPED Update](https://docs.google.com/presentation/d/1FMR0QH62oBuadAWXQ7ENPMEj7cuv9mORD41QSpwOlDs/edit?usp=sharing)**.
+---
 
-* AGU 2023 **[Denolle et al., 2023, Cloud Seismology](https://docs.google.com/presentation/d/1FMR0QH62oBuadAWXQ7ENPMEj7cuv9mORD41QSpwOlDs/edit?uhttps://docs.google.com/presentation/d/1ekEv4T8Oanuv0EpwWBotoCTsu_N4cXc3iR9pp1TcBL0/edit?usp=sharing)**.
+## Dissertations
 
-* SCEC 2023 **[Denolle et al., 2023, HPS CyberTraining](https://docs.google.com/presentation/d/1VXIdf3ocESIfkYW4MZHCzZ9mOdw-_eGYMFfE27CINJ0/edit?usp=sharing)**.
+Group **Ph.D. dissertations** are available here:
+
+* **Congcong Yuan**, 2024, Harvard University – [dissertation](../downloads/Dissertation_Yuan_2024.pdf)
+* **Stephanie Olinger**, 2023, Harvard University – [dissertation](../downloads/Dissertation_Olinger_2023.pdf)
+* **Jiuxun Yin**, 2022, Harvard University – [dissertation](../downloads/Dissertation_Yin_2022.pdf)
+* **Tim Clements**, 2021, Harvard University – [dissertation](../downloads/Dissertation_Clements_2021.pdf)
+
+---
+
+## Presentations
+
+Recent group presentations at conferences and workshops:
+
+* **SSA 2024** – [Denolle et al.: SCOPED Update](https://docs.google.com/presentation/d/1QL_yfaMfcH_zC1mIyAlHTM2ms2FX8yAN22WpA-l_suY/edit?usp=drive_link)
+
+* **AGU 2023** – [Smoczyk et al.: Fingerprinting the Cascades Volcanoes](https://docs.google.com/presentation/d/1UWQBOy0hZhkFYCCskUeb0OuJrS-wzp4K/edit?usp=sharing&ouid=114363206559877755268&rtpof=true&sd=true)
+
+* **AGU 2023** – [Denolle et al.: SCOPED Update](https://docs.google.com/presentation/d/1FMR0QH62oBuadAWXQ7ENPMEj7cuv9mORD41QSpwOlDs/edit?usp=sharing)
+
+* **AGU 2023** – [Denolle et al.: Cloud Seismology](https://docs.google.com/presentation/d/1ekEv4T8Oanuv0EpwWBotoCTsu_N4cXc3iR9pp1TcBL0/edit?usp=sharing)
+
+* **SCEC 2023** – [Denolle et al.: HPS CyberTraining](https://docs.google.com/presentation/d/1VXIdf3ocESIfkYW4MZHCzZ9mOdw-_eGYMFfE27CINJ0/edit?usp=sharing)
+
+*A comprehensive archive of presentations with PDFs and video recordings is being compiled.*
+
+---
+
+## Peer-Reviewed Publications
 
 
 
