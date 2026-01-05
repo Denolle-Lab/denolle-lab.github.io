@@ -13,6 +13,12 @@ permalink: /teaching
     - [Literature Review Guidelines](/teaching/ess499/)
 
 - **ESS 412/512: Seismology**
+    - Yearly, Winter quarter
+    - [GitHub](https://github.com/UW-geophysics-edu/ess-412-512-intro2seismology)    
+
+ ESS 412/512 a foundational seismology course that teaches the fundamental principles of wave propagation and their applications to Earth imaging and earthquake phenomenology. Students learn elastic wave theory, ray tracing, body and surface waves, and how seismic waves are used to understand Earth's structure and earthquake processes. The course combines theoretical derivations with hands-on Python exercises using real seismic data, covering topics including stress-strain relationships, travel time analysis, global seismic phases, surface wave dispersion, and ambient noise methods.
+
+Graduate students (ESS 512) complete additional exercises requiring deeper mathematical treatment, algorithm implementation, statistical analysis across multiple events, and present a research paper connecting course methods to published seismological research.  The course is structured as a 10-week quarter with weekly assignments (4-6 hours for undergraduates, 6-9 hours for graduates), culminating in final projects that apply learned methods to real-world seismological problems.
 
 - **ESS 469/569: Machine Learning in Geosciences**
     - Fall or Spring quarter

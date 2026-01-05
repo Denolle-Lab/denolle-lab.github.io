@@ -1,0 +1,16 @@
+key: offshore
+title: Offshore Seismology and Geophysics
+preview_blurb: We study offshore earthquakes, seafloor processes, and submarine hazards using ocean-bottom seismometers and DAS.
+summary: >
+  We investigate processes beneath the ocean floor using ocean-bottom seismometers (OBS), 
+  Distributed Acoustic Sensing (DAS), and other marine geophysical instrumentation to study 
+  offshore earthquakes, aseismic deformation, and submarine hazards.
+featured: true
+order: 30
+image: /images/researchpic/offshore-sensing-baner.png
+tags: [offshore, marine-geophysics, OBS, DAS, subduction, hazards]
+links:
+  - text: Overview
+    url: /research/offshore-seismology/
+  - text: Selected papers
+    url: /publications/#offshore

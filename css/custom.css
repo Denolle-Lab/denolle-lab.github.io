@@ -463,3 +463,26 @@ h1, h2, h3, h4, h5, h6 { letter-spacing: -0.015em; }
     font-size: 13px;
   }
 }
+/* Remove bullet points from checkbox lists */
+.textlay ul li input[type="checkbox"] {
+  margin-left: -20px;
+}
+
+.textlay ul li:has(input[type="checkbox"]) {
+  list-style-type: none;
+}
+
+/* Force remove bullets from all task list items */
+.textlay .task-list-item {
+  list-style-type: none !important;
+}
+
+.textlay ul:has(.task-list-item) {
+  list-style-type: none !important;
+}
+
+/* Alternative: target all li with checkboxes directly */
+.textlay li:has(> input[type="checkbox"]) {
+  list-style-type: none !important;
+  margin-left: 0 !important;
+}

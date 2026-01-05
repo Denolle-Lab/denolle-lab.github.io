@@ -61,6 +61,7 @@ At the core of my work is a belief that science must serve people. I lead collab
 - [ESS Profile](https://ess.uw.edu/people/marine-denolle/)
 - [GP Youtube](https://www.youtube.com/@uwgeophysics6888)
 - [SCOPED Youtube](https://www.youtube.com/@scoped6259)
+- [CS4Env](https://cs4env.uw.edu/)
 
 
 ## About Fun

@@ -43,6 +43,7 @@ My current long-term goal as a student and scientist is to enchance scientific d
 - Machine Learning Applications to Seismology
 - Multiscale Modeling
 - Data-driven Methods
+- Offshore seismology
 
 ## Education
 - B.S. in Earth and Space Sciences (Physics) - University of Washington, Seattle, WA, 2026 (Expected)

@@ -2,17 +2,17 @@
   name: Marine Denolle
   role: Associate Professor
   photo: marine-denolle.jpg
-  research_areas: environment, earthquakes, geoscience-ai
+  research_areas: environment, earthquakes, geoscience-ai, offshore
 - id: michael-hemmett
   name: Michael Hemmett
   role: Graduate Student
   photo: michael-hemmett.jpg
-  research_areas: earthquakes
+  research_areas: earthquakes, offshore
 - id: yiyu-ni
   name: Yiyu Ni
   role: Graduate Student
   photo: yiyu-ni.jpg
-  research_areas: geoscience-ai, earthquakes
+  research_areas: geoscience-ai, earthquakes, offshore
 - id: akash-kharita
   name: Akash Kharita
   role: Graduate Student
@@ -27,14 +27,14 @@
   name: Lydia Kelley
   role: Undergraduate Student
   photo: lydia-kelley.jpg
-  research_areas: earthquakes
+  research_areas: earthquakes, offshore
 - id: hiroto-bito
   name: Hiroto Bito
   role: Undergraduate Student
   photo: hiroto-bito.jpg
-  research_areas: earthquakes, geoscience-ai
+  research_areas: earthquakes, geoscience-ai, offshore
 - id: maleen-kidiwela
   name: Maleen Kidiwela
   role: Affiliated Graduate Student
   photo: maleen-kidiwela.jpg
-  research_areas: 
+  research_areas: offshore
