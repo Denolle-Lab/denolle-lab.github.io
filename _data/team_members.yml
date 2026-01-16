@@ -38,3 +38,8 @@
   role: Affiliated Graduate Student
   photo: maleen-kidiwela.jpg
   research_areas: offshore
+- id: alex-rose
+  name: Alex Rose
+  role: Research Assistant
+  photo: alex_rose.jpg
+  research_areas: offshore, geoscience-ai
