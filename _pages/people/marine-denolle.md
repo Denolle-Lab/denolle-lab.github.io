@@ -29,7 +29,7 @@ links: https://ess.uw.edu/people/marine-denolle/
 {% if page.github %}<a href="{{ page.github }}" target="_blank" title="GitHub">{{ site.github_icon | raw }}</a>{% endif %}
 {% if page.linkedin %}<a href="{{ page.linkedin }}" target="_blank" title="LinkedIn">{{ site.linkedin_icon | raw }}</a>{% endif %}
 {% if page.email %}<a href="mailto:{{ page.email }}" title="Email">✉️</a>{% endif %}
-{% if page.cv %}<a href="{{ page.cv }}" target="_blank" title="CV">📄</a>{% endif %}
+{% if page.cv %}<a href="{{ page.cv }}" target="_blank" title="Download CV" class="btn btn-sm btn-default" style="margin-left: 0.5rem;">📄 Download CV</a>{% endif %}
 </div>
 </div>
 </div>
@@ -47,7 +47,7 @@ At the core of my work is a belief that science must serve people. I lead collab
 - AI for Scientific Discovery and Automation
 - Data-driven Methods
 - CyberInfrastructure development for open and reproducible science
-- Climate effects on geohazards
+- Climate-compounded geohazards
 
 ## Education
 - Ph.D., Stanford University, USA, 2014
