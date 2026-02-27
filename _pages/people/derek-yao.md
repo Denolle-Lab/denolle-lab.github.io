@@ -1,6 +1,6 @@
 ---
 layout: member
-id: yao-derek
+id: derek-yao
 title: "Derek Yao"
 permalink: /people/derek-yao/
 photo: yao_derek.jpg
