@@ -3,7 +3,7 @@ layout: member
 id: alex-rose
 title: "Alex Rose"
 permalink: /people/alex-rose/
-photo: alex_rose.jpg
+photo: alex-rose.jpg
 short_description: "Research Aide - Distributed Acoustic Sensing"
 email: arose17@uw.edu
 github: https://github.com/arose1234

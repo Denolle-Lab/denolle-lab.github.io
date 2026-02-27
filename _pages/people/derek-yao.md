@@ -3,7 +3,7 @@ layout: member
 id: derek-yao
 title: "Derek Yao"
 permalink: /people/derek-yao/
-photo: yao_derek.jpg
+photo: yao-derek.jpg
 short_description: "Undergraduate interested in applying CS to the Geosciences"
 email: yaoderek@uw.edu
 cv: 
