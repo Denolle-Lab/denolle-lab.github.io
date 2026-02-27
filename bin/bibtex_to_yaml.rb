@@ -96,6 +96,32 @@ def format_authors(author_text)
   formatted_authors.join(", ")
 end
 
+def extract_media_links(note_text)
+  return [] if note_text.nil?
+
+  raw = note_text.to_s
+  urls = raw.scan(%r{https?://[^\s\}\],]+}).map { |u| u.gsub(/[\.,;:]+$/, '') }.uniq
+  return [] if urls.empty?
+
+  label = raw.dup
+  label = label.gsub(/\\url\{[^\}]+\}/, '')
+  label = label.gsub(%r{https?://[^\s\}\],]+}, '')
+  label = clean_latex(label).strip
+  label = label.gsub(/\s+/, ' ')
+  label = label.gsub(/[\s,;:.-]+$/, '')
+  label = nil if label.empty?
+
+  urls.each_with_index.map do |url, index|
+    text = if label
+      urls.length > 1 ? "#{label} #{index + 1}" : label
+    else
+      urls.length > 1 ? "Media Coverage #{index + 1}" : "Media Coverage"
+    end
+
+    { 'text' => text, 'url' => url }
+  end
+end
+
 # Parse the BibTeX file
 begin
   bibliography = BibTeX.open(options[:input])
@@ -155,6 +181,19 @@ begin
     # Add DOI/URL
     pub['doi'] = entry.doi.to_s if entry.has_field?('doi')
     pub['url'] = entry.url.to_s if entry.has_field?('url')
+
+    note_value = nil
+    if entry.has_field?('notes')
+      note_value = entry.notes.to_s
+    elsif entry.has_field?('note')
+      note_value = entry.note.to_s
+    end
+
+    media_links = extract_media_links(note_value)
+    unless media_links.empty?
+      pub['press_release'] = media_links
+      pub['media'] = media_links.first['url']
+    end
     
     # Add BibTeX - clean HTML entities in the entry
     bibtex_str = entry.to_s

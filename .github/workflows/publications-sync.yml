@@ -27,7 +27,7 @@ jobs:
           bundler-cache: true
 
       - name: Generate publication YAML from BibTeX
-        run: ruby bin/bibtex_to_yaml.rb -f
+        run: bundle exec ruby bin/bibtex_to_yaml.rb -f
 
       - name: Commit updated publication data
         run: |

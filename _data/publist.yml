@@ -126,6 +126,10 @@
   journal: Seismica, 4(2)
   doi: 10.26443/seismica.v4i2.1738
   url: https://seismica.library.mcgill.ca/article/view/1738
+  press_release:
+  - text: YouTube
+    url: https://youtu.be/Q6Gt0-S_9WA?si=pz6REZqXWsolYXjc
+  media: https://youtu.be/Q6Gt0-S_9WA?si=pz6REZqXWsolYXjc
   bibtex: |
     @article{Ni2025a,
       title = {A Global-scale Database of Seismic Phases from Cloud-based Picking at Petabyte Scale},
@@ -207,6 +211,12 @@
   key: ShiEtAl2025b
   journal: Seismological Research Letters, 96(2A), pp 784--800
   doi: 10.1785/0220240460
+  press_release:
+  - text: UW News 1
+    url: https://www.washington.edu/news/2025/07/24/seismologists-use-fiber-optic-cables-to-study-offshore-faults/
+  - text: UW News 2
+    url: https://phys.org/news/2025-07-ai-fiber-optics-reveal-hidden.html
+  media: https://www.washington.edu/news/2025/07/24/seismologists-use-fiber-optic-cables-to-study-offshore-faults/
   bibtex: |
     @article{ShiEtAl2025b,
       author = {Shi, Q. and Williams, E. F. and Lipovsky, B. P. and Denolle, M. A. and Wilcock, W. S. D. and Kelley, D. S. and Schoedl, K.},
@@ -417,6 +427,12 @@
   key: YuanEtAl2023a
   journal: AGU Advances, 5, pp e2023AV001002
   doi: 10.1029/2023AV001002
+  press_release:
+  - text: UW News , EOS 1
+    url: https://www.washington.edu/news/2024/01/29/qa-how-slow-slip-earthquakes-may-be-driven-by-deep-hydraulic-fracturing/
+  - text: UW News , EOS 2
+    url: https://eos.org/research-spotlights/scientists-model-whats-moving-beneath-earths-surface
+  media: https://www.washington.edu/news/2024/01/29/qa-how-slow-slip-earthquakes-may-be-driven-by-deep-hydraulic-fracturing/
   bibtex: |
     @article{YuanEtAl2023a,
       author = {Yuan, C. and Cochard, T. and Denolle, M. and Gomberg, J. and Wech, A. and Xiao, L. and Weitz, D.},
@@ -545,6 +561,12 @@
   key: OlingerEtAl2023
   journal: AGU Advances, 5, pp e2023AV001023
   doi: 10.1029/2023AV001023
+  press_release:
+  - text: UW News , EOS 1
+    url: https://www.washington.edu/news/2024/02/28/80-mph-speed-record-for-glacier-fracture-helps-reveal-the-physics-of-ice-sheet-collapse/
+  - text: UW News , EOS 2
+    url: https://eos.org/editor-highlights/speed-of-ice-shelf-rifting-controlled-by-ocean-ice-interactions
+  media: https://www.washington.edu/news/2024/02/28/80-mph-speed-record-for-glacier-fracture-helps-reveal-the-physics-of-ice-sheet-collapse/
   bibtex: |
     @article{OlingerEtAl2023,
       author = {Olinger, S. and Lipovsky, B. and Denolle, M.},
@@ -674,6 +696,10 @@
   key: YinEtAl2021
   journal: AGU Advances, 2(3), pp e2021AV000413
   doi: 10.1029/2021AV000413
+  press_release:
+  - text: Editor Highlights
+    url: https://eos.org/editor-highlights/the-highs-and-the-lows-of-megathrust-earthquakes
+  media: https://eos.org/editor-highlights/the-highs-and-the-lows-of-megathrust-earthquakes
   bibtex: |
     @article{YinEtAl2021,
       author = {Yin, J. and Denolle, M. A.},
@@ -802,6 +828,10 @@
   key: DanreEtAl2019
   journal: Geophysical Research Letters, 43(13), pp 7352--7360
   doi: 10.1029/2019GL083093
+  press_release:
+  - text: Harvard Gazette
+    url: https://news.harvard.edu/gazette/story/2019/08/early-seismic-waves-hold-the-clue-to-the-power-of-the-main-temblor/
+  media: https://news.harvard.edu/gazette/story/2019/08/early-seismic-waves-hold-the-clue-to-the-power-of-the-main-temblor/
   bibtex: |
     @article{DanreEtAl2019,
       author = {Danr{\'e}, P. and Yin, J. and Lipovsky, B. and Denolle, M.},
@@ -981,6 +1011,10 @@
   year: '2018'
   key: PerolEtAl2018
   journal: Science Advances, 4(2), pp e1700578
+  press_release:
+  - text: Harvard Gazette
+    url: https://news.harvard.edu/gazette/story/2018/03/researchers-create-algorithm-to-separate-earthquakes-from-seismic-noise/
+  media: https://news.harvard.edu/gazette/story/2018/03/researchers-create-algorithm-to-separate-earthquakes-from-seismic-noise/
   bibtex: |
     @article{PerolEtAl2018,
       author = {Perol, T. and Gharbi, M. and Denolle, M.},
@@ -1150,6 +1184,10 @@
   key: DenolleEtAl2014b
   journal: Science, 343(6169), pp 399--403
   doi: 10.1126/science.1245678
+  press_release:
+  - text: Stanford News
+    url: https://www.youtube.com/watch?v=WTg3GzGCRfA
+  media: https://www.youtube.com/watch?v=WTg3GzGCRfA
   bibtex: |
     @article{DenolleEtAl2014b,
       author = {Denolle, M. and Dunham, E. M. and Prieto, G. A. and Beroza, G. C.},
