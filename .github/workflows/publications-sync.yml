@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   sync-publications:
@@ -29,15 +30,11 @@ jobs:
       - name: Generate publication YAML from BibTeX
         run: bundle exec ruby bin/bibtex_to_yaml.rb -f
 
-      - name: Commit updated publication data
-        run: |
-          if git diff --quiet -- _data/publist.yml; then
-            echo "No publication data changes to commit."
-            exit 0
-          fi
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add _data/publist.yml
-          git commit -m "chore: sync publications data from publications.bib"
-          git push
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "chore: sync publications data from publications.bib"
+          title: "Sync publications data from publications.bib"
+          branch: auto/pub-sync
+          base: gh-pages
+          add-paths: _data/publist.yml
