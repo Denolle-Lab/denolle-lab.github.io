@@ -1,0 +1,43 @@
+name: Sync Publications Data
+
+on:
+  push:
+    paths:
+      - publications.bib
+      - bin/bibtex_to_yaml.rb
+      - bin/update_publications.sh
+      - Gemfile
+      - Gemfile.lock
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-publications:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Generate publication YAML from BibTeX
+        run: ruby bin/bibtex_to_yaml.rb -f
+
+      - name: Commit updated publication data
+        run: |
+          if git diff --quiet -- _data/publist.yml; then
+            echo "No publication data changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/publist.yml
+          git commit -m "chore: sync publications data from publications.bib"
+          git push

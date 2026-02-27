@@ -33,6 +33,23 @@ If the build behaves unexpectedly, clear cached files before rebuilding:
 rm -rf _site .jekyll-cache .sass-cache
 ```
 
+## Publications update workflow
+
+Publications shown on the website are rendered from `_data/publist.yml`, which is generated from `publications.bib`.
+
+- Source of truth: `publications.bib`
+- Generated file: `_data/publist.yml`
+- Converter: `bin/bibtex_to_yaml.rb`
+- GitHub Action: `.github/workflows/publications-sync.yml`
+
+When `publications.bib` changes on GitHub, the workflow automatically regenerates `_data/publist.yml` and commits it to the same branch.
+
+To regenerate locally before pushing:
+
+```bash
+bin/update_publications.sh
+```
+
 
 Go to *aboutwebsite.md*  to learn how to copy and modify this page for your purpose.
 
