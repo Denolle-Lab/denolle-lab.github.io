@@ -41,10 +41,16 @@
 - id: alex-rose
   name: Alex Rose
   role: Research Assistant
-  photo: alex-rose.jpg
+  photo: alex-rose.JPG
   research_areas: offshore, geoscience-ai
 - id: derek-yao
   name: Derek Yao
-  role: Undergraduate Student
-  photo: yao-derek.jpg
+<<<<<<< Updated upstream
+  role: Undergaduate Student
+  photo: yao_derek.jpg
   research_areas: earthquakes, 
+=======
+  role: Undergraduate Student
+  photo: yao_derek.jpg
+  research_areas: earthquakes, geoscience-ai
+>>>>>>> Stashed changes
