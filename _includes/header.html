@@ -1,4 +1,4 @@
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="navbar navbar-default navbar-fixed-top navbar-blur" role="navigation">
   <div class="container-fluid">
 	<div class="navbar-header">
 	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
@@ -40,6 +40,13 @@
 		<li><a href="{{ site.url }}{{ site.baseurl }}/codes">Codes</a></li>
 		<li><a href="{{ site.url }}{{ site.baseurl }}/teaching">Teaching</a></li>
 		<li><a href="{{ site.url }}{{ site.baseurl }}/latest">Latest</a></li>
+	  </ul>
+	  <ul class="nav navbar-nav navbar-right">
+	    <li>
+	      <button class="dark-toggle" onclick="document.documentElement.classList.toggle('dark');localStorage.setItem('theme',document.documentElement.classList.contains('dark')?'dark':'light');" aria-label="Toggle dark mode">
+	        <i class="fas fa-moon"></i>
+	      </button>
+	    </li>
 	  </ul>
 	</div>
   </div>

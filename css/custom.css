@@ -486,3 +486,324 @@ h1, h2, h3, h4, h5, h6 { letter-spacing: -0.015em; }
   list-style-type: none !important;
   margin-left: 0 !important;
 }
+
+/* ============================================================
+   OPTION C — "Dynamic Scholarly"
+   Glassmorphism, animated gradient, dark mode, stats bar
+   ============================================================ */
+
+/* — Light-mode variables ————————————————————— */
+:root {
+  --accent:       #6366f1;
+  --accent-light: #818cf8;
+  --accent-glow:  rgba(99,102,241,0.15);
+  --accent-pink:  #ec4899;
+  --bg:           #ffffff;
+  --bg-subtle:    #f5f5f7;
+  --text-primary: #1a1a2e;
+  --text-secondary: #64748b;
+  --glass-bg:     rgba(255,255,255,0.72);
+  --glass-border: rgba(0,0,0,0.06);
+  --shadow-sm:    0 2px 8px rgba(0,0,0,0.05);
+  --shadow-md:    0 4px 20px rgba(0,0,0,0.08);
+  --radius-md:    14px;
+  --radius-lg:    18px;
+  --nav-bg:       rgba(255,255,255,0.85);
+  --card-bg:      #ffffff;
+}
+
+/* — Dark-mode variables ————————————————————— */
+html.dark {
+  --bg:           #0f172a;
+  --bg-subtle:    #1e293b;
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --glass-bg:     rgba(15,23,42,0.72);
+  --glass-border: rgba(255,255,255,0.08);
+  --shadow-sm:    0 2px 8px rgba(0,0,0,0.25);
+  --shadow-md:    0 4px 20px rgba(0,0,0,0.35);
+  --nav-bg:       rgba(15,23,42,0.85);
+  --card-bg:      #1e293b;
+}
+html.dark body {
+  background: var(--bg);
+  color: var(--text-primary);
+}
+html.dark .container-fluid {
+  background: transparent;
+}
+html.dark .navbar-default {
+  background: var(--nav-bg) !important;
+  border-color: var(--glass-border) !important;
+}
+html.dark .navbar-default .navbar-nav > li > a {
+  color: var(--text-secondary);
+}
+html.dark .navbar-default .navbar-nav > li > a:hover {
+  color: var(--text-primary);
+}
+html.dark .brand-text {
+  color: var(--text-primary);
+}
+html.dark .latest-scroll-container {
+  background: var(--card-bg) !important;
+  box-shadow: var(--shadow-sm);
+}
+html.dark .latest-scroll-title {
+  color: var(--text-primary);
+}
+html.dark .latest-scroll-date {
+  color: var(--text-secondary);
+}
+html.dark .latest-scroll-headline {
+  color: var(--text-primary);
+}
+html.dark .latest-scroll-item {
+  border-bottom-color: var(--glass-border);
+}
+html.dark .preview-card {
+  background: var(--glass-bg) !important;
+  border-color: var(--glass-border) !important;
+}
+html.dark .preview-card h3,
+html.dark .preview-card .blurb {
+  color: var(--text-primary);
+}
+html.dark .cta {
+  border-color: var(--text-secondary) !important;
+  color: var(--text-secondary) !important;
+}
+html.dark .cta:hover {
+  border-color: var(--accent) !important;
+  color: var(--accent) !important;
+}
+html.dark .linkedin-feed-container {
+  background: var(--card-bg);
+}
+html.dark .linkedin-feed-title {
+  color: var(--text-primary);
+}
+html.dark .well {
+  background: var(--bg-subtle);
+  border-color: var(--glass-border);
+  color: var(--text-primary);
+}
+html.dark .stats-bar {
+  border-color: var(--glass-border);
+}
+
+/* — Smooth scroll & base ————————————————————— */
+html { scroll-behavior: smooth; }
+body {
+  font-size: 16.5px;
+  line-height: 1.68;
+  color: var(--text-primary);
+  background: var(--bg);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* — Frosted navbar ——————————————————————————— */
+.navbar-blur {
+  background: var(--nav-bg) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--glass-border) !important;
+  box-shadow: none !important;
+  transition: background 0.3s ease;
+}
+.navbar-default .navbar-nav > li > a {
+  position: relative;
+  transition: color 0.2s ease;
+}
+/* Active nav dot indicator */
+.navbar-default .navbar-nav > .active > a::after {
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* — Dark mode toggle button ————————————————— */
+.dark-toggle {
+  background: none;
+  border: 1px solid var(--text-secondary);
+  color: var(--text-secondary);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.dark-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+html.dark .dark-toggle .fa-moon::before {
+  content: "\f185"; /* sun icon */
+}
+
+/* — Animated gradient headline ——————————————— */
+#homeid h1:first-of-type {
+  font-size: 2.75rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  background: linear-gradient(135deg, var(--accent), var(--accent-pink), var(--accent));
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-shift 6s ease infinite;
+}
+@keyframes gradient-shift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* — Stats bar ——————————————————————————————— */
+.stats-bar {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem 0;
+  margin: 2.5rem 0 1rem;
+  border-top: 1px solid rgba(0,0,0,0.06);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.stat-item {
+  text-align: center;
+}
+.stat-number {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1.1;
+}
+.stat-label {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  margin-top: 4px;
+  display: block;
+}
+@media (max-width: 480px) {
+  .stats-bar { gap: 1.5rem; flex-wrap: wrap; }
+  .stat-number { font-size: 2rem; }
+}
+
+/* — Glassmorphism cards ————————————————————— */
+.preview-card {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--glass-border) !important;
+  border-radius: var(--radius-lg) !important;
+  padding: 1.25rem !important;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.preview-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 36px var(--accent-glow);
+}
+.preview-card img {
+  border-radius: var(--radius-md) !important;
+  height: 130px !important;
+  transition: filter 0.3s ease;
+}
+.preview-card:hover img {
+  filter: brightness(1.05) saturate(1.15);
+}
+
+/* — CTA link styling ————————————————————————— */
+.cta {
+  border-radius: 12px !important;
+  transition: all 0.2s ease;
+}
+.cta:hover {
+  background: var(--accent);
+  border-color: var(--accent) !important;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+/* — Staggered reveal animation —————————————— */
+.reveal-on-scroll > * {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.reveal-on-scroll.revealed > * {
+  opacity: 1;
+  transform: none;
+}
+.reveal-on-scroll.revealed > *:nth-child(1) { transition-delay: 0s; }
+.reveal-on-scroll.revealed > *:nth-child(2) { transition-delay: 0.08s; }
+.reveal-on-scroll.revealed > *:nth-child(3) { transition-delay: 0.16s; }
+.reveal-on-scroll.revealed > *:nth-child(4) { transition-delay: 0.24s; }
+
+/* — Latest sidebar ——————————————————————————— */
+.latest-scroll-container {
+  border-radius: var(--radius-lg) !important;
+  box-shadow: var(--shadow-sm);
+  background: var(--card-bg) !important;
+  transition: background 0.3s ease;
+}
+.latest-scroll-title {
+  font-weight: 700;
+}
+.latest-scroll-item:hover {
+  background-color: var(--bg-subtle) !important;
+}
+
+/* — LinkedIn feed ——————————————————————————— */
+.linkedin-feed-container {
+  margin-top: 1.25rem;
+  padding: 1.25rem;
+  background: var(--glass-bg);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  transition: background 0.3s ease;
+}
+.linkedin-feed-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+.linkedin-feed-title i {
+  color: #0a66c2;
+  margin-right: 6px;
+}
+
+/* — Carousel refinement ——————————————————————— */
+.carousel {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+/* — People hover effect ————————————————————— */
+.team-portrait img,
+.card .rounded-circle {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.team-portrait:hover img,
+.card:hover .rounded-circle {
+  transform: scale(1.06);
+  box-shadow: 0 8px 24px var(--accent-glow);
+}
