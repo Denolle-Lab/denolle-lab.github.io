@@ -50,6 +50,58 @@ unless File.directory?(output_dir)
   FileUtils.mkdir_p(output_dir)
 end
 
+# Auto-tag a BibTeX entry by matching title + abstract against keyword lists
+def auto_tag(entry)
+  parts = [entry.title.to_s]
+  parts << entry.abstract.to_s if entry.has_field?('abstract')
+  parts << entry.abstractnote.to_s if entry.has_field?('abstractnote')
+  text = parts.join(' ').downcase
+
+  area_keywords = {
+    'environment' => [
+      'groundwater', 'hydro', 'soil', 'moisture', 'ambient noise seismol', 'dvv', 'dv/v',
+      'seismic velocity change', 'water table', 'drought', 'flood', 'critical zone',
+      'hydrodynamic', 'hydromechanical', 'agroseismology', 'farming', 'tillage',
+      'evapotranspiration', 'soil stiffness', 'environmental', 'mount st. helens',
+      'mount rainier', 'volcano', 'coda', 'rain', 'precipitation'
+    ],
+    'earthquakes' => [
+      'earthquake', 'rupture', 'megathrust', 'fault slip', 'seismic source',
+      'backprojection', 'source time function', 'tremor', 'slow slip',
+      'ground motion', 'basin amplification', 'site amplification',
+      'shaking', 'virtual earthquake', 'strong motion',
+      'seismic anisotropy', 'sedimentary basin', 'parkfield', 'alpine fault',
+      'subduction', 'seismic hazard', 'gorkha', 'illapel', 'thrust',
+      'seismic radiation', 'protothrust', 'hydraulic fractur',
+      'hydrofracture', 'ice shelf', 'rift', 'fracture', 'crack'
+    ],
+    'offshore' => [
+      'offshore', 'submarine', 'ocean bottom', 'obs', 'seafloor',
+      'das offshore', 'underwater cable', 'fiber optic',
+      'ocean observator', 'cascadia seafloor', 'muxdas',
+      'multiplexed distributed acoustic sensing offshore',
+      'deepsub', 'ocean coupling'
+    ],
+    'geoscience-ai' => [
+      'machine learning', 'deep learning', 'neural network',
+      'convolutional', 'cnn', 'random forest', 'ensemble learning',
+      'phase pick', 'earthquake detect', 'classification',
+      'discriminat', 'auto-encoder', 'autoencoder', 'denois',
+      'cloud comput', 'object storage', 'seisbench',
+      'ai-ready', 'wavefield reconstruction', 'edge computing',
+      'common task framework'
+    ]
+  }
+
+  tags = []
+  area_keywords.each do |area, keywords|
+    if keywords.any? { |kw| text.include?(kw) }
+      tags << area
+    end
+  end
+  tags
+end
+
 # Helper function to clean LaTeX commands
 def clean_latex(text)
   return "" if text.nil?
@@ -212,6 +264,11 @@ begin
     else
       pub['tags'] = []
     end
+
+    # Auto-tag by matching title and abstract against research area keywords
+    if pub['tags'].empty?
+      pub['tags'] = auto_tag(entry)
+    end
     
     publications << pub
   end
@@ -259,8 +316,31 @@ begin
     file.write(publications.to_yaml)
   end
   
-  puts "Successfully converted #{publications.size} BibTeX entries to YAML."
+  tagged_count = publications.count { |p| p['tags'] && p['tags'].size > 0 }
+  puts "Successfully converted #{publications.size} BibTeX entries to YAML (#{tagged_count} auto-tagged)."
   puts "Output written to #{options[:output]}"
+
+  # Generate latest_pubs.yml from 5 most recent publications
+  latest_pubs = publications.select { |p| p['doi'] && !p['doi'].empty? && p['year'].to_i > 0 }
+                            .first(5)
+                            .map do |p|
+    month = p['month'] || ''
+    date_str = month.empty? ? p['year'] : "#{month.capitalize}, #{p['year']}"
+    title = p['title']
+    headline = "New paper: #{title.length > 80 ? title[0..77] + '...' : title}"
+    {
+      'date' => date_str,
+      'headline' => headline,
+      'type' => 'publication',
+      'link' => "https://doi.org/#{p['doi']}"
+    }
+  end
+
+  latest_path = File.join(File.dirname(options[:output]), 'latest_pubs.yml')
+  File.open(latest_path, 'w') do |file|
+    file.write(latest_pubs.to_yaml)
+  end
+  puts "Generated #{latest_pubs.size} latest publication entries → #{latest_path}"
 rescue => e
   puts "Error processing BibTeX: #{e.message}"
   puts e.backtrace.join("\n")

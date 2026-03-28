@@ -3,7 +3,19 @@
   
   <div class="latest-scroll-wrapper">
     <div class="latest-scroll">
-      {% for item in site.data.latest limit:3 %}
+      {% comment %} Show curated news first, then auto-generated from recent pubs {% endcomment %}
+      {% assign curated = site.data.latest %}
+      {% assign auto_pubs = site.data.latest_pubs %}
+      {% assign combined = "" | split: "" %}
+      {% for item in curated %}
+        {% assign combined = combined | push: item %}
+      {% endfor %}
+      {% if auto_pubs %}
+        {% for item in auto_pubs %}
+          {% assign combined = combined | push: item %}
+        {% endfor %}
+      {% endif %}
+      {% for item in combined limit:6 %}
         <div class="latest-scroll-item">
           <div class="latest-scroll-date">{{ item.date }}</div>
           <div class="latest-scroll-headline">{{ item.headline }}</div>
