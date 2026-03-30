@@ -3,7 +3,7 @@ layout: member
 id: alex-rose
 title: "Alex Rose"
 permalink: /people/alex-rose/
-photo: alex-rose.jpg
+photo: alex-rose.JPG
 short_description: "Research Aide - Distributed Acoustic Sensing"
 email: arose17@uw.edu
 github: https://github.com/arose1234
@@ -17,7 +17,7 @@ linkedin: https://www.linkedin.com/in/alex-rose-722a0230a/
 <div>
 <h2 style="margin-bottom:0.5rem;">{{ page.title }}</h2>
 <span style="font-size:1.1rem; color:#555;">{{ page.short_description }}</span><br>
-<span style="font-size:1rem; color:#888;">Associate Professor</span>
+<span style="font-size:1rem; color:#888;">Research Aide</span>
 <div style="margin-top:1rem;">
 {% if page.website %}<a href="{{ page.website }}" target="_blank" title="Website">🌐</a>{% endif %}
 {% if page.scholar %}<a href="{{ page.scholar }}" target="_blank" title="Google Scholar">{{ site.scholar_icon | raw }}</a>{% endif %}
@@ -44,5 +44,5 @@ I am a Research Aide in the Quake Lab focusing on developing a method to detect,
 - B.S, Earth and Space Sciences (Geology) and Oceanography - University of Washington, 2025
 
 ## About Fun
-- In my free time I love playing tennis and swimming.
+- In my free time I love playing tennis and swimming.  
 ---
