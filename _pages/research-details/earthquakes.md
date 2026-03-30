@@ -36,27 +36,12 @@ Our work with earthquakes provides insights into larger tectonic processes. By m
 ## Key Papers
 
 {% assign papers = site.data.publist | where: "tags", "earthquakes" %}
-<div class="publications">
+<ul>
 {% for paper in papers %}
-<div class="pub-item">
-  <div class="pub-title">{{ paper.title }}</div>
-  <div class="pub-authors">{{ paper.authors }}</div>
-  <div class="pub-journal">{{ paper.journal }}</div>
-  <div class="pub-links">
-    {% if paper.url %}<a href="{{ paper.url }}" target="_blank">Paper</a>{% endif %}
-    {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}" target="_blank">DOI</a>{% endif %}
-    {% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank">PDF</a>{% endif %}
-    {% if paper.code %}<a href="{{ paper.code }}" target="_blank">Code</a>{% endif %}
-    {% if paper.bibtex %}<button class="bibtex-btn" onclick="toggleBibtex('{{ paper.id }}')">BibTeX</button>{% endif %}
-  </div>
-  {% if paper.bibtex %}
-  <div class="bibtex-container" id="bibtex-{{ paper.id }}" style="display: none;">
-    <pre>{{ paper.bibtex }}</pre>
-  </div>
-  {% endif %}
-</div>
+  {% assign first_author = paper.authors | split: "," | first | strip %}
+  <li><a href="{{ paper.url }}" target="_blank">{{ first_author }} et al., ({{ paper.year }})</a></li>
 {% endfor %}
-</div>
+</ul>
 
 ## Related Datasets and Tools
 
