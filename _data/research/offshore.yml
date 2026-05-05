@@ -6,7 +6,7 @@ summary: >
   Distributed Acoustic Sensing (DAS), and other marine geophysical instrumentation to study 
   offshore earthquakes, aseismic deformation, and submarine hazards.
 featured: true
-order: 30
+order: 25
 image: /images/researchpic/offshore-sensing-baner.png
 tags: [offshore, marine-geophysics, OBS, DAS, subduction, hazards]
 links:

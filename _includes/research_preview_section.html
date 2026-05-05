@@ -10,9 +10,9 @@ Uses existing _data/research/*.yml files.
 {% endfor %}
 {% assign featured = areas | where: "featured", true | sort: "order" %}
 {% if featured.size == 0 %}
-  {% assign featured = areas | sort: "order" | slice: 0,3 %}
+  {% assign featured = areas | sort: "order" | slice: 0,4 %}
 {% else %}
-  {% assign featured = featured | slice: 0,3 %}
+  {% assign featured = featured | slice: 0,4 %}
 {% endif %}
 
 <section class="research-preview reveal-on-scroll" id="research-preview">
@@ -43,7 +43,7 @@ Uses existing _data/research/*.yml files.
 <style>
 .research-preview { margin: 2rem 0; }
 .rp-title { margin: 0 0 .75rem; }
-.preview-grid { display:grid; gap:1.25rem; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); }
+.preview-grid { display:grid; gap:1.25rem; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); }
 .preview-card { border:1px solid #eee; border-radius:14px; padding:1rem; background:#fff; }
 .preview-card img { width:100%; height:100px; object-fit:cover; border-radius:10px; margin-bottom:.5rem; }
 .preview-card h3 { margin:.25rem 0 .35rem; }

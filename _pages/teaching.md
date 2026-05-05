@@ -14,8 +14,9 @@ permalink: /teaching
 
 - **ESS 412/512: Seismology**
     - Yearly, Winter quarter
+    - [Interactive JupyterBook](https://uw-geophysics-edu.github.io/ess-412-512-intro2seismology/) ← start here
     - [GitHub](https://github.com/UW-geophysics-edu/ess-412-512-intro2seismology)  
-    - [Course Page](./ess_412.md)  
+    - [Course Page](/teaching/ess412/)
 
  ESS 412/512 a foundational seismology course that teaches the fundamental principles of wave propagation and their applications to Earth imaging and earthquake phenomenology. Students learn elastic wave theory, ray tracing, body and surface waves, and how seismic waves are used to understand Earth's structure and earthquake processes. The course combines theoretical derivations with hands-on Python exercises using real seismic data, covering topics including stress-strain relationships, travel time analysis, global seismic phases, surface wave dispersion, and ambient noise methods.
 
@@ -26,8 +27,10 @@ Graduate students (ESS 512) complete additional exercises requiring deeper mathe
     - [Book](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html)
 
 - **ESS 314: Geophysics**
-    - [GitHub](https://github.com/UW-geophysics-edu/ESS314-fall23)
-    - Fall quarter
+    - Spring quarter
+    - [Interactive JupyterBook](https://uw-geophysics-edu.github.io/ess314/) ← start here
+    - [GitHub](https://github.com/UW-geophysics-edu/ess314)
+    - [Course Page](/teaching/ess314/)
 
 - **ESS 563: Advanced Seismology**
 

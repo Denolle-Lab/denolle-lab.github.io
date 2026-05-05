@@ -30,7 +30,8 @@ module Jekyll
       end
       
       # Sort entries by year and month (descending)
-      entries = bibliography.entries.sort_by do |e|
+      all_entries = bibliography.data.select { |e| e.is_a?(BibTeX::Entry) }
+      entries = all_entries.sort_by do |e|
         # Primary sort by year (descending)
         year = e.year ? e.year.to_i : 0
         
@@ -140,6 +141,11 @@ module Jekyll
         else
           pub['tags'] = []
         end
+
+        # Auto-tag by matching title and abstract against research area keywords
+        if pub['tags'].empty?
+          pub['tags'] = auto_tag(entry)
+        end
         
         # Add the entry to our publications list
         publications << pub
@@ -147,9 +153,78 @@ module Jekyll
       
       # Add the publications to the site data
       site.data['publist'] = publications
+
+      # Auto-generate latest publication entries for the sidebar
+      # Takes the 5 most recent papers with a DOI and year
+      latest_pubs = publications.select { |p| p['doi'] && !p['doi'].empty? && p['year'].to_i > 0 }
+                                .first(5)
+                                .map do |p|
+        month = p['month'] || ''
+        date_str = month.empty? ? p['year'] : "#{month.capitalize}, #{p['year']}"
+        {
+          'date' => date_str,
+          'headline' => "New paper: #{p['title'].length > 80 ? p['title'][0..77] + '...' : p['title']}",
+          'type' => 'publication',
+          'link' => p['doi'] ? "https://doi.org/#{p['doi']}" : p['url']
+        }
+      end
+      site.data['latest_pubs'] = latest_pubs
     end
     
     private
+
+    # Auto-tag a BibTeX entry by matching title + abstract against keyword lists
+    # for each research area. Returns an array of matching area keys.
+    def auto_tag(entry)
+      parts = [entry.title.to_s]
+      parts << entry.abstract.to_s if entry.has_field?('abstract')
+      parts << entry.abstractnote.to_s if entry.has_field?('abstractnote')
+      text = parts.join(' ').downcase
+
+      area_keywords = {
+        'environment' => [
+          'groundwater', 'hydro', 'soil', 'moisture', 'ambient noise seismol', 'dvv', 'dv/v',
+          'seismic velocity change', 'water table', 'drought', 'flood', 'critical zone',
+          'hydrodynamic', 'hydromechanical', 'agroseismology', 'farming', 'tillage',
+          'evapotranspiration', 'soil stiffness', 'environmental', 'mount st. helens',
+          'mount rainier', 'volcano', 'coda', 'rain', 'precipitation'
+        ],
+        'earthquakes' => [
+          'earthquake', 'rupture', 'megathrust', 'fault slip', 'seismic source',
+          'backprojection', 'source time function', 'tremor', 'slow slip',
+          'ground motion', 'basin amplification', 'site amplification',
+          'shaking', 'virtual earthquake', 'strong motion',
+          'seismic anisotropy', 'sedimentary basin', 'parkfield', 'alpine fault',
+          'subduction', 'seismic hazard', 'gorkha', 'illapel', 'thrust',
+          'seismic radiation', 'protothrust', 'hydraulic fractur',
+          'hydrofracture', 'ice shelf', 'rift', 'fracture', 'crack'
+        ],
+        'offshore' => [
+          'offshore', 'submarine', 'ocean bottom', 'obs', 'seafloor',
+          'das offshore', 'underwater cable', 'fiber optic',
+          'ocean observator', 'cascadia seafloor', 'muxdas',
+          'multiplexed distributed acoustic sensing offshore',
+          'deepsub', 'ocean coupling'
+        ],
+        'geoscience-ai' => [
+          'machine learning', 'deep learning', 'neural network',
+          'convolutional', 'cnn', 'random forest', 'ensemble learning',
+          'phase pick', 'earthquake detect', 'classification',
+          'discriminat', 'auto-encoder', 'autoencoder', 'denois',
+          'cloud comput', 'object storage', 'seisbench',
+          'ai-ready', 'wavefield reconstruction', 'edge computing',
+          'common task framework'
+        ]
+      }
+
+      tags = []
+      area_keywords.each do |area, keywords|
+        if keywords.any? { |kw| text.include?(kw) }
+          tags << area
+        end
+      end
+      tags
+    end
     
     def clean_latex(text)
       return "" if text.nil?
