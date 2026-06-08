@@ -6,7 +6,7 @@ permalink: /people/marine-denolle/
 photo: marine-denolle.jpg
 short_description: "Professor - At the intersection of Geophysics, Geohazards, Climate, and AI"
 email: mdenolle@uw.edu
-cv: https://github.com/mdenolle/marine-cv-docs/rendercv_output/Marine_Denolle_CV.pdf
+cv: https://raw.githubusercontent.com/mdenolle/marine-cv/main/marine-cv-docs/rendercv_output/Marine_Denolle_CV.pdf
 website: https://denolle-lab.github.io
 scholar: https://scholar.google.com/citations?user=GR8BOxsAAAAJ&hl=en
 orcid: https://orcid.org/0000-0002-1610-2250

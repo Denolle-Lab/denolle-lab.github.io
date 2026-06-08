@@ -9,26 +9,36 @@
 #   tags         — list of topic tags (mirrors frontmatter in the skill file)
 #   status       — active | draft | deprecated
 
-- id: ambient-noise-xcorr-agent
+
+
+- id: review-agent
   title: "Ambient Noise Cross-Correlation Agent"
   category: ai-tools
   description: "AI/Copilot agent for designing, executing, and interpreting ambient seismic noise cross-correlation workflows — from waveform download through dispersion measurement."
   github_url: https://github.com/Denolle-Lab/lab-skills/blob/main/ai-tools/ambient-noise-xcorr-agent.md
   tags: [ambient-noise, cross-correlation, surface-waves, NoisePy, Copilot]
   status: active
+# # 
+# - id: ambient-noise-xcorr-agent
+#   title: "Ambient Noise Cross-Correlation Agent"
+#   category: ai-tools
+#   description: "AI/Copilot agent for designing, executing, and interpreting ambient seismic noise cross-correlation workflows — from waveform download through dispersion measurement."
+#   github_url: https://github.com/Denolle-Lab/lab-skills/blob/main/ai-tools/ambient-noise-xcorr-agent.md
+#   tags: [ambient-noise, cross-correlation, surface-waves, NoisePy, Copilot]
+#   status: active
 
-- id: ambient-noise-xcorr
-  title: "Ambient Noise Cross-Correlation: Standard Lab Workflow"
-  category: research-methods
-  description: "Step-by-step protocol for computing ambient seismic noise cross-correlation functions from continuous waveform data, including pre-processing choices, stacking, QC, and dispersion measurement."
-  github_url: https://github.com/Denolle-Lab/lab-skills/blob/main/research-methods/ambient-noise-xcorr.md
-  tags: [ambient-noise, cross-correlation, surface-waves, NoisePy, SeisNoise]
-  status: active
+# - id: ambient-noise-xcorr
+#   title: "Ambient Noise Cross-Correlation: Standard Lab Workflow"
+#   category: research-methods
+#   description: "Step-by-step protocol for computing ambient seismic noise cross-correlation functions from continuous waveform data, including pre-processing choices, stacking, QC, and dispersion measurement."
+#   github_url: https://github.com/Denolle-Lab/lab-skills/blob/main/research-methods/ambient-noise-xcorr.md
+#   tags: [ambient-noise, cross-correlation, surface-waves, NoisePy, SeisNoise]
+#   status: active
 
-- id: seismic-data-download
-  title: "Seismic Waveform Download and Archive: FDSN Workflow"
-  category: data-analysis
-  description: "Standard workflow for bulk-downloading continuous seismic waveforms and station metadata from FDSN web services (IRIS, NCEDC, SCEDC) and archiving to local storage or AWS S3."
-  github_url: https://github.com/Denolle-Lab/lab-skills/blob/main/data-analysis/seismic-data-download.md
-  tags: [data-download, FDSN, ObsPy, miniSEED, AWS-S3]
-  status: active
+# - id: seismic-data-download
+#   title: "Seismic Waveform Download and Archive: FDSN Workflow"
+#   category: data-analysis
+#   description: "Standard workflow for bulk-downloading continuous seismic waveforms and station metadata from FDSN web services (IRIS, NCEDC, SCEDC) and archiving to local storage or AWS S3."
+#   github_url: https://github.com/Denolle-Lab/lab-skills/blob/main/data-analysis/seismic-data-download.md
+#   tags: [data-download, FDSN, ObsPy, miniSEED, AWS-S3]
+#   status: active
