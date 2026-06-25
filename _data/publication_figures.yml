@@ -1,0 +1,31 @@
+- image: /images/pubfigures/shi-2026-agroseismology-soils.png
+  alt: "Side-by-side conceptual diagram comparing water flow through natural soil and disturbed soil."
+  caption: "Conceptual porous model comparing natural soil drainage with disturbed soil surface ponding and enhanced evaporation."
+  figure: "Fig. 4"
+  publication: "Agroseismology and the impact of farming practices on soil hydrodynamics"
+  published: 2026-03-19
+  source_url: https://www.science.org/doi/10.1126/science.aec0970
+
+- image: /images/pubfigures/kidiwela-2026-cascadia-subduction.png
+  alt: "Map and block diagram of the Cascadia subduction zone showing offshore cables, plate locking, slab depth, faults, and tremor contours."
+  caption: "Map and schematic of the Cascadia subduction-zone system, including offshore observatory cables and plate-locking structure."
+  figure: "Fig. 1"
+  publication: "Active protothrusts and fluid highways: Seismic noise reveals hidden subduction dynamics in Cascadia"
+  published: 2026-02-27
+  source_url: https://www.science.org/doi/10.1126/sciadv.aea3684
+
+- image: /images/pubfigures/kharita-2026-pnw-events.png
+  alt: "Pacific Northwest map of earthquakes, explosions, surface event stations, and Cascade volcanoes."
+  caption: "Curated Pacific Northwest seismic-event catalog used for multi-class event discrimination."
+  figure: "Fig. 1"
+  publication: "Exploration of Machine Learning Methods to Seismic Event Discrimination in the Pacific Northwest"
+  published: 2026-02-26
+  source_url: https://seismica.library.mcgill.ca/article/view/2068
+
+- image: /images/pubfigures/ni-2025-global-phase-picks.png
+  alt: "World map and United States insets showing seismic station data availability in station-years."
+  caption: "Global station data availability used for petabyte-scale cloud phase picking."
+  figure: "Fig. 1"
+  publication: "A Global-scale Database of Seismic Phases from Cloud-based Picking at Petabyte Scale"
+  published: 2025-09-06
+  source_url: https://seismica.library.mcgill.ca/article/view/1738

@@ -797,6 +797,101 @@ html.dark .dark-toggle .fa-moon::before {
   box-shadow: var(--shadow-md);
 }
 
+.publication-carousel {
+  background: #fff;
+}
+
+.publication-carousel .carousel-inner {
+  background: #fff;
+}
+
+.publication-slide {
+  margin: 0;
+}
+
+.publication-figure-frame {
+  height: 420px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f8fa;
+}
+
+.publication-figure-frame img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: 0;
+  border-radius: 4px;
+}
+
+.publication-slide figcaption,
+.publication-caption {
+  margin: 0;
+  padding: 12px 16px 16px;
+  text-align: left;
+  color: var(--text-primary);
+  background: #fff;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.publication-caption-text,
+.publication-caption-source {
+  display: block;
+}
+
+.publication-caption-source {
+  margin-top: 4px;
+  color: var(--text-secondary);
+  font-size: 0.86rem;
+  font-style: italic;
+}
+
+.publication-carousel .carousel-indicators {
+  bottom: 96px;
+}
+
+.publication-carousel .carousel-indicators li {
+  border-color: #333;
+  background: rgba(255,255,255,0.75);
+}
+
+.publication-carousel .carousel-indicators .active {
+  background: #333;
+}
+
+.publication-carousel .carousel-control {
+  background-image: none;
+  color: #222;
+  text-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .publication-figure-frame {
+    height: 300px;
+    padding: 10px;
+  }
+
+  .publication-carousel .carousel-indicators {
+    bottom: 116px;
+  }
+}
+
+html.dark .publication-carousel,
+html.dark .publication-carousel .carousel-inner,
+html.dark .publication-slide figcaption,
+html.dark .publication-caption {
+  background: var(--card-bg);
+}
+
+html.dark .publication-figure-frame {
+  background: var(--bg-subtle);
+}
+
 /* — People hover effect ————————————————————— */
 .team-portrait img,
 .card .rounded-circle {

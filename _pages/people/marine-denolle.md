@@ -7,7 +7,7 @@ photo: marine-denolle.jpg
 short_description: "Professor - At the intersection of Geophysics, Geohazards, Climate, and AI"
 email: mdenolle@uw.edu
 cv: https://raw.githubusercontent.com/mdenolle/marine-cv/main/marine-cv-docs/rendercv_output/Marine_Denolle_CV.pdf
-website: https://denolle-lab.github.io
+website: https://gaia-hazlab.io
 scholar: https://scholar.google.com/citations?user=GR8BOxsAAAAJ&hl=en
 orcid: https://orcid.org/0000-0002-1610-2250
 github: https://github.com/mdenolle
@@ -59,6 +59,7 @@ At the core of my work is a belief that science must serve people. I lead collab
 
 ## More Links
 - [ESS Profile](https://ess.uw.edu/people/marine-denolle/)
+- [Gaia HazLab](https://gaia-hazlab.io/)
 - [GP Youtube](https://www.youtube.com/@uwgeophysics6888)
 - [SCOPED Youtube](https://www.youtube.com/@scoped6259)
 - [CS4Env](https://cs4env.uw.edu/)
