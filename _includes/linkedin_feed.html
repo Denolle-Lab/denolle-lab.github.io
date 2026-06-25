@@ -1,11 +1,24 @@
 <div class="linkedin-feed-container">
   <h4 class="linkedin-feed-title"><i class="fab fa-linkedin"></i> Lab Activity</h4>
-  <!-- Replace data-embed-id with your SociableKIT embed ID -->
-  <!-- Sign up at sociablekit.com → Create "LinkedIn Profile Posts" widget -->
-  <!-- Enter: https://www.linkedin.com/in/marine-denolle-b528144b/ -->
-  <div class="sk-ww-linkedin-profile-post" data-embed-id="REPLACE_WITH_YOUR_EMBED_ID"></div>
-  <script src="https://widgets.sociablekit.com/linkedin-profile-posts/widget.js" async defer></script>
-  <noscript>
-    <p><a href="https://www.linkedin.com/in/marine-denolle-b528144b/" target="_blank">Follow us on LinkedIn</a></p>
-  </noscript>
+  {% assign linkedin_activity = site.data.linkedin_activity | first %}
+  {% if linkedin_activity %}
+  <article class="linkedin-activity-card">
+    <div class="linkedin-activity-meta">
+      <span>{{ linkedin_activity.date }}</span>
+      <span>{{ linkedin_activity.relation }}</span>
+    </div>
+    <h5 class="linkedin-activity-headline">{{ linkedin_activity.headline }}</h5>
+    <p class="linkedin-activity-summary">{{ linkedin_activity.summary }}</p>
+    <div class="linkedin-activity-links">
+      <a href="{{ linkedin_activity.url }}" target="_blank" rel="noopener" class="btn btn-sm btn-primary">
+        <i class="fab fa-linkedin"></i> {{ linkedin_activity.call_to_action | default: "Open LinkedIn activity" }}
+      </a>
+      {% if linkedin_activity.profile_url %}
+      <a href="{{ linkedin_activity.profile_url }}" target="_blank" rel="noopener" class="linkedin-profile-link">Profile</a>
+      {% endif %}
+    </div>
+  </article>
+  {% else %}
+  <p><a href="https://www.linkedin.com/in/marine-denolle-b528144b/recent-activity/all/" target="_blank" rel="noopener">Open Marine Denolle's LinkedIn activity</a></p>
+  {% endif %}
 </div>

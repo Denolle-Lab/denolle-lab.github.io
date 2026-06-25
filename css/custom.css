@@ -790,6 +790,52 @@ html.dark .dark-toggle .fa-moon::before {
   margin-right: 6px;
 }
 
+.linkedin-activity-card {
+  padding-top: 2px;
+}
+
+.linkedin-activity-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.linkedin-activity-meta span + span {
+  padding-left: 8px;
+  border-left: 1px solid var(--glass-border);
+}
+
+.linkedin-activity-headline {
+  margin: 0 0 8px;
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.linkedin-activity-summary {
+  margin-bottom: 12px;
+  color: var(--text-primary);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.linkedin-activity-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.linkedin-profile-link {
+  font-size: 0.88rem;
+}
+
 /* — Carousel refinement ——————————————————————— */
 .carousel {
   border-radius: var(--radius-lg);
