@@ -36,3 +36,16 @@ Graduate students (ESS 512) complete additional exercises requiring deeper mathe
 
 This graduate course explores seismic wave propagation, earthquake source mechanics, and state‑of‑the‑art computational seismology. Over ten weeks, students build on the foundations of Quantitative Seismology (Aki & Richards) and Source Mechanisms of Earthquakes (Udías et al.), then apply advanced methods from Computational Seismology (Igel) and seismo‑live notebooks. Weekly theoretical lectures are paired with practical sessions using Python/ObsPy, FDSN web services, finite‑difference and spectral‑element modeling (SPECFEM3D/sem3D), and Instaseis for global synthetic seismograms. Case studies of recent large earthquakes and slow‑slip events connect the mathematics to real data. Students gain a rigorous understanding of continuum mechanics, wave propagation and reflection, moment tensors, dynamic rupture, and full‑waveform inversion while developing hands‑on skills for analyzing seismic observations.
 - [Course Page](./ess_563.md)
+
+# Research Group Seminars
+
+- **MetaScience, Scientific Inquiry, and Agents**
+    - Fall 2026, Tuesdays 1-2 PM
+    - [Interactive Quarto Book](https://denolle-lab.github.io/metascience-and-AI/) ← start here
+    - [GitHub](https://github.com/Denolle-Lab/metascience-and-AI)
+
+A thirteen-week reading seminar for the research group. Each meeting pairs two papers that stand in a specific relation to one another: an argument against its counterpoint, a discovery claim against the diagnostic scrutiny that followed it, a new sensing capability against the calibration work that made it trustworthy. The readings run from Platt's strong inference and Cleland's account of historical science, through Cascadia paleoseismology, plate tectonics, and distributed acoustic sensing, to the scientometrics of novelty and disruption. The question underneath is what any of it implies for building and evaluating agents for science.
+
+One session takes up scientific polymathy and treats it as a proposal to test rather than a premise: that agents let a researcher work competently across more fields than before. The quarter closes by specifying an agent architecture together with the evaluation that would show whether it worked, on the view that a capability proposed without the evidence that would check it is not yet a design.
+
+Readings, rubrics, and meeting notes are public, and the group adds to them as the quarter goes.
