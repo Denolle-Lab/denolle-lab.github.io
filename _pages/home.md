@@ -50,6 +50,15 @@ We aim to transform our understanding of geohazards by combining big data, advan
 
 
 Central to our mission is the development of low-compute, massively scalable, fully reproducible research workflows that facilitate seamless collaboration across scientific domains. Our most active group development now lives at **[Gaia HazLab](https://gaia-hazlab.io)**, with open code and workflows shared through the **[Denolle Lab GitHub](https://github.com/Denolle-Lab)**. We are committed to fostering a culture of continuous learning and innovation, empowering our members to embrace modern technologies and AI-aided software practices. 
+
+Our newest directions push into **agentic scientific research** and **physics-grounded digital twins**:
+
+* **Climate-compounded geohazards** — through [Gaia HazLab](https://github.com/gaia-hazlab) we pursue multi-modal data assimilation and foundation models across modalities to understand the hydromechanical changes in the subsurface driven by fluid migration, and the coupled tectonic–volcanic–hydrological hazards that follow.
+* **Agentic pipelines for science** — [AgentSeismo](https://github.com/mdenolle), the [Gaia multi-agent system](https://github.com/gaia-hazlab/gaia-agentic-ai), and [FrugalMind](https://github.com/mdenolle) for rigorously evaluating agents against real geoscientific data.
+* **Digital twins & surrogate models** — built where communities need them most, anchored to ground-truth and derived data products across scales, and grounded in the physics they are meant to emulate.
+
+**On software.** Open-source science has always been at the core of what we do — our tools and workflows live openly on the **[Denolle Lab GitHub](https://github.com/Denolle-Lab)** and **[Gaia HazLab](https://github.com/gaia-hazlab)**. What is changing is *how* we build: increasingly with agents in the loop, and always with an emphasis on **personalization** and **reproducibility** — software that adapts to a scientist's workflow and yields the same answer every time. A good example is **[CodaMeter](https://denolle-lab.github.io/codameter/)** ([code](https://github.com/Denolle-Lab/codameter)), where we are transforming operational seismology into reproducible, shareable practice.
+
 <!-- We  contribute to open curriculum (e.g., [Machine Learning in the Geosciences](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html)) and **[UW Geophysics YouTube Channel](https://www.youtube.com/@uwgeophysics6888)** and the **[SCOPED YouTube Channel](https://www.youtube.com/@scoped6259)**.  -->
 
 <!-- Through our collective efforts, we envision a future where the fusion of data-driven insights and interdisciplinary collaboration leads to more resilient communities and a sustainable planet. Join us as we embark on this journey to shape the future of geohazard research and its societal relevance. -->
