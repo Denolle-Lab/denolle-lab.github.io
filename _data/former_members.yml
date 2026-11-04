@@ -1,0 +1,222 @@
+# Former group members, rendered on /alumni/.
+# group: postdocs | graduate | undergraduate | affiliated   (controls the section)
+# years: as recorded; an open-ended "2023–" means the end date is not on file.
+# page: an internal profile page kept from their time in the group (optional).
+# Consolidates the legacy _data/alumni_members.yml, postdocs.yml, othergrads.yml, undergrads.yml.
+
+# ---- Postdoctoral researchers ----
+- name: Kuan-Fu Feng
+  group: postdocs
+  role: Postdoctoral Researcher
+  years: "2023–2024"
+  research: Ambient noise seismology, environmental seismology
+  degree: Ph.D., National Taiwan University, 2022
+  photo: pic_KFF.png
+  website: https://kuanfufeng.github.io/
+  github: https://github.com/kuanfufeng
+- name: Ethan Williams
+  group: postdocs
+  role: Postdoctoral Researcher
+  years: "2023–2025"
+  research: Seismology, fiber-optic sensing, oceanography
+  degree: Ph.D., Caltech, 2022
+  photo: ethan.jpg
+  website: https://ethanfwilliams.github.io
+  github: https://github.com/ethanfwilliams
+- name: Qibin Shi
+  group: postdocs
+  role: Postdoctoral Researcher
+  years: "2022–2025"
+  research: Earthquake physics, waveform machine learning
+  degree: Ph.D., Earth Observatory of Singapore
+  photo: qibin.JPG
+  github: https://github.com/qibinshi
+- name: Stephanie Olinger
+  group: postdocs
+  role: Postdoctoral Researcher
+  years: "2023"
+  research: Distributed acoustic sensing, Julia computing, ambient noise monitoring
+  degree: Ph.D., Harvard University, 2023 (in the group, 2019–2023)
+  now: Thompson Postdoctoral Fellow, Stanford University
+  photo: olinger_pic.png
+  github: https://github.com/stepholinger
+- name: Laura Ermert
+  group: postdocs
+  role: Postdoctoral Researcher
+  years: "2020–2022"
+  research: Ambient noise seismology, environmental seismology, basin subsidence in Mexico City
+  degree: Ph.D., ETH Zürich
+  now: ETH Zürich
+  photo: ermert_pic.jpeg
+- name: Kurama Okubo
+  group: postdocs
+  role: Postdoctoral Researcher
+  years: "2019–2020"
+  research: Ambient noise monitoring of Parkfield, Julia in seismology, computational seismology
+  degree: Doctorate, ENS and IPGP, Paris
+  now: Researcher, NIED, Japan
+  photo: littlequake.png
+- name: Xiaotao Yang
+  group: postdocs
+  role: Postdoctoral Researcher
+  years: "2019–2020"
+  research: Ambient noise cross-correlation of Cascadia data
+  degree: Ph.D., Indiana University
+  now: Faculty, Purdue University
+  photo: littlequake.png
+- name: Zhitu Ma
+  group: postdocs
+  role: Postdoctoral Researcher
+  years: "2019"
+  research: Julia seismology, offshore ambient noise cross-correlations
+  degree: Ph.D., Scripps Institution of Oceanography, UC San Diego
+  now: Tongji University, China
+  photo: littlequake.png
+- name: Chengxin Jiang
+  group: postdocs
+  role: Postdoctoral Researcher
+  years: "2018–2019"
+  research: Ambient noise tomography, computational seismology, sedimentary basin imaging
+  degree: Ph.D., Macquarie University, Sydney
+  now: Researcher, Australian National University
+  photo: littlequake.png
+- name: Loïc Viens
+  group: postdocs
+  role: Postdoctoral Researcher
+  years: "2016–2018"
+  research: Ambient noise monitoring, tomography, earthquake damage, virtual earthquakes of offshore subduction-zone earthquakes
+  degree: Doctorate, ENS and IPGP, Paris
+  now: Researcher, University of Michigan
+  photo: littlequake.png
+- name: Chris Van Houtte
+  group: postdocs
+  role: Postdoctoral Researcher
+  years: "2016–2017"
+  research: Bayesian inference of earthquake source parameters
+  degree: Ph.D., University of Auckland
+  photo: littlequake.png
+
+# ---- Graduate students ----
+- name: Yiyu Ni
+  group: graduate
+  role: Ph.D. Student
+  years: "2021–2026"
+  degree: Ph.D. in Seismology, University of Washington, 2026
+  research: Earthquake monitoring in the Pacific Northwest, computational seismology, machine learning
+  photo: yiyu-ni.jpg
+  page: /people/yiyu-ni/
+  website: https://niyiyu.github.io
+  github: https://github.com/niyiyu
+- name: Congcong Yuan
+  group: graduate
+  role: Ph.D. Student
+  years: "2020–2025"
+  degree: Ph.D., Harvard University
+  research: Wavefield simulation, machine learning, laboratory experiments
+  photo: CongcongYuan.jpeg
+  website: https://congcy.github.io/
+  github: https://github.com/congcy
+- name: Stephanie Olinger
+  group: graduate
+  role: Ph.D. Student
+  years: "2019–2023"
+  degree: Ph.D., Harvard University
+  research: Cryoseismology, data mining, ice-sheet dynamics
+  now: Thompson Postdoctoral Fellow, Stanford University
+  photo: olinger_pic.png
+  github: https://github.com/stepholinger
+- name: Tim Clements
+  group: graduate
+  role: Ph.D. Student
+  years: "2016–2021"
+  degree: Ph.D., Harvard University
+  research: Ambient noise seismology, computational seismology, Julia computing, seismo-hydrology
+  now: Mendenhall Postdoctoral Fellow, USGS
+  photo: clements_pic.jpeg
+- name: Jiuxun Yin
+  group: graduate
+  role: Ph.D. Student
+  degree: Ph.D., Harvard University
+  research: Observation and modeling of earthquake dynamics, in particular subduction zones
+  now: Schlumberger
+  photo: Yinn_pic.jpg
+
+# ---- Undergraduate researchers ----
+- name: Lydia Kelley
+  group: undergraduate
+  role: Undergraduate Researcher
+  years: "2025–2026"
+  degree: B.S. in Oceanography, University of Washington, 2026
+  research: Tectonic signals in offshore Cascadia from ocean-bottom seismometers
+  photo: lydia-kelley.jpg
+  page: /people/lydia-kelley/
+- name: Hiroto Bito
+  group: undergraduate
+  role: Undergraduate Researcher
+  years: "2024–2026"
+  degree: B.S. in Earth and Space Sciences (Physics), University of Washington, 2026
+  research: Machine learning for earthquake duration, cataloging, and sparse-sensor reconstruction
+  photo: hiroto-bito.jpg
+  page: /people/hiroto-bito/
+  website: https://hbito26.github.io/
+  github: https://github.com/hbito26
+- name: Nick Smoczyk
+  group: undergraduate
+  role: Undergraduate Researcher
+  years: "2022–2023"
+  degree: B.S., University of Minnesota Duluth
+  research: Data mining of volcano-glacio seismic data
+  photo: littlequake.png
+- name: Francesca Skene
+  group: undergraduate
+  role: Undergraduate Researcher
+  years: "2021–2022"
+  photo: littlequake.png
+- name: Julian Schmitt
+  group: undergraduate
+  role: Undergraduate Researcher
+  years: "2020–2021"
+  research: Ambient noise seismology, cloud computing
+  now: Ph.D. student, Caltech
+  photo: littlequake.png
+- name: Jared Bryan
+  group: undergraduate
+  role: Summer Undergraduate Researcher
+  years: "2019"
+  research: Ambient noise monitoring in Parkfield, CA
+  now: Ph.D. student, MIT
+  photo: littlequake.png
+- name: Albert Aguilar
+  group: undergraduate
+  role: Summer Undergraduate Researcher
+  years: "2018"
+  research: Earthquake detection in Costa Rica
+  now: Ph.D. student, Stanford University
+  photo: littlequake.png
+- name: Leore Lavin
+  group: undergraduate
+  role: Senior Undergraduate Researcher
+  years: "2016–2017"
+  research: Virtual earthquakes on the San Jacinto Fault
+  now: Medical school
+  photo: littlequake.png
+
+# ---- Affiliated graduate students ----
+- name: Natasha Toghramadjian
+  group: affiliated
+  role: Affiliated Graduate Student, Harvard University
+  years: "2018–2020"
+  research: Ambient noise seismology, field seismology, structural seismology
+  photo: littlequake.png
+- name: Zhuo Yang
+  group: affiliated
+  role: Affiliated Graduate Student, Harvard University
+  years: "2018–2021"
+  research: Ambient noise seismology, continuum mechanics
+  photo: littlequake.png
+- name: Thibaut Perol
+  group: affiliated
+  role: Affiliated Graduate Student, Harvard University
+  years: "2016–2018"
+  research: Machine learning, seismology, mechanics
+  photo: littlequake.png

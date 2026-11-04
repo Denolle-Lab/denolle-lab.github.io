@@ -4,7 +4,7 @@ id: hiroto-bito
 title: "Hiroto Bito"
 permalink: /people/hiroto-bito/
 photo: hiroto-bito.jpg
-short_description: "Undergraduate Student"
+short_description: "B.S. in Earth and Space Sciences, 2026 - Former group member"
 email: hbito@uw.edu
 cv: https://drive.google.com/file/d/14MjDnCIBqBXhTtv-osXc699xaRa1JK48/view?usp=drive_link
 website: https://hbito26.github.io/
@@ -35,7 +35,7 @@ links:
 ---
 
 ## About Me
-I am an undergraduate student at the Department of Earth and Space Sciences at the University of Washington. My research has focused on the application of machine learning to seismic data. My projects include the prediction of earthquake duration, earthquake cataloging, and the reconstruction and forecast of various geophyiscal data using sparse sensor measurements, all with machine learning.
+I was an undergraduate researcher in the Department of Earth and Space Sciences at the University of Washington. My research has focused on the application of machine learning to seismic data. My projects include the prediction of earthquake duration, earthquake cataloging, and the reconstruction and forecast of various geophyiscal data using sparse sensor measurements, all with machine learning.
 
 My current long-term goal as a student and scientist is to enchance scientific discovery with machine learning methods to aim towards reliable forecasting of natural hazards.  
 
@@ -46,7 +46,7 @@ My current long-term goal as a student and scientist is to enchance scientific d
 - Offshore seismology
 
 ## Education
-- B.S. in Earth and Space Sciences (Physics) - University of Washington, Seattle, WA, 2026 (Expected)
+- B.S. in Earth and Space Sciences (Physics) - University of Washington, Seattle, WA, 2026
 
 ## About Fun
 Hiroto enjoys hiking, fossil hunting and paper folding. 

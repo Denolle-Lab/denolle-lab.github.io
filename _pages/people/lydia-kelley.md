@@ -4,7 +4,7 @@ id: lydia-kelley
 title: "Lydia Kelley"
 permalink: /people/lydia-kelley/
 photo: lydia-kelley.jpg
-short_description: "Undergraduate Researcher - Investigating Tectonic Signals in Offshore Cascadia"
+short_description: "B.S. in Oceanography, 2026 - Former group member"
 email: lydiagk@uw.edu
 resume: /downloads/lydia_kelley_resume.pdf
 linkedin: www.linkedin.com/in/lydia-g-kelley
@@ -32,7 +32,7 @@ linkedin: www.linkedin.com/in/lydia-g-kelley
 ---
 
 ## About Me
-I’m a senior in oceanography and an undergraduate researcher at the University of Washington, where I study tectonic processes in the Offshore Cascadia using ocean bottom seismometers. My work focuses on classifying tectonic signals to better understand the locking state of the Cascadia Subduction Zone. I also work hands-on with ocean technology to investigate changes in physical ocean properties. I aim t is grounded in a commitment to advancing scientific knowledge while supporting communities facing the growing challenges of climate change.
+I was an undergraduate researcher at the University of Washington, where I studied tectonic processes in the Offshore Cascadia using ocean bottom seismometers. My work focuses on classifying tectonic signals to better understand the locking state of the Cascadia Subduction Zone. I also work hands-on with ocean technology to investigate changes in physical ocean properties. I aim t is grounded in a commitment to advancing scientific knowledge while supporting communities facing the growing challenges of climate change.
 
 ## Research - Disciplinary Interests
 - Locking State of the Cascadia Subduction Zone
