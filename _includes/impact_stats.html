@@ -68,8 +68,19 @@ The count-up animation is driven by js/latest-scroll.js (.stat-number[data-targe
   <h2 class="rp-title">Recent papers</h2>
   <ul class="recent-papers-list">
     {% for p in recent limit:4 %}
+    {% comment %} Link: url, else a doi.org URL built from a bare DOI, else no link (e.g. doi: XX). {% endcomment %}
+    {% assign doi = p.doi | strip %}
+    {% assign href = "" %}
+    {% if p.url and p.url != "" %}
+      {% assign href = p.url %}
+    {% elsif doi contains "://" %}
+      {% assign href = doi %}
+    {% elsif doi != "" %}
+      {% assign doi_prefix = doi | slice: 0, 3 %}
+      {% if doi_prefix == "10." %}{% assign href = "https://doi.org/" | append: doi %}{% endif %}
+    {% endif %}
     <li>
-      <a href="{{ p.url | default: p.doi }}" target="_blank" rel="noopener">{{ p.title }}</a>
+      {% if href != "" %}<a href="{{ href }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}<strong>{{ p.title }}</strong>{% endif %}
       <span class="rp-meta">{{ p.authors | truncatewords: 12 }}{% if p.journal %} · <em>{{ p.journal | split: "," | first }}</em>{% endif %}{% if p.year %} · {{ p.year }}{% endif %}</span>
     </li>
     {% endfor %}

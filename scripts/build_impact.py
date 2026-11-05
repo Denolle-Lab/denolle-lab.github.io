@@ -2,7 +2,7 @@
 """Generate _data/impact.yml — headline impact numbers for the home page.
 
 Pulls, using only the Python standard library (no pip deps):
-  * Citations / publications / h-index  -> OpenAlex (free, no key)
+  * Citations / h-index                 -> OpenAlex (free, no key)
   * Stars / forks / repos / merged PRs / contributors -> GitHub REST + Search API
 
 (The "most recent papers" list is rendered live in _includes/impact_stats.html
@@ -12,7 +12,8 @@ Run locally:            python3 scripts/build_impact.py
 In CI (higher limits):  GITHUB_TOKEN=$GITHUB_TOKEN python3 scripts/build_impact.py
 
 Numbers are cheap to eyeball for sanity; if a source is down the previous
-value in _data/impact.yml is kept so the site never renders blanks.
+value in _data/impact.yml is kept so the site never renders blanks, and the
+`updated` date only moves when at least one source answered.
 """
 
 import json
@@ -123,9 +124,10 @@ def openalex_metrics(author_ids):
             h_index = i
         else:
             break
+    # OpenAlex's work count (len(seen)) is not emitted: the home page counts
+    # the curated _data/publist.yml instead.
     return {
         "citations": citations,
-        "publications": len(seen),
         "h_index": h_index,
     }
 
@@ -202,7 +204,6 @@ def dump_yaml(data):
         "# Refreshed by .github/workflows/impact-sync.yml",
         f"updated: {_q(data['updated'])}",
         f"citations: {data['citations']}",
-        f"publications: {data['publications']}",
         f"h_index: {data['h_index']}",
         "github:",
     ]
@@ -232,7 +233,9 @@ def load_existing():
                 in_github = False
                 k, _, v = line.partition(":")
                 v = v.strip().strip('"')
-                if k in ("citations", "publications", "h_index"):
+                if k == "updated":
+                    prev[k] = v
+                elif k in ("citations", "h_index"):
                     prev[k] = int(v)
     except (OSError, ValueError):
         return {"github": {}}
@@ -241,27 +244,31 @@ def load_existing():
 
 def main():
     prev = load_existing()
-    today = date.today().isoformat()
     data = {
-        "updated": today,
+        "updated": prev.get("updated", ""),
         "citations": prev.get("citations", 0),
-        "publications": prev.get("publications", 0),
         "h_index": prev.get("h_index", 0),
         "github": prev.get("github", {}) or {},
     }
+    fetched = False
 
     try:
         data.update(openalex_metrics(OPENALEX_AUTHOR_IDS))
-        print(f"OpenAlex: {data['citations']} citations, "
-              f"{data['publications']} works, h={data['h_index']}")
+        fetched = True
+        print(f"OpenAlex: {data['citations']} citations, h={data['h_index']}")
     except Exception as e:  # noqa: BLE001
         print(f"WARN OpenAlex failed, keeping previous values: {e}", file=sys.stderr)
 
     try:
         data["github"] = github_metrics(GITHUB_SCOPES)
+        fetched = True
         print(f"GitHub: {data['github']}")
     except Exception as e:  # noqa: BLE001
         print(f"WARN GitHub failed, keeping previous values: {e}", file=sys.stderr)
+
+    # Only claim a new refresh date when at least one source actually answered.
+    if fetched:
+        data["updated"] = date.today().isoformat()
 
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(dump_yaml(data))
