@@ -4,7 +4,7 @@ id: yiyu-ni
 title: "Yiyu Ni"
 permalink: /people/yiyu-ni/
 photo: yiyu-ni.jpg
-short_description: "Ph.D. Candidate in Seismology"
+short_description: "Ph.D. in Seismology, 2026 - Former group member"
 email: niyiyu@uw.edu
 website: https://niyiyu.github.io
 scholar: https://scholar.google.com/citations?user=FLu0PP4AAAAJ&hl=en
@@ -33,7 +33,7 @@ linkedin: https://www.linkedin.com/in/yiyu-ni-501441182/
 ---
 
 ## About 
-I am currently a Ph.D. candidate in the Department of [Earth and Space Sciences (ESS)](https://ess.washington.edu), and also a duty seismologist at [Pacific Northwest Seismic Network (PNSN)](https://pnsn.org). 
+I completed my Ph.D. in 2026 in the Department of [Earth and Space Sciences (ESS)](https://ess.washington.edu), where I was also a duty seismologist at [Pacific Northwest Seismic Network (PNSN)](https://pnsn.org). 
 
 The overall goal of my research is to advance data-driven earthquakes and structure monitoring in the Pacific Northwest of the United States by leveraging heterogeneous datasets from traditional seismic stations and fiber-optic sensing. Another focus of my research is to utilize advance tools like cloud computing and machine learning for seismic big data processing.
 

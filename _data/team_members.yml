@@ -1,18 +1,26 @@
+# Current group members, in display order on /people/.
+# Each id must have a matching page at _pages/people/<id>.md (checked by scripts/check_people.py).
+# research_areas keys: environment, earthquakes, geoscience-ai, offshore (see _data/research/).
 - id: marine-denolle
   name: Marine Denolle
   role: Associate Professor
   photo: marine-denolle.jpg
   research_areas: environment, earthquakes, geoscience-ai, offshore
+- id: sangwoo-han
+  name: Sangwoo Han
+  role: Postdoctoral Researcher, Paros Geohazards Center
+  photo: sangwoo-han.png
+  research_areas: earthquakes, geoscience-ai
+- id: maleen-kidiwela
+  name: Maleen Kidiwela
+  role: Postdoctoral Researcher
+  photo: maleen-kidiwela.jpg
+  research_areas: offshore
 - id: michael-hemmett
   name: Michael Hemmett
   role: Graduate Student
   photo: michael-hemmett.jpg
   research_areas: earthquakes, offshore
-- id: yiyu-ni
-  name: Yiyu Ni
-  role: Graduate Student
-  photo: yiyu-ni.jpg
-  research_areas: geoscience-ai, earthquakes, offshore
 - id: akash-kharita
   name: Akash Kharita
   role: Graduate Student
@@ -23,24 +31,9 @@
   role: Graduate Student
   photo: manuela-kopfli.jpg
   research_areas: environment
-- id: lydia-kelley
-  name: Lydia Kelley
-  role: Undergraduate Student
-  photo: lydia-kelley.jpg
-  research_areas: earthquakes, offshore
-- id: hiroto-bito
-  name: Hiroto Bito
-  role: Undergraduate Student
-  photo: hiroto-bito.jpg
-  research_areas: earthquakes, geoscience-ai, offshore
-- id: maleen-kidiwela
-  name: Maleen Kidiwela
-  role: Affiliated Graduate Student
-  photo: maleen-kidiwela.jpg
-  research_areas: offshore
 - id: alex-rose
   name: Alex Rose
-  role: Research Assistant
+  role: Research Assistant, incoming Graduate Student
   photo: alex-rose.JPG
   research_areas: offshore, geoscience-ai
 - id: derek-yao
@@ -53,3 +46,8 @@
   role: Undergraduate Student
   photo: anjani-mirchandani.jpg
   research_areas: earthquakes, geoscience-ai
+- id: charlotte-parry
+  name: Charlotte Parry
+  role: Undergraduate Student
+  photo: charlotte-parry.jpg
+  research_areas: earthquakes

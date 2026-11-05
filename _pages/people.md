@@ -8,8 +8,7 @@ permalink: /people/
 
 # People
 
-<div class="container">
-<div class="row">
+<div class="row member-grid">
 {% for member in site.data.team_members %}
 <div class="col-md-3 col-sm-3 mb-3" style="padding-left:8px;padding-right:8px;">
 <div class="card text-center" style="margin-bottom:16px;">
@@ -49,20 +48,32 @@ permalink: /people/
 </div>
 {% endfor %}
 </div>
-</div>
+
+<p>Former postdocs, students, and affiliated researchers are listed on the <a href="{{ site.baseurl }}/alumni/">former members page</a>.</p>
+
+---
+
+## Collaborators
+
+Active collaborations at the University of Washington. Units are listed rather than titles.
+
+<ul class="collaborator-list">
+{% for c in site.data.collaborators %}
+<li><a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.name }}</a> <span class="text-secondary">· {{ c.unit }}</span></li>
+{% endfor %}
+</ul>
 
 ---
 
 ## Join Our Team
 
-We are always looking for talented and enthusiastic individuals to join our team! Here's how you can apply:
+Interested in joining the group? Here is how to apply. The [openings page]({{ site.baseurl }}/openings) has the current advising context and the rubric used to read graduate applications.
 
 ### Graduate Students
-We welcome applications from prospective graduate students interested in geophysics and data science research. Before applying, please:
-- Read our [group guidelines](https://github.com/Denolle-Lab/working_as_a_group/blob/main/onboarding.md)
-- Review the [ESS graduate program application process](https://ess.uw.edu/education/graduate-program/how-to-apply/)
-- I recommend still to take GRE (even if not required), TOEFL etc. 
-- Email Marine directly to discuss your research interests before applying
+Marine reviews graduate applications when advising capacity and funding permit. She expects to be at ETH Zürich during the 2027–28 academic year, so a Fall 2027 starter should read the [advising context]({{ site.baseurl }}/openings#advising-context) first. Before applying, please:
+- Read our [group guidelines](https://github.com/Denolle-Lab/Group_Utils/blob/main/onboarding.md)
+- Review the [ESS graduate program application process](https://ess.uw.edu/admissions/how-to-apply/). GRE scores are not considered. Applicants who are not U.S. citizens and whose native language is not English need TOEFL or an equivalent test; see the [UW Graduate School English proficiency policy](https://grad.uw.edu/policies/3-2-graduate-school-english-language-proficiency-requirements/) for accepted tests and exemptions.
+- You are welcome to email Marine about research fit before applying. This is her preference, not an ESS requirement, and it is not scored.
 
 ### Undergraduate Researchers
 We actively support undergraduate research experiences! Several specific projects are available, and we offer:

@@ -4,7 +4,7 @@ id: alex-rose
 title: "Alex Rose"
 permalink: /people/alex-rose/
 photo: alex-rose.JPG
-short_description: "Research Aide - Distributed Acoustic Sensing"
+short_description: "Research Assistant and incoming Graduate Student - Distributed Acoustic Sensing"
 email: arose17@uw.edu
 github: https://github.com/arose1234
 linkedin: https://www.linkedin.com/in/alex-rose-722a0230a/

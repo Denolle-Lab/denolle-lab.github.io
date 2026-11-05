@@ -948,3 +948,15 @@ html.dark .publication-figure-frame {
   transform: scale(1.06);
   box-shadow: 0 8px 24px var(--accent-glow);
 }
+
+/* Former-members cards and collaborator list (people pages) */
+.alumni-card { margin-bottom: 16px; padding-top: 12px; }
+.alumni-card .card-text.small { font-size: 0.85em; margin-bottom: 4px; }
+.collaborator-list { columns: 2; column-gap: 2rem; padding-left: 1.2em; margin-bottom: 1rem; }
+.collaborator-list li { break-inside: avoid; margin-bottom: 4px; }
+@media (max-width: 600px) { .collaborator-list { columns: 1; } }
+
+/* Member grids: flex wrap so a taller card (e.g. a two-line role) does not break the float rows */
+.member-grid { display: flex; flex-wrap: wrap; }
+.member-grid::before, .member-grid::after { content: none; }
+.member-grid > [class*="col-"] { float: none; }

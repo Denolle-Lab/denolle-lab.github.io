@@ -6,10 +6,10 @@ permalink: /people/akash-kharita/
 photo: akash-kharita.jpg
 short_description: "Ph.D. in Seismology"
 email: ak287@uw.edu
-website: X
-scholar: X
-github: X
-linkedin: X
+website: 
+scholar: 
+github: https://github.com/Akashkharita
+linkedin: 
 ---
 
 <div style="display: flex; align-items: center; gap: 2rem;flex-wrap: wrap;">
